@@ -22,8 +22,7 @@ client = genai.Client(
     http_options={"timeout": 30000}
 )
 
-MODEL_NAME = "gemini-3.6-flash"
-
+MODEL_NAME = "gemini-3.6-flashgemini-3.1-flash-lite-preview"
 # ============================================================
 # EVIDENCE SELECTION
 # ============================================================

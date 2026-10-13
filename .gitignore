@@ -1,4 +1,106 @@
-venv/
+
+# ==============================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==============================
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# PYTHON CACHE & TEST FILES
+# ==============================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# FRONTEND / NODE.JS
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# UPLOADED JUDGMENTS & DOCUMENTS
+# ==============================
+uploads/
+backend/uploads/
+data/raw/
+*.pdf
+
+# ==============================
+# PROCESSED JUDGMENTS & GENERATED OUTPUTS
+# ==============================
+data/processed/
+outputs/
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# EMBEDDINGS, VECTOR DATABASES & MODELS
+# ==============================
+*.faiss
+*.index
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+model_cache/
+.cache/
+.cache_huggingface/
+
+# ==============================
+# LOCAL DATABASES
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# EDITOR & OPERATING SYSTEM FILES
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# GENERATED FRONTEND FILES
+# ==============================
+frontend/coverage/
+frontend/.eslintcache
+
+# ==============================
+# LOCAL CONFIGURATION
+# ==============================
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

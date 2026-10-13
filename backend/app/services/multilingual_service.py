@@ -24,10 +24,7 @@ client = genai.Client(
     http_options={"timeout": 30000}
 )
 
-MODEL_NAMES = [
-    "gemini-3.5-flash-lite",
-    "gemini-3.6-flash",
-]
+MODEL_NAME = "gemini-3.1-flash-lite-preview"
 
 MAX_GENERATION_ATTEMPTS = 3
 
@@ -853,61 +850,6 @@ def validate_multilingual_response(
 
     return result
 
-def generate_with_fallback(prompt: str) -> str:
-    """
-    Try the configured Gemini models in order.
-    Return the first successful response.
-    """
-    errors = []
-
-    for model_name in MODEL_NAMES:
-        try:
-            print(f"Trying multilingual model: {model_name}")
-
-            response_text = generate_with_fallback(prompt)
-
-            if response_text:
-                print(
-                    f"Multilingual generation succeeded using: "
-                    f"{model_name}"
-                )
-                return response_text
-
-            errors.append(
-                f"{model_name}: empty response"
-            )
-
-        except Exception as exc:
-            error_text = str(exc).lower()
-            errors.append(f"{model_name}: {exc}")
-
-            retryable_indicators = (
-                "429",
-                "503",
-                "resource_exhausted",
-                "too_many_requests",
-                "quota",
-                "rate limit",
-                "unavailable",
-                "high demand",
-            )
-
-            if any(
-                indicator in error_text
-                for indicator in retryable_indicators
-            ):
-                print(
-                    f"{model_name} unavailable or rate-limited; "
-                    "trying the next model."
-                )
-                continue
-
-            raise
-
-    raise RuntimeError(
-        "All configured Gemini models failed. "
-        + " | ".join(errors)
-    )
 
 # ============================================================
 # GENERATE MULTILINGUAL EXPLANATION
@@ -978,7 +920,7 @@ def generate_multilingual_explanation(
             # ------------------------------------------------
 
             interaction = client.interactions.create(
-                model=MODEL_NAMES,
+                model=MODEL_NAME,
                 input=prompt
             )
 
