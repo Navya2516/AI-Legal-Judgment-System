@@ -1,0 +1,54 @@
+{
+  "document_id": "99bde6fb188645258224dd9ed3cb096d",
+  "provision": "Article 20",
+  "explanation": {
+    "provision": "Article 20",
+    "what_the_provision_is_discussed_as": "Article 20 is directly discussed in the supplied judgment evidence. [Page 378]",
+    "why_it_appears_in_the_judgment": "The supplied evidence shows that Article 20 forms part of the legal discussion in the judgment. [Page 378]",
+    "court_discussion": "The supplied judgment evidence directly discusses Article 20: \"ther, the question was whether an improper search and seizure operation undertaken against a company and its directors would violate the constitutional bar against testimonial compulsion contained in Article 20(3) of the Constitution. This Court held that such a search did not violate Article 20(3). Its reasoning proceeded on the footing that the absence of a fundamental right to privacy analogous to the F\" [Page 378]",
+    "evidence": [
+      {
+        "page": 378,
+        "text": "ther, the question was whether an improper search and seizure operation undertaken against a company and its directors would violate the constitutional bar against testimonial compulsion contained in Article 20(3) of the Constitution. This Court held that such a search did not violate Article 20(3). Its reasoning proceeded on the footing that the absence of a fundamental right to privacy analogous to the F",
+        "type": "court_discussion"
+      },
+      {
+        "page": 378,
+        "text": "inst a company and its directors would violate the constitutional bar against testimonial compulsion contained in Article 20(3) of the Constitution. This Court held that such a search did not violate Article 20(3). Its reasoning proceeded on the footing that the absence of a fundamental right to privacy analogous to the Fourth Amendment to the United States’ constitution in our own constitution suggested t",
+        "type": "court_discussion"
+      },
+      {
+        "page": 378,
+        "text": "e Constituent Assembly chose not to subject laws providing for search and seizure to constitutional limitations. Consequently, this Court had no defensible ground on which to import such a right into Article 20(3), which was, at any event, a totally different right. 5. M.P. Sharma is unconvincing not only because it arrived at its conclusion without enquiry into whether a privacy right could exist in our Co",
+        "type": "court_discussion"
+      },
+      {
+        "page": 355,
+        "text": "t of privacy under our Constitution. All that, in my opinion, their Lordships meant to say was that contents of the U.S. Fourth Amendment cannot be imported into our Constitution, while interpreting Article 20(3). That is the boundary of M.P. Singh’s ratio. Such a conclusion, in my opinion, requires a further examination in an appropriate case since it is now too well settled that the text of the C",
+        "type": "court_discussion"
+      },
+      {
+        "page": 355,
+        "text": "of privacy if such values are a part of the Indian Constitutional framework, and M.P. Sharma does not contemplate this possibility nor was there an occasion, therefore as the case was concerned with Article 20(3). Especially so as the Gopalan era compartmentalization ruled the roost during the time of the M.P. Sharma ruling and there was no Maneka Gandhi interpretation of Part III as a cohesive and fused c",
+        "type": "court_discussion"
+      },
+      {
+        "page": 354,
+        "text": "t was argued in M.P. Sharma “that a search to obtain documents for investigation into an offence is a compulsory procuring of incriminatory evidence from the accused himself and is, therefore, hit by Article 20(3) …” by necessary implication flowing from “certain canons of liberal construction”. Originally the rule was invoked only against oral evidence. But the judgment in Boyd v. United States5, extende",
+        "type": "court_discussion"
+      },
+      {
+        "page": 354,
+        "text": "in Boyd v. United States5, extended the rule even to documents procured during the course of a constitutionally impermissible search6. This Court refused to read the principle enunciated in Boyd into Article 20(3) on the ground: “we have nothing in our Constitution corresponding to the Fourth Amendment”. This Court held that the power of search and seizure is “an overriding power of the State for the protec",
+        "type": "court_discussion"
+      },
+      {
+        "page": 354,
+        "text": "power (1) “is necessarily regulated by law”; and (2) Since the Constitution makers have not made any provision “analogous to the American Fourth Amendment”, such a requirement could not be read into Article 20(3). It was in the said context that this Court referred to the right of privacy: “A power of search and seizure is in any system of jurisprudence an overriding power of the State for the protection o",
+        "type": "court_discussion"
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The explanation is limited to the provision-specific evidence retrieved from the judgment."
+  }
+}

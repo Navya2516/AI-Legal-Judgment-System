@@ -1,0 +1,256 @@
+{
+  "document_id": "5e194f2559c546a2b5057dca510c0b28",
+  "document": {
+    "filename": null,
+    "total_pages": 502
+  },
+  "ranked_provisions": [
+    {
+      "provision": "Article 368",
+      "category": "Article",
+      "relevance_score": 84.88,
+      "confidence": "high",
+      "page_count": 313,
+      "evidence_count": 1277,
+      "confidence_counts": {
+        "high": 119,
+        "medium": 1115,
+        "low": 43
+      }
+    },
+    {
+      "provision": "Article 13",
+      "category": "Article",
+      "relevance_score": 79.97,
+      "confidence": "high",
+      "page_count": 149,
+      "evidence_count": 525,
+      "confidence_counts": {
+        "high": 40,
+        "medium": 471,
+        "low": 14
+      }
+    },
+    {
+      "provision": "Article 31C",
+      "category": "Article",
+      "relevance_score": 75.69,
+      "confidence": "high",
+      "page_count": 84,
+      "evidence_count": 353,
+      "confidence_counts": {
+        "high": 57,
+        "medium": 289,
+        "low": 7
+      }
+    },
+    {
+      "provision": "Article 31",
+      "category": "Article",
+      "relevance_score": 75.45,
+      "confidence": "high",
+      "page_count": 98,
+      "evidence_count": 369,
+      "confidence_counts": {
+        "high": 45,
+        "medium": 304,
+        "low": 20
+      }
+    },
+    {
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 73.09,
+      "confidence": "high",
+      "page_count": 85,
+      "evidence_count": 226,
+      "confidence_counts": {
+        "high": 16,
+        "medium": 198,
+        "low": 12
+      }
+    }
+  ],
+  "insights": {
+    "potential_legal_provisions": [
+      {
+        "provision": "Article 368",
+        "why_relevant": "It is central to the judgment's discussion on the scope and limitations of Parliament's constitutional amending power and the validity of constitutional amendments.",
+        "judgment_discussion": "The judgment discusses whether Article 368 grants a broad power to amend any provision of the Constitution, whether it merely prescribes procedure or also confers substantive power, and whether there are limits on abrogating basic elements or fundamental rights.",
+        "potential_continuation_issue": "Examining whether the amending power under Article 368 allows Parliament to alter or abrogate the basic structure or fundamental rights of the Constitution.",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "Part III with the interpretation of the original Article 368, as it existed prior to its amendment; Part IV with the validity of the Constitution (Twenty-fourth Amendment) Act"
+          },
+          {
+            "page": 7,
+            "support": "(1) Article 368 not only prescribes the procedure but also gives the power of amendment; (2) Article 368 gives the power of amending each and every provision of the Constitution"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The excerpt contains judicial interpretations from specific judges and historically cited cases, requiring full judgment context for final conclusions."
+      },
+      {
+        "provision": "Article 13",
+        "why_relevant": "It governs the applicability of fundamental rights prohibitions to constitutional amendment acts passed by Parliament under Article 368.",
+        "judgment_discussion": "The court addresses whether Article 13(2) prohibits constitutional amendments that abridge Part III rights, and evaluates the insertion of Clause (4) via the 24th Amendment to exclude Article 368 amendments from Article 13.",
+        "potential_continuation_issue": "Analyzing the scope of Article 13(2) in relation to constitutional amendments and whether fundamental rights operate as a bar to amending powers.",
+        "evidence": [
+          {
+            "page": 3,
+            "support": "Fifthly, the Amendment Act, in so far as it purports to take away or abridge the rights conferred by Part III of the Constitution, falls within the prohibition of Article 13(2)."
+          },
+          {
+            "page": 57,
+            "support": "(2) In Article 13 of the Constitution, after Clause (3), the following clause shall be inserted, namely: (4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Limited to the discussions regarding Article 13(2) and Article 13(4) present in the text snippets provided."
+      },
+      {
+        "provision": "Article 31C",
+        "why_relevant": "It introduces protection for certain legislative policies giving effect to Directive Principles, while excluding challenges under fundamental rights like Articles 14, 19, and 31.",
+        "judgment_discussion": "The judgment evaluates the constitutional validity of Article 31C (introduced by the 25th Amendment), analyzing whether it enables abrogation of basic elements of the Constitution or impermissibly delegates amending power.",
+        "potential_continuation_issue": "Investigating whether laws enacted under Article 31C require a demonstrably clear nexus with Directive Principles, and evaluating the judicial reviewability of such legislative declarations.",
+        "evidence": [
+          {
+            "page": 63,
+            "support": "It was suggested that if the latter part of Article 31C, dealing with declaration, is regarded as unConstitutional, the Court will be entitled to go into the question whether there is any nexus between the impugned law and Article 39(b) and Article 39(c)."
+          },
+          {
+            "page": 111,
+            "support": "The validity of Section 3 of the 25th Amendment which introduced Article 31C in the Constitution cannot be sustained because the said Article suffers from two vices. The first is that it enables abrogation of the basic elements of the Constitution..."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The provided text includes conflicting positions from different opinions regarding the total or partial validity/invalidity of Article 31C."
+      },
+      {
+        "provision": "Article 31",
+        "why_relevant": "It pertains to the constitutional right to property and compulsory acquisition/requisitioning of property for public purpose.",
+        "judgment_discussion": "The judgment discusses the validity of changes made to Article 31(2) under the 25th Amendment and the relationship between property acquisition provisions and amending limits under Article 368.",
+        "potential_continuation_issue": "Exploring how amendments to Article 31 affect property rights, compensation standards, and their interaction with other fundamental freedoms.",
+        "evidence": [
+          {
+            "page": 61,
+            "support": "In view of the interpretation which I have placed on the new Article 31(2), as amended, it cannot be said that Parliament has exceeded its amending power under Article 368 in enacting the new Article 31(2)."
+          },
+          {
+            "page": 105,
+            "support": "(2) No property shall be compulsorily acquired or requisitioned save for a public purpose and save by authority of law..."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The snippets do not include the full context of how property rights were restructured across all judges' opinions."
+      },
+      {
+        "provision": "Article 19",
+        "why_relevant": "It safeguards fundamental freedoms, including speech and property/business rights, which interact with legislative protections created under Article 31C.",
+        "judgment_discussion": "The court examines the extent to which Article 31C excludes challenges under the freedoms guaranteed by Article 19, including freedom of speech and trade/business rights.",
+        "potential_continuation_issue": "Researching whether broad exclusions of Article 19 freedoms by state or central legislation under protective constitutional provisions violate fundamental constitutional guarantees.",
+        "evidence": [
+          {
+            "page": 109,
+            "support": "The question of the validity of Article 31(C) to our mind has to be examined mainly from two points of view; the first is its impact on the various freedoms guaranteed by Article 19..."
+          },
+          {
+            "page": 253,
+            "support": "...excluded the challenge to the laws protected by Article 31C under the whole of Article 19, instead of excluding a challenge only under Article 19(1)(f) which relates to property; and Article 19(1)(g) which relates to business..."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Excerpts cover selective arguments regarding sub-clauses of Article 19."
+      }
+    ],
+    "issues_for_continuation": [
+      {
+        "issue": "Extent of Parliament's Amending Power under Article 368",
+        "description": "Whether the power of Parliament to amend the Constitution under Article 368 is subject to inherent limits, specifically whether it extends to abrogating basic elements or fundamental rights.",
+        "evidence": [
+          {
+            "page": 7,
+            "support": "Five Judges held that Article 13(2) was inapplicable to Acts amending the Constitution."
+          },
+          {
+            "page": 64,
+            "support": "I have already held that Parliament cannot under Article 368 abrogate fundamental rights."
+          },
+          {
+            "page": 105,
+            "support": "...so long as its basic elements are not abrogated or denuded of their identity."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The text contains multiple divergent judicial views from the bench, requiring careful comparative analysis."
+      },
+      {
+        "issue": "Constitutional Validity and Scope of Article 31C",
+        "description": "Whether Article 31C validly protects laws enacted for Directive Principles from challenge under Articles 14, 19, and 31, and whether judicial review is retained over the nexus between the law and the directive principles.",
+        "evidence": [
+          {
+            "page": 63,
+            "support": "the Court will be entitled to go into the question whether there is any nexus between the impugned law and Article 39(b) and Article 39(c)."
+          },
+          {
+            "page": 111,
+            "support": "The validity of Section 3 of the 25th Amendment which introduced Article 31C in the Constitution cannot be sustained because the said Article suffers from two vices."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The excerpts reflect differing individual opinions on whether Article 31C is wholly or partially unconstitutional."
+      },
+      {
+        "issue": "Applicability of Article 13(2) to Constitutional Amendments",
+        "description": "Whether constitutional amendments constitute 'law' within the prohibition of Article 13(2) that prevents taking away or abridging fundamental rights.",
+        "evidence": [
+          {
+            "page": 3,
+            "support": "Fifthly, the Amendment Act, in so far as it purports to take away or abridge the rights conferred by Part III of the Constitution, falls within the prohibition of Article 13(2)."
+          },
+          {
+            "page": 113,
+            "support": "In that case the scope of Article 368 vis-a-vis Article 13(2) was debated."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "This issue is historical and analytical, reflecting prior case law comparisons (e.g., Sankari Prasad, Golaknath)."
+      }
+    ],
+    "related_provisions": [
+      {
+        "provision": "Article 13",
+        "relationship": "Interacts directly with Article 368 regarding whether constitutional amendments are subject to the restrictions imposed on ordinary laws against abridging fundamental rights.",
+        "evidence": [
+          {
+            "page": 57,
+            "support": "(2) In Article 13 of the Constitution, after Clause (3), the following clause shall be inserted, namely: (4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368."
+          }
+        ]
+      },
+      {
+        "provision": "Article 31C",
+        "relationship": "Acts as an exemption clause that insulates certain laws from judicial challenge under Articles 14, 19, and 31.",
+        "evidence": [
+          {
+            "page": 64,
+            "support": "...and the State law deriving authority from Article 31C cannot be challenged on the ground that it infringes Articles 14, 19 and 31."
+          }
+        ]
+      },
+      {
+        "provision": "Article 19",
+        "relationship": "Works in tandem with Articles 14 and 31 as the fundamental rights framework impacted by the protective umbrella of Article 31C.",
+        "evidence": [
+          {
+            "page": 109,
+            "support": "The question of the validity of Article 31(C) to our mind has to be examined mainly from two points of view; the first is its impact on the various freedoms guaranteed by Article 19, the abrogation of the right of equality guaranteed by Article 14 and the right to property contained in Article 31."
+          }
+        ]
+      }
+    ],
+    "overall_limitation": "This summary is strictly bounded by the provided snippets from the judgment. It reflects isolated excerpts containing distinct judges' views, arguments of counsel, and historical case recitals, and does not represent the complete text or official holding of the full judgment.",
+    "disclaimer": "This output is an evidence-grounded research summary generated from the uploaded judgment. It is not legal advice and should be verified by a qualified legal professional."
+  }
+}

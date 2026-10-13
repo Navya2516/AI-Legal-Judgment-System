@@ -1,0 +1,150 @@
+{
+  "document_id": "47c8b117043c4896b272350e4d274439",
+  "document": {
+    "filename": null,
+    "total_pages": 502
+  },
+  "ranked_provisions": [
+    {
+      "provision": "Article 368",
+      "category": "Article",
+      "relevance_score": 84.88,
+      "confidence": "high",
+      "page_count": 313,
+      "evidence_count": 1281,
+      "confidence_counts": {
+        "high": 119,
+        "medium": 1119,
+        "low": 43
+      }
+    },
+    {
+      "provision": "Article 13",
+      "category": "Article",
+      "relevance_score": 79.97,
+      "confidence": "high",
+      "page_count": 149,
+      "evidence_count": 525,
+      "confidence_counts": {
+        "high": 40,
+        "medium": 471,
+        "low": 14
+      }
+    },
+    {
+      "provision": "Article 31C",
+      "category": "Article",
+      "relevance_score": 75.63,
+      "confidence": "high",
+      "page_count": 83,
+      "evidence_count": 351,
+      "confidence_counts": {
+        "high": 57,
+        "medium": 287,
+        "low": 7
+      }
+    },
+    {
+      "provision": "Article 31",
+      "category": "Article",
+      "relevance_score": 75.51,
+      "confidence": "high",
+      "page_count": 99,
+      "evidence_count": 370,
+      "confidence_counts": {
+        "high": 45,
+        "medium": 305,
+        "low": 20
+      }
+    },
+    {
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 73.09,
+      "confidence": "high",
+      "page_count": 85,
+      "evidence_count": 226,
+      "confidence_counts": {
+        "high": 16,
+        "medium": 198,
+        "low": 12
+      }
+    }
+  ],
+  "insights": {
+    "status": "llm_unavailable",
+    "message": "Legal provision extraction and ranking completed successfully, but the LLM continuation-analysis step is temporarily unavailable.",
+    "document_id": "47c8b117043c4896b272350e4d274439",
+    "potential_legal_provisions": [],
+    "issues_for_continuation": [],
+    "related_provisions": [
+      {
+        "provision": "Article 368",
+        "category": "Article",
+        "relevance_score": 84.88,
+        "confidence": "high",
+        "page_count": 313,
+        "evidence_count": 1281,
+        "confidence_counts": {
+          "high": 119,
+          "medium": 1119,
+          "low": 43
+        }
+      },
+      {
+        "provision": "Article 13",
+        "category": "Article",
+        "relevance_score": 79.97,
+        "confidence": "high",
+        "page_count": 149,
+        "evidence_count": 525,
+        "confidence_counts": {
+          "high": 40,
+          "medium": 471,
+          "low": 14
+        }
+      },
+      {
+        "provision": "Article 31C",
+        "category": "Article",
+        "relevance_score": 75.63,
+        "confidence": "high",
+        "page_count": 83,
+        "evidence_count": 351,
+        "confidence_counts": {
+          "high": 57,
+          "medium": 287,
+          "low": 7
+        }
+      },
+      {
+        "provision": "Article 31",
+        "category": "Article",
+        "relevance_score": 75.51,
+        "confidence": "high",
+        "page_count": 99,
+        "evidence_count": 370,
+        "confidence_counts": {
+          "high": 45,
+          "medium": 305,
+          "low": 20
+        }
+      },
+      {
+        "provision": "Article 19",
+        "category": "Article",
+        "relevance_score": 73.09,
+        "confidence": "high",
+        "page_count": 85,
+        "evidence_count": 226,
+        "confidence_counts": {
+          "high": 16,
+          "medium": 198,
+          "low": 12
+        }
+      }
+    ],
+    "overall_limitation": "No model-generated continuation analysis was produced. The displayed provisions are source-grounded extraction results only.",
+    "disclaimer": "This fallback does not provide legal advice or predict the outcome of a future hearing."
+  }
+}

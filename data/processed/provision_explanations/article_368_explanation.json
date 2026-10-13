@@ -1,0 +1,38 @@
+{
+  "provision": "Article 368",
+  "what_the_provision_is_discussed_as": "Article 368 is discussed as the constitutional provision conferring and regulating the power to amend the Constitution [Page 2, Page 3]. It is examined in terms of the scope and extent of amending power conferred on Parliament or the two Houses [Page 2, Page 3], whether it serves as a complete code for amendment procedure [Page 3], and whether its exercise allows for the abrogation of fundamental rights or alteration of government structure [Page 2].",
+  "why_it_appears_in_the_judgment": "Article 368 appears in the judgment because the central legal issue before the Court is determining the extent of the amending power conferred by Article 368 apart from Article 13(2) [Page 2], assessing the interpretation of original Article 368 prior to its amendment [Page 1], and examining the validity of related constitutional amendments such as the Twenty-fourth Amendment Act [Page 1].",
+  "court_discussion": "The Court discussed Article 368 across several aspects:\n- Structure of Judgment: Chief Justice Sikri divided the judgment into parts, including Part III on the interpretation of the original Article 368 prior to its amendment, and Part IV on the validity of the Constitution (Twenty-fourth Amendment) Act [Page 1].\n- Core Issue & Scope: The Court framed the primary issue as the extent of the amending power conferred by Article 368 on Parliament apart from Article 13(2) [Page 2]. The Court stressed that Article 368 must be interpreted in the setting of the Constitution, historical background, and national aspirations [Page 2].\n- Parties' Contentions: Respondents contended that Parliament under Article 368 could abrogate fundamental rights and set up any form of government short of repealing the Constitution [Page 2]. Conversely, petitioners argued that Parliament's power under Article 368 is much more limited [Page 2].\n- Historical Arguments & Prior Findings: The Court reviewed past arguments, including whether Article 368 is a complete code in itself [Page 3], whether power was given to Parliament or the two Houses as a designated body [Page 3], and prior holdings affirming that the provisional Parliament was competent to exercise amending powers under Article 368 [Page 3].",
+  "evidence": [
+    {
+      "page": 1,
+      "support": "Part III will deal with interpretation of the original Article 368, as it existed prior to its amendment; Part IV with the validity of the Constitution (Twenty-fourth Amendment) Act..."
+    },
+    {
+      "page": 2,
+      "support": "...the real issue being : what is the extent of the amending power conferred by Article 368 of the Constitution, apart from Article 13(2), on Parliament ?"
+    },
+    {
+      "page": 2,
+      "support": "Indeed, short of repeal of the Constitution, any form of Government with no freedom to the citizens can be set up by Parliament by exercising its powers under Article 368."
+    },
+    {
+      "page": 2,
+      "support": "I must interpret Article 368 in the setting of our Constitution, in the background of our history and in the light of our aspirations and hopes..."
+    },
+    {
+      "page": 3,
+      "support": "First, the power of amending the Constitution provided for under Article 368 was conferred not on Parliament but on the two Houses of Parliament as designated body..."
+    },
+    {
+      "page": 3,
+      "support": "Fourthly, in any case Article 368 is a complete code in itself and does not provide for any amendment being made in the bill after it has been introduced in the House."
+    },
+    {
+      "page": 3,
+      "support": "The provisional Parliament is competent to exercise the power of amending the Constitution under Article 368."
+    }
+  ],
+  "confidence": "high",
+  "limitation": "The provided evidence consists of excerpts from only 3 pages out of 313 total pages in the judgment containing references to Article 368. Consequently, this summary is limited to the cited excerpts and does not reflect the complete text, full legal reasoning, or final conclusions of the entire judgment."
+}

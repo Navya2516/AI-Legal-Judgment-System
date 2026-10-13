@@ -1,0 +1,48 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "evaluation_type": "summary_faithfulness",
+  "total_claims": 3,
+  "claims_with_citations": 3,
+  "grounded_claims": 3,
+  "unsupported_claims": 0,
+  "citation_coverage": 1.0,
+  "grounding_rate": 1.0,
+  "grounded_cited_claim_rate": 1.0,
+  "claim_results": [
+    {
+      "claim": "In this historic judgment, the Supreme Court established the 'Basic Structure Doctrine' of the Indian Constitution [Page 128] [Page 236] [Page 331].",
+      "citations": [
+        128,
+        236,
+        331
+      ],
+      "citation_found": true,
+      "grounded": true,
+      "best_page": 236,
+      "overlap_score": 0.7143
+    },
+    {
+      "claim": "The Court decided that while Parliament has wide power under Article 368 to amend any provision of the Constitution, including fundamental rights, it cannot use this power to alter, destroy, or remove the basic framework or core features of the Constitution, such as democracy, secularism, and judicial review [Page 128] [Page 331] [Page 369].",
+      "citations": [
+        128,
+        331,
+        369
+      ],
+      "citation_found": true,
+      "grounded": true,
+      "best_page": 331,
+      "overlap_score": 0.675
+    },
+    {
+      "claim": "Parliament can pass amendments to give effect to directive principles, but it cannot completely cut off the courts' power of judicial review to verify if a law actually serves those public purposes [Page 369] [Page 502].",
+      "citations": [
+        369,
+        502
+      ],
+      "citation_found": true,
+      "grounded": true,
+      "best_page": 369,
+      "overlap_score": 0.5333
+    }
+  ]
+}

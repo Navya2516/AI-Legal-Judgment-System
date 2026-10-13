@@ -1,0 +1,276 @@
+{
+  "document_id": "36d89ab6302047a9995fa0b0f251d7b4",
+  "document": {
+    "filename": null,
+    "total_pages": 502
+  },
+  "ranked_provisions": [
+    {
+      "provision": "Article 368",
+      "category": "Article",
+      "relevance_score": 84.88,
+      "confidence": "high",
+      "page_count": 313,
+      "evidence_count": 1277,
+      "confidence_counts": {
+        "high": 119,
+        "medium": 1115,
+        "low": 43
+      }
+    },
+    {
+      "provision": "Article 13",
+      "category": "Article",
+      "relevance_score": 79.97,
+      "confidence": "high",
+      "page_count": 149,
+      "evidence_count": 525,
+      "confidence_counts": {
+        "high": 40,
+        "medium": 471,
+        "low": 14
+      }
+    },
+    {
+      "provision": "Article 31C",
+      "category": "Article",
+      "relevance_score": 75.69,
+      "confidence": "high",
+      "page_count": 84,
+      "evidence_count": 353,
+      "confidence_counts": {
+        "high": 57,
+        "medium": 289,
+        "low": 7
+      }
+    },
+    {
+      "provision": "Article 31",
+      "category": "Article",
+      "relevance_score": 75.45,
+      "confidence": "high",
+      "page_count": 98,
+      "evidence_count": 369,
+      "confidence_counts": {
+        "high": 45,
+        "medium": 304,
+        "low": 20
+      }
+    },
+    {
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 73.09,
+      "confidence": "high",
+      "page_count": 85,
+      "evidence_count": 226,
+      "confidence_counts": {
+        "high": 16,
+        "medium": 198,
+        "low": 12
+      }
+    }
+  ],
+  "insights": {
+    "potential_legal_provisions": [
+      {
+        "provision": "Article 368",
+        "why_relevant": "It is the primary constitutional provision analyzed to determine the scope, procedure, and limits of Parliament's power to amend the Constitution.",
+        "judgment_discussion": "The judgment discusses the interpretation of original Article 368, the validity of the Constitution (Twenty-fourth Amendment) Act, whether Article 368 contains both power and procedure, and whether its power extends to abrogating fundamental rights or basic elements of the Constitution.",
+        "potential_continuation_issue": "Researching the precise limits of Parliament's amending power under Article 368, specifically regarding whether basic elements of the Constitution can be abrogated or denuded of identity.",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "Part III with the interpretation of the original Article 368, as it existed prior to its amendment; Part IV with the validity of the Constitution (Twenty-fourth Amendment) Act"
+          },
+          {
+            "page": 7,
+            "support": "Bachawat, J. held: (1) Article 368 not only prescribes the procedure but also gives the power of amendment; (2) Article 368 gives the power of amending each and every provision of the Constitution"
+          },
+          {
+            "page": 105,
+            "support": "so long as its basic elements are not abrogated or denuded of their identity."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The summary is restricted to the specific passages provided from the judgment discussing Article 368 and the 24th/25th Amendments."
+      },
+      {
+        "provision": "Article 13",
+        "why_relevant": "Article 13(2) prohibits laws that take away or abridge fundamental rights, raising the issue of whether constitutional amendments passed under Article 368 are subject to this restriction.",
+        "judgment_discussion": "The judgment reviews past judicial opinions and the validity of Article 13(4) (inserted by the 24th Amendment), which explicitly provides that Article 13 does not apply to constitutional amendments made under Article 368.",
+        "potential_continuation_issue": "Examining the judicial interpretation of Article 13(4) and whether constitutional amendments can bypass the prohibition against abridging Part III rights under Article 13(2).",
+        "evidence": [
+          {
+            "page": 3,
+            "support": "Fifthly, the Amendment Act, in so far as it purports to take away or abridge the rights conferred by Part III of the Constitution, falls within the prohibition of Article 13(2)."
+          },
+          {
+            "page": 7,
+            "support": "52. In brief 6 Judges held that in view of Article 13(2) Fundamental Rights could not be abridged or taken away. Five Judges held that Article 13(2) was inapplicable to Acts amending the Constitution."
+          },
+          {
+            "page": 57,
+            "support": "(2) In Article 13 of the Constitution, after Clause (3), the following clause shall be inserted, namely: (4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Grounded solely on the cited historical judgments and 24th Amendment excerpts in the supplied text."
+      },
+      {
+        "provision": "Article 31C",
+        "why_relevant": "Inserted by Section 3 of the 25th Amendment, Article 31C shields certain laws giving effect to Directive Principles (Article 39(b) and (c)) from challenge under Articles 14, 19, and 31.",
+        "judgment_discussion": "The judgment evaluates whether Article 31C is constitutionally valid or if it enables the abrogation of basic elements of the Constitution, denies judicial review, or delegates amending powers to State Legislatures.",
+        "potential_continuation_issue": "Investigating whether laws enacted under Article 31C maintain a valid nexus to Article 39(b) or 39(c) and whether judicial review remains available to test that nexus.",
+        "evidence": [
+          {
+            "page": 2,
+            "support": "It is this freedom from tyranny which, according to the petitioners, has been taken away by the impugned Article 31C which has been inserted by the Twenty-fifth Amendment."
+          },
+          {
+            "page": 63,
+            "support": "the Court will be entitled to go into the question whether there is any nexus between the impugned law and Article 39(b) and Article 39(c)."
+          },
+          {
+            "page": 111,
+            "support": "6. The validity of Section 3 of the 25th Amendment which introduced Article 31C in the Constitution cannot be sustained because the said Article suffers from two vices. The first is that it enables abrogation of the basic elements of the Constitution"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Strictly based on the provided text excerpts analyzing Section 3 of the 25th Amendment."
+      },
+      {
+        "provision": "Article 31",
+        "why_relevant": "Concerns compulsory acquisition and requisition of property, as well as constitutional protections and amendments affecting property rights.",
+        "judgment_discussion": "The judgment discusses the amendment of Article 31(2) via Section 2 of the 25th Amendment, replacement of compensation concepts, and the relationship between Article 31(A), Article 31(B), and Schedule IX inclusions.",
+        "potential_continuation_issue": "Analyzing the scope of judicial review over state legislation protected under Ninth Schedule provisions or amended Article 31(2).",
+        "evidence": [
+          {
+            "page": 61,
+            "support": "In view of the interpretation which I have placed on the new Article 31(2), as amended, it cannot be said that Parliament has exceeded its amending power under Article 368 in enacting the new Article 31(2)."
+          },
+          {
+            "page": 105,
+            "support": "Section 2 of the Amending Act provides: 2. In Article 31 of the Constitution,- (a) for Clause (2), the following clause shall be substituted, namely: (2) No property shall be compulsorily acquired or requisitioned save for a public purpose"
+          },
+          {
+            "page": 110,
+            "support": "In all these cases it was held that Article 31 (B) was independent of Article 31(A). A matter which has been settled for all these years cannot be re-opened now. It will still be open, however, to the Court to decide whether the Acts which were included in the Ninth Schedule"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Limited strictly to property acquisition amendments and Ninth Schedule references present in the text."
+      },
+      {
+        "provision": "Article 19",
+        "why_relevant": "Guarantees fundamental freedoms that were directly impacted by protective constitutional clauses like Article 31C and Article 31 amendments.",
+        "judgment_discussion": "The court addresses the impact of Article 31C on Article 19 freedoms, noting arguments regarding whether protection should apply to all of Article 19 or only specific sub-clauses (such as property or business rights under 19(1)(f) and 19(1)(g)), alongside the application of reasonable restrictions.",
+        "potential_continuation_issue": "Researching the validity and extent to which fundamental freedoms under Article 19 can be excluded by laws claiming protection under Article 31C.",
+        "evidence": [
+          {
+            "page": 109,
+            "support": "The question of the validity of Article 31(C) to our mind has to be examined mainly from two points of view; the first is its impact on the various freedoms guaranteed by Article 19"
+          },
+          {
+            "page": 202,
+            "support": "Article 19 has the flexibility of reasonable restrictions. Social justice will determine the nature of the individual right and also the restriction on such right."
+          },
+          {
+            "page": 253,
+            "support": "excluded the challenge to the laws protected by Article 31C under the whole of Article 19, instead of excluding a challenge only under Article 19(1)(f) which relates to property; and Article 19(1)(g) which relates to business"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Restricted to the excerpts discussing Article 19 in relation to reasonable restrictions and Article 31C immunity."
+      }
+    ],
+    "issues_for_continuation": [
+      {
+        "issue": "Extent of Parliament's Amending Power and Protection of Basic Elements",
+        "description": "Whether Parliament's power under Article 368 allows for the abrogation or denudation of basic elements or identity of the Constitution when enacting constitutional amendments.",
+        "evidence": [
+          {
+            "page": 64,
+            "support": "I have already held that Parliament cannot under Article 368 abrogate fundamental rights."
+          },
+          {
+            "page": 105,
+            "support": "so long as its basic elements are not abrogated or denuded of their identity."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Derived strictly from the judges' statements regarding basic elements and Article 368 limits in the excerpts."
+      },
+      {
+        "issue": "Judicial Scrutiny and Nexus Requirement under Article 31C",
+        "description": "Whether courts retain the power to evaluate if a law protected by Article 31C possesses a real nexus to the Directive Principles contained in Article 39(b) and Article 39(c).",
+        "evidence": [
+          {
+            "page": 63,
+            "support": "the Court will be entitled to go into the question whether there is any nexus between the impugned law and Article 39(b) and Article 39(c)."
+          },
+          {
+            "page": 111,
+            "support": "The validity of Section 3 of the 25th Amendment which introduced Article 31C in the Constitution cannot be sustained because the said Article suffers from two vices."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Limited to the discussions on Section 3 of the 25th Amendment in the provided text."
+      },
+      {
+        "issue": "Court Review of Specific Enactments Placed in the Ninth Schedule",
+        "description": "Whether individual Acts added to the Ninth Schedule by constitutional amendments remain open to judicial challenge despite Article 31B.",
+        "evidence": [
+          {
+            "page": 110,
+            "support": "It will still be open, however, to the Court to decide whether the Acts which were included in the Ninth Schedule by 2..."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Based solely on the statement on page 110 regarding Ninth Schedule inclusions."
+      }
+    ],
+    "related_provisions": [
+      {
+        "provision": "Article 13",
+        "relationship": "Interrelated with Article 368 regarding whether constitutional amendment acts are subject to fundamental rights under Article 13(2), leading to the insertion of Article 13(4).",
+        "evidence": [
+          {
+            "page": 57,
+            "support": "(2) In Article 13 of the Constitution, after Clause (3), the following clause shall be inserted, namely: (4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368."
+          }
+        ]
+      },
+      {
+        "provision": "Article 31",
+        "relationship": "Amended by Section 2 of the 25th Amendment and shielded alongside Articles 14 and 19 from statutory challenges by Article 31C.",
+        "evidence": [
+          {
+            "page": 64,
+            "support": "State law deriving authority from Article 31C cannot be challenged on the ground that it infringes Articles 14, 19 and 31."
+          },
+          {
+            "page": 105,
+            "support": "2. In Article 31 of the Constitution,- (a) for Clause (2), the following clause shall be substituted, namely: (2) No property shall be compulsorily acquired or requisitioned save for a public purpose"
+          }
+        ]
+      },
+      {
+        "provision": "Article 19",
+        "relationship": "Excluded from serving as a ground of challenge against laws enacted under Article 31C, and directly modified in relation to compulsory property acquisition under Article 31(2B).",
+        "evidence": [
+          {
+            "page": 240,
+            "support": "1214. Clause (2B) makes Sub-clause (f) of Article 19(1) inapplicable to Clause (2) of Article 31."
+          },
+          {
+            "page": 253,
+            "support": "excluded the challenge to the laws protected by Article 31C under the whole of Article 19, instead of excluding a challenge only under Article 19(1)(f)"
+          }
+        ]
+      }
+    ],
+    "overall_limitation": "This summary is strictly bounded by the text excerpts provided from the uploaded judgment. It does not include external legal context, case history outside the provided text, or future legal proceedings.",
+    "disclaimer": "This output is an evidence-grounded research summary generated from the uploaded judgment. It is not legal advice and should be verified by a qualified legal professional."
+  }
+}

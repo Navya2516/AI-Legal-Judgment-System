@@ -1,0 +1,115 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "expected_provisions": [
+    "article 13",
+    "article 19",
+    "article 31",
+    "article 31a",
+    "article 32",
+    "article 368",
+    "24th amendment",
+    "25th amendment",
+    "29th amendment"
+  ],
+  "total_ranked_provisions": 294,
+  "results": [
+    {
+      "k": 5,
+      "top_k_provisions": [
+        "Article 368",
+        "Article 13",
+        "Article 31C",
+        "Article 31",
+        "Article 19"
+      ],
+      "matched": [
+        "article 13",
+        "article 19",
+        "article 31",
+        "article 368"
+      ],
+      "missing": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment",
+        "article 31a",
+        "article 32"
+      ],
+      "matched_count": 4,
+      "expected_count": 9,
+      "recall_at_k": 0.4444444444444444
+    },
+    {
+      "k": 10,
+      "top_k_provisions": [
+        "Article 368",
+        "Article 13",
+        "Article 31C",
+        "Article 31",
+        "Article 19",
+        "Article 39",
+        "Article 31A",
+        "Section 2",
+        "Section 3",
+        "Section 29"
+      ],
+      "matched": [
+        "article 13",
+        "article 19",
+        "article 31",
+        "article 31a",
+        "article 368"
+      ],
+      "missing": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment",
+        "article 32"
+      ],
+      "matched_count": 5,
+      "expected_count": 9,
+      "recall_at_k": 0.5555555555555556
+    },
+    {
+      "k": 20,
+      "top_k_provisions": [
+        "Article 368",
+        "Article 13",
+        "Article 31C",
+        "Article 31",
+        "Article 19",
+        "Article 39",
+        "Article 31A",
+        "Section 2",
+        "Section 3",
+        "Section 29",
+        "Article 14",
+        "Article 304",
+        "Article 50",
+        "Article 31B",
+        "Article 248",
+        "Article 32",
+        "Section 92",
+        "Article 5",
+        "Section 5",
+        "Section 6"
+      ],
+      "matched": [
+        "article 13",
+        "article 19",
+        "article 31",
+        "article 31a",
+        "article 32",
+        "article 368"
+      ],
+      "missing": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment"
+      ],
+      "matched_count": 6,
+      "expected_count": 9,
+      "recall_at_k": 0.6666666666666666
+    }
+  ]
+}

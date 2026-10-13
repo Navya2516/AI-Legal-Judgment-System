@@ -1,0 +1,272 @@
+{
+  "document_id": "1e9fd4c745d6414a98ec5056e3b5ed3e",
+  "document": {
+    "filename": null,
+    "total_pages": 112
+  },
+  "ranked_provisions": [
+    {
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 69.23,
+      "confidence": "high",
+      "page_count": 42,
+      "evidence_count": 92,
+      "confidence_counts": {
+        "high": 15,
+        "medium": 77,
+        "low": 0
+      }
+    },
+    {
+      "provision": "Section 79",
+      "category": "Section",
+      "relevance_score": 49.21,
+      "confidence": "medium",
+      "page_count": 6,
+      "evidence_count": 18,
+      "confidence_counts": {
+        "high": 0,
+        "medium": 18,
+        "low": 0
+      }
+    },
+    {
+      "provision": "Section 27",
+      "category": "Section",
+      "relevance_score": 48.84,
+      "confidence": "high",
+      "page_count": 2,
+      "evidence_count": 15,
+      "confidence_counts": {
+        "high": 5,
+        "medium": 10,
+        "low": 0
+      }
+    },
+    {
+      "provision": "Section 118",
+      "category": "Section",
+      "relevance_score": 44.47,
+      "confidence": "high",
+      "page_count": 5,
+      "evidence_count": 8,
+      "confidence_counts": {
+        "high": 3,
+        "medium": 5,
+        "low": 0
+      }
+    },
+    {
+      "provision": "Section 9",
+      "category": "Section",
+      "relevance_score": 44.21,
+      "confidence": "high",
+      "page_count": 4,
+      "evidence_count": 6,
+      "confidence_counts": {
+        "high": 3,
+        "medium": 3,
+        "low": 0
+      }
+    }
+  ],
+  "insights": {
+    "potential_legal_provisions": [
+      {
+        "provision": "Article 19",
+        "why_relevant": "Article 19 guarantee of free speech under Article 19(1)(a) and reasonable restrictions under Article 19(2) serve as the primary constitutional benchmark against which statutory restrictions on expression were evaluated.",
+        "judgment_discussion": "The judgment examined whether statutory provisions (such as Section 66A of the IT Act and Section 118(d) of the Kerala Police Act) arbitrarily and excessively invade free speech, holding that restrictions must have a proximate, intimate, real, and rational connection to the grounds specified under Article 19(2).",
+        "potential_continuation_issue": "Researching the exact legal standards and proximate nexus required for statutory restrictions to be saved under the specific heads of Article 19(2), particularly regarding public order, decency, or morality.",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "s. 66A is violative of Article 19(1)(a) and is not saved under Article 19(2) - It arbitrarily, excessively and disproportionately invades the right of free speech"
+          },
+          {
+            "page": 14,
+            "support": "Section 118(d) also violates Article 19(1)(a) and not being a reasonable restriction on the said right and not being saved under any of the subject matters contained in Article 19(2) is hereby declared to be unconstitutional."
+          },
+          {
+            "page": 92,
+            "support": "The connection with public order has to be intimate, real and rational and should arise directly from the demonstration that is sought to be prohibited."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Findings are based strictly on the excerpted text concerning Article 19(1)(a) and Article 19(2) analysis in the provided context."
+      },
+      {
+        "provision": "Section 79",
+        "why_relevant": "Section 79 of the Information Technology Act provides an exemption from liability for intermediaries fulfilling specified conditions.",
+        "judgment_discussion": "The Court evaluated Section 79 and read down Section 79(3)(b) (and corresponding Rule 3(4) of the 2011 Intermediary Guidelines Rules) so that 'actual knowledge' of unlawful acts requires a court order or notification by the appropriate government or its agency strictly conforming to Article 19(2).",
+        "potential_continuation_issue": "Analyzing the scope of intermediary liability exemptions and procedural requirements for valid court orders or government notifications directing content removal.",
+        "evidence": [
+          {
+            "page": 15,
+            "support": "Section 79 is an exemption provision. Being an exemption provision, it is closely related to provisions which provide for offences including Section 69A."
+          },
+          {
+            "page": 16,
+            "support": "Section 79(3)(b) has to be read down to mean that the intermediary upon receiving actual knowledge that a court order has been passed asking it to expeditiously remove or disable access to certain material"
+          },
+          {
+            "page": 16,
+            "support": "Unlawful acts beyond what is laid down in Article 19(2) obviously cannot form any part of Section 79. With these two caveats, Section 79(3)(b) is not struck down."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Analysis is limited to the provided excerpts detailing the reading down of Section 79(3)(b) and Rule 3(4)."
+      },
+      {
+        "provision": "Section 27",
+        "why_relevant": "Section 27 (specifically of the Gold Control Act) was cited in precedent regarding statutory vagueness and unguided power.",
+        "judgment_discussion": "The judgment references Harakchand Ratanchand Banthia v. Union of India, where Section 27 of the Gold Control Act was struck down because terms such as 'anticipated demand', 'suitability of the applicant', and 'public interest' were held to be vague, uncertain, and unintelligible.",
+        "potential_continuation_issue": "Researching judicial principles on when vague statutory expressions fail to provide objective standards and thereby constitute unreasonable restrictions on fundamental rights.",
+        "evidence": [
+          {
+            "page": 74,
+            "support": "Section 27 of the Gold Control Act was struck down on the ground that the conditions imposed by it for the grant of renewal of licences are uncertain, vague and unintelligible."
+          },
+          {
+            "page": 74,
+            "support": "the expression 'suitability of the applicant' in Section 27(6)(e) and 'public interest' in Section 27(6)(g) do not provide any objective standard or norm or guidance."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Section 27 is discussed in the text solely as part of cited precedent (Harakchand case) regarding the vagueness doctrine, not as an active provision under direct challenge in the judgment."
+      },
+      {
+        "provision": "Section 118",
+        "why_relevant": "Section 118(d) of the Kerala Police Act was directly assailed for penalizing annoyance caused in an indecent manner.",
+        "judgment_discussion": "The Court held that the Kerala Police Act falls in pith and substance within Entry 2 List II, but struck down Section 118(d) for vagueness and overbreadth, finding it violative of Article 19(1)(a) and not saved by Article 19(2).",
+        "potential_continuation_issue": "Examining the interaction between state legislative competence under List II and constitutional guarantees under Part III of the Constitution.",
+        "evidence": [
+          {
+            "page": 102,
+            "support": "Section 118 of the Kerala Police Act. 102. Learned counsel for the Petitioner in Writ Petition No. 196 of 2014 assailed sub-section (d) of Section 118"
+          },
+          {
+            "page": 103,
+            "support": "the Kerala Police Act as a whole and Section 118 as part thereof falls in pith and substance within Entry 2 List II"
+          },
+          {
+            "page": 104,
+            "support": "Section 118(d) also violates Article 19(1)(a) and not being a reasonable restriction on the said right and not being saved under any of the subject matters contained in Article 19(2) is hereby declared to be unconstitutional."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Limited to the specific challenge to Section 118(d) of the Kerala Police Act excerpted in the text."
+      },
+      {
+        "provision": "Section 9",
+        "why_relevant": "Section 9(1)(a) / 9(1-A) of the Madras Maintenance of Public Order Act was cited in historical precedent regarding overbreadth and severability.",
+        "judgment_discussion": "The judgment references Romesh Thappar v. State of Madras, where an order under Section 9(1)(a) was held unconstitutional because the provision's broad language exceeded Article 19(2) limits and could not be split or severed.",
+        "potential_continuation_issue": "Investigating doctrine of severability applications when statutory provisions cover matters both within and outside permissible fundamental rights restrictions.",
+        "evidence": [
+          {
+            "page": 46,
+            "support": "challenges made to an order made under Section 7 of the Punjab Maintenance of Public Order Act and to an order made under Section 9 (1 )(a) of the Madras Maintenance of Public Order Act were allowed in two early judgments"
+          },
+          {
+            "page": 97,
+            "support": "as the purposes mentioned in Section 9( 1-A) of the Madras Act were wider in amplitude than those specified in Article 19(2), and as it was not possible to split up Section 9(1-A) into what was within and what was without the protection of Article 19(2), the provision must fail in its entirety."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Section 9 appears exclusively as a cited precedent (Romesh Thappar case) from 1950 and is not a live provision under current dispute."
+      }
+    ],
+    "issues_for_continuation": [
+      {
+        "issue": "Standards for Striking Down Penal Provisions for Vagueness and Overbreadth",
+        "description": "The judgment discusses how penal provisions restricting expression (such as Section 66A IT Act and Section 118(d) Kerala Police Act) fail constitutional muster when their language is vague, overbroad, or lacks clear objective definitions.",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "arbitrarily, excessively and disproportionately invades the right of free speech"
+          },
+          {
+            "page": 104,
+            "support": "causing annoyance in an indecent manner suffers from the same type of vagueness and over breadth, that led to the invalidity of Section 66A"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Grounded strictly in the comparative rationale applied between Section 66A and Section 118(d)."
+      },
+      {
+        "issue": "Conditions and Medium for Establishing Actual Knowledge under Intermediary Safe Harbor Rules",
+        "description": "The Court established that intermediary safe harbor under Section 79 is contingent upon 'actual knowledge' being received strictly through a court order or notification by an appropriate government agency, aligned with Article 19(2).",
+        "evidence": [
+          {
+            "page": 16,
+            "support": "The knowledge spoken of, in the said sub-rule must only be through the medium of a court order."
+          },
+          {
+            "page": 16,
+            "support": "Section 79(3)(b) being read down to mean that an intermediary upon receiving actual knowledge from a court order or on being notified by the appropriate Government or its agency"
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Restricted to the read-down interpretation of Section 79(3)(b) and Rule 3(4) contained in the context."
+      },
+      {
+        "issue": "Legislative Competence under List II Entry 2 versus Part III Fundamental Rights Restrictions",
+        "description": "The judgment considers how state legislation may fall validly within Entry 2 of List II under the doctrine of pith and substance, yet remain subject to invalidation if it violates fundamental rights under Article 19(1)(a).",
+        "evidence": [
+          {
+            "page": 14,
+            "support": "The Kerala Police Act as a whole and Section 118 as part thereof, falls in pith and substance within Entry 2 List II... Even otherwise, the penalty created..."
+          },
+          {
+            "page": 103,
+            "support": "falls in pith and substance within Entry 2 List II, notwithstanding a.ny incidental encroachment that it may have made on any other Entry in List I."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "Based solely on the legislative competence evaluation of the Kerala Police Act."
+      }
+    ],
+    "related_provisions": [
+      {
+        "provision": "Article 13",
+        "relationship": "Referenced in cited case precedent (Romesh Thappar) regarding the rule that laws inconsistent with fundamental rights are void to the extent of inconsistency.",
+        "evidence": [
+          {
+            "page": 95,
+            "support": "under Article 13(1), an existing law inconsistent with a fundamental right is void only to the extent of the inconsistency and no more."
+          }
+        ]
+      },
+      {
+        "provision": "Section 66A (Information Technology Act, 2000)",
+        "relationship": "Declared unconstitutional under Article 19(1)(a); served as the primary comparative basis for striking down Section 118(d) of the Kerala Police Act.",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "s. 66A is violative c of Article 19(1)(a) and is not saved under Article 19(2)"
+          },
+          {
+            "page": 14,
+            "support": "for the reasons given for striking down Section 66A, Section 11 S(d) also violates Article 19(1 )(a)"
+          }
+        ]
+      },
+      {
+        "provision": "Section 69A (Information Technology Act, 2000)",
+        "relationship": "Noted as a narrowly drawn blocking provision closely related to intermediary exemption provisions under Section 79.",
+        "evidence": [
+          {
+            "page": 14,
+            "support": "Section 69A unlike Section 66A is a narrowly drawn provision"
+          },
+          {
+            "page": 15,
+            "support": "Being an exemption provision, it is closely related to provisions which provide for offences including Section 69A."
+          }
+        ]
+      }
+    ],
+    "overall_limitation": "This summary is based strictly on the excerpted evidence provided from the judgment. It does not reflect external case materials, full judgment transcripts, subsequent statutory amendments, or judicial overrulings not represented in the text.",
+    "disclaimer": "This output is an evidence-grounded research summary generated from the uploaded judgment. It is not legal advice and should be verified by a qualified legal professional."
+  }
+}

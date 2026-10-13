@@ -1,0 +1,829 @@
+{
+  "evaluation_name": "Improved Document-specific RAG Evaluation",
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "total_test_cases": 5,
+  "successful_retrieval_cases": 5,
+  "successful_answer_cases": 3,
+  "api_or_generation_failures": 2,
+  "metrics": {
+    "Page_Recall@1": 0.0,
+    "Page_Recall@3": 0.0,
+    "Page_Recall@5": 0.0,
+    "Page_Recall@10": 0.2,
+    "Evidence_Page_Hit_Rate": 0.2,
+    "Concept_Coverage": 0.8333333333333333,
+    "Full_Concept_Coverage_Rate": 0.6,
+    "Citation_Validity": 0.7999999999999999
+  },
+  "notes": [
+    "Page recall uses manually selected reference pages and is not the sole measure of retrieval quality.",
+    "Concept coverage checks whether retrieved evidence contains the expected legal concepts.",
+    "LLM/API failures are reported separately from retrieval failures.",
+    "True Top-10 retrieval is evaluated directly from FAISS because production rag_service currently returns only five final chunks."
+  ],
+  "test_results": [
+    {
+      "id": "rag_01",
+      "question": "What is the Basic Structure Doctrine?",
+      "expected_pages": [
+        128,
+        236,
+        331,
+        369
+      ],
+      "expected_concepts": [
+        "basic structure",
+        "constitution",
+        "amend"
+      ],
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What is the Basic Structure Doctrine?",
+        "basic structure doctrine",
+        "basic features of the Constitution",
+        "essential features of the Constitution",
+        "fundamental features of the Constitution"
+      ],
+      "retrieved_pages": [
+        338,
+        176,
+        471,
+        178,
+        334,
+        218,
+        236,
+        89,
+        402,
+        175
+      ],
+      "retrieved_evidence": [
+        {
+          "page_number": 338,
+          "chunk_id": "chunk_00887",
+          "score": 0.6945,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "The quest for things not said, but which were to be as effective as things said, would take us to the realm of speculation and theorising and must bring in its wake the uncertainty which inevitably is there in all such speculation and theorising. All the efforts of the framers of the Constitution to make its provisions to be definite and precise would thus be undone. We shall be in doing so, not merely ignoring but setting at naught what must be regarded as a cardinal principle that a Constitution is not a subject of fastidious and abstract dialectics but has to be worked on a practical plan e so that it may become a real and effective vehicle of the nation’s progress. As observed"
+        },
+        {
+          "page_number": 176,
+          "chunk_id": "chunk_00434",
+          "score": 0.6877,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 176 of 502 (legislative relations between Union and the States) may be changed. The representation of the States in Parliament (Articles 80 and 81) may be changed. The number of representation may be increased or reduced. The method of election of such representatives as Parliament may by law prescribe and the number of the members of the House of the People may be increased or reduced. The method of election to the House of People may be changed. Finally the provisions of Article 368 itself, which is the most important part of the Constitution may be changed. 949. To find out essential or non-essential features is an exercise in imponderables. When the Constitution does not make any distinction between essential and non-essential features it is incomprehensible as to how such a distinction can be made. Again, the question arises as to who will make such a distinction. Both aspects expose the egregious character of inherent and implied limitations as to essential features or core of essential features of the Constitution being unamendable. Who is to judge what the essential features are ? On what touchstone are the essential features to be measured? Is there any yardstick by which it can be gauged ? How much is essential and how much is not essential? How can the essential features or the core of the essential features be determined? If there are no indications in the Constitution as to what the essential features are the task of amendment of the Constitution becomes an unpredictable and indeterminate task. There must be an objective data and standard by which it can be predicated as to what is essential and what is not essential. If Parliament cannot judge these features Parliament cannot, amend the Constitution. If, on the other hand, amendments are carried out by Parliament the petitioner contends that eventually court will find out as to whether the amendment violates or abridges essential features or the core of essential features. In the ultimate analysis it is the Court which will pronounce on the amendment as to whether it is permissible or not. This construction will have the effect of robbing Parliament of the power of amendment and reposing the final power of expressing validity of amendment in the courts. 950. Mr. Palkhivala said that though the essential features could be amended the core of essential features could not be amended. He said that there was no esoteric test to find out what is essential and what is not essential and if no precise definition could be given that was no reason to hold that the essential features and the core of essential features could be amended. It was"
+        },
+        {
+          "page_number": 471,
+          "chunk_id": "chunk_01244",
+          "score": 0.6844,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "that the core of the essential features of the Constitution cannot be damaged or destroyed. Jawaharlal Nehru undoubtedly said in the Constituent Assembly that \"Hundreds of millions of our own people look to us and hundreds of millions of others also look to us; and remember this, that while we want this Constitution to be as solid and as permanent a structure as we can make it nevertheless there is no permanence in Constitution. There should be a certain flexibility. If you make anything rigid and permanent you stop a Nation’s growth, the growth of a living vital organic people,\"; and again in the Provisional Parliament that \"A Constitution which is unchanging and static, it dos not matter how good it is, how perfect it is, is a Constitutio"
+        },
+        {
+          "page_number": 178,
+          "chunk_id": "chunk_00442",
+          "score": 0.6771,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "the location of sovereign power. The Constitution also means the system or body of fundamental principles according to which the nation, State and body politic is constituted and governed. In the case of a written Constitution the Constitution is more fundamental than any particular law and contains a principle with which all legislation must be in harmony. Therefore, an amendment of the Constitution is an amendment of something which provides a system according to which a State or nation is governed. An amendment of the Constitution is to make fundamental changes in the Constitution. Fundamental or basic principles can be changed. There can be radical change in the Constitution like introducing a Presidential system of government for a"
+        },
+        {
+          "page_number": 334,
+          "chunk_id": "chunk_00875",
+          "score": 0.6764,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 334 of 502 Constitution also reflects the hopes and aspirations of a people. Besides laying down the norms for the functioning of different organs a Constitution encompasses within itself the broad indications as to how the nation is to march forward in times to come. A Constitution cannot be regarded as a mere legal document to be read as a will or an agreement nor is Constitution like a plaint or a written statement filed in a suit between two litigants. A Constitution must of necessity be the vehicle of the life of a nation. It h as also to be borne in mind that a Constitution is not a gate but a road. Beneath the drafting of a Constitution is the awareness that things do not stand still but move on, that life of a progressive nation, as of an individual is not static and stagnant but dynamic and dashful. A Constitution must therefore contain ample provision for experiment and trial in the task of administration. A Constitution, it needs to be emphasised, is not a document for fastidious dialectics but the means of ordering the life of a people. It had its roots in th e past, its continuity is reflected in the present and it is intended for the unknown future. The words of Holmes while dealing with the US Constitution have equal relevance for our Constitution. Said the great Judge: ...the provisions of the Constitution are not mathematical formulas having their essence in their form; they are organic living institutions transplanted from English soil. Their significance is vital not formal; it is to be gathered not simply by taking the words and a dictionary, but by considering their origin and the line of their growth. (See Gompers v. United States 233 U.S. 604, 610(1914). It is necessary to keep in view Marshall’s great premises that \"it is a Constitution we are expounding\". To quote the words of Felix Frankfurter in his tribute to Holmes: Whether the Constitution is treated primarily as a text for interpretation or as an instrument of government may make all the difference in the world. The fate of cases, and thereby of legislation, will turn on whether the meaning of the document is derived from itself or from one’s conception of the country, its development, its needs, its place in a civilized society: (See \"Mr. Justice Holmes\" edited by Felix Frankfurter, p. 58). The principles which should guide the court in construing a Constitution have been aptly laid down in the following passage by Kania C.J. in the case of A.K. Gopalan v. The State of Madras (1950) S.C.R. 88 (at p. 119-121): In respect of"
+        },
+        {
+          "page_number": 218,
+          "chunk_id": "chunk_00554",
+          "score": 0.6642,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "features of the Constitution which were permanent it is most unlikely that they should not have expressly said in Article 368 that these basic features were not amendable\". 1147. During the course of the lengthy arguments on behalf of the petitioners and the respondents, we have been taken on a global survey of the Constitutions of the various countries. In support of the rival contentions, there were cited before us innumerable decisions of the Supreme Court and the State Courts of the United States of America, and of the Courts in Canada, Ireland, Australia and of the Privy Council. A large number of treatise on Constitutional law, views of academic lawyers, the applicability of natural law or higher law principles, extracts from Laski’s Grammar of Politics, history of the demand for fundamental rights, and the speeches in the Constituent Assembly and the Provisional Parliament during the deliberations on the Constitution (First Amendment) Bill, were also referred to. The able arguments addressed to us during these long hearings, with great industry and erudition and the alacrity with which the doubts expressed by each of us have been sought to be cleared by the learned Advocates for the petitioner, the learned Attorney-General, the learned Solicitor-General and by the learned Advocates-General of the States and the learned Advocates who intervened in those proceedings, have completely eviscerated the contents of the vital and far reaching issues involved in this case, though sometimes some aspects tended to hover over the terra ferma and sometimes skirted round it, particularly when the views of academic writers who had the utmost freedom to express on hypothetical problems unrelated to concrete issues falling for a decision in any case, were pressed on us. The a priori postulates of some of the scholars are not often easy of meeting the practical needs and limitations of the tenacious aspects of the case precedents which makes our law servicable. There have again been arguments for taking consequences into consideration which really highlighted what would be the dire consequences if the result of the decision being one way or the other but this court ought not to be concerned with these aspects, if otherwise our decision is in accordance with the view of the law it takes. We should free ourselves of any considerations which tend to create pressures on the mind. In our view, it is not the gloom that should influence us, as Milton said, \"we cannot leave the real world for a Utopia but instead ordain wisely\", and, if I may add, according to the well-accepted rules of construction and on a true interpretation of the Constitutional provisions. 1148. Lengthy arguments on the rules of construction were addressed, by referring"
+        },
+        {
+          "page_number": 236,
+          "chunk_id": "chunk_00605",
+          "score": 0.6623,
+          "matched_queries": [
+            "What is the Basic Structure Doctrine?",
+            "basic structure doctrine",
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "fundamental in the governance of the country which the State is enjoined to achieve for the amelieration and happiness of its people. The elements of the basic structure are indicated in the preamble and translated in the various provisions of the Constitution. The edifice of our Constitution is built upon and stands on several props, remove any of them, the Constitution collapses. These are: (1) Sovereign Democratic Republic; (2) Justice, social, economic and political; (3) Liberty of thought, expression, belief, faith and worship; (4) Equality of status and of opportunity. Each one of these is important and collectively they assure a way of life to the people of India which the Constitution guarantees. To withdraw any of the above elements the structure will not survive and it will not be the same Constitution, or this Constitution nor can it maintain its identity, if something quite different is substituted in its place, which the sovereign"
+        },
+        {
+          "page_number": 89,
+          "chunk_id": "chunk_00195",
+          "score": 0.6578,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "essential elements of the Constitutional structure. It cannot be overlooked that the basic theory of our Constitution is that \"Pouvoir Constituent\", is vested in the people and was exercised, for and on other behalf by the Constituent Assembly for the purpose of framing the Constitution. 572. To say, as has been said on behalf of the respondents, that there are only two categories of Constitutions, rigid or controlled and flexible or uncontrolled and that the difference between them lies only in the procedure provided for amendment is an over- simplification. In certain Constitutions there can be procedural and or substantive limitations on the amending power. The procedural limitations could be by way of a prescribed form and manner without the satisfaction of which no amendment can validly result. The form and manner may take different forms such as a higher majority either in the houses of the concerned legislature sitting jointly or separately or by way of a convention, referendum etc. Besides these limitations, there can be limitations in the content and scope of the power. To illustrate, although the power to amend under Article 5 of the U.S. Constitution resides ultimately in the people, it can be exercised in either o f the modes as might be prescribed by the Congress viz. through ratification by the State legislatures or through conventions, specially convened for the purpose. The equal suffrage in the Senate granted to each of the States, cannot be altered without the consent of the State. The true distinction between a controlled and an uncontrolled Constitution lies not merely in the difference in the procedure of amendment, but in the fact that in controlled Constitutions the Constitution has a higher status by whose touch-stone the validity of a law made by the legislature and the organ set up by it is subjected to the process of judicial review. Where there is a written Constitution which adopts the preamble of sovereignty in the people there is firstly no question of the law-making body being a sovereign body for that body possesses only those powers which are conferred on it. Secondly, however representative it may be, it cannot be equated with the people. This is especially so where the Constitution contains a Bill of Rights for such a Bill imposes restraints on that body, i.e. it negates the equation of that body with the people. 573. Before concluding the topic on the interpretation or construction of the words \"amendment of this Constitution\" in Article 368, it is necessary to deal with some American decisions relating to Article 5 of the American Constitution on which a great deal of reliance was placed on behalf of the respondents for establishing that the’"
+        },
+        {
+          "page_number": 402,
+          "chunk_id": "chunk_01055",
+          "score": 0.6541,
+          "matched_queries": [
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 402 of 502 broadly described as \"federal features\" contained in Clauses (a) to (d) of the proviso to Article 368 are essential features of the Constitution. The articles referred to in Clause ( a) to (d) deal with some of the essential features of the Constitution like the Union Judiciary, the High Courts, the legislative relation between the Union and the States, the conferment of the residual power and so on. The power to amend the legislative lists would carry with it the power to transfer the residuary entry from the Union List to the State List. This would also enable Parliament to increase its power by transferring entries from the State List or Concurrent List to the Union List. The proviso to Article 368 thus makes it clear that the Constitution-makers visualised the amendability of the essential features of the Constitution. 1730. Mr. Palkhivala contended that Fundamental Rights are an essential feature of the Constitution, that they are the rock upon which the Constitution is built, that, by and large, they are the extensions, combinations or permutations of the natural rights of life, liberty and equality possessed by the people by virtue of the fact that they are human beings and that these rights were reserved by the people to themselves when they framed the Constitution and cannot be taken away or abridged by a constituted authority like Parliament. He said that the implied limitation stems from the character of those rights as well as the nature of the authority upon which the power is supposed to be conferred. 1731. On the other hand, the respondents submitted that the people of India have only such rights as the Constitution conferred upon them, that before the Constitution came into force, they had no Fundamental Rights, that the rights expressly conferred upon the people by Part III of the Constitution and that there is no provision in our Constitution like Article 10 of the United States Constitution which reserved the rights of the people to themselves. They also said that the characterisation of Fundamental Rights, as tran cendental, sacrosanct or promodial in the sense that they are \"not of today or yesterday but live eternally and none can date their birth\" smacks of sentimentalism and is calculated to cloud the mind by an out-moded political philosophy, and would prevent a dispassionate analysis of the real issues in the case. 1732. The question presented for decision sounds partly in the realm of political philosophy but that is no reason why the Court should not solve it, for, as De Tocqueville wrote: \"scarcely any political question arises in the United States that is not resolved sooner or"
+        },
+        {
+          "page_number": 175,
+          "chunk_id": "chunk_00431",
+          "score": 0.6513,
+          "matched_queries": [
+            "essential features of the Constitution"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 175 of 502 language and not restricted in any negative terms. 944. A Constitution is essentially a frame of government laying down governmental powers exercisable by the legislature, executive and the judiciary. Even so other provisions are included in the Constitution of a country which provisions are considered by the framers of that Constitution to have such special importance that those should be included in the Constitution or organic law. Thus all provisions of the Constitution are essential and no distinction can be made between essential and non-essential features from the point of view of amendment unless the makers of the Constitution make it expressly clear in the Constitution itself. The Attorney General rightly said that if the positive power of \"amendment of this Constitution\" in Article 368 is restricted by raising the walls of essential features or core of essential features, the clear intention of the Constituent Assembly will be nullified and that would make a mockery of the Constitution and that would lead to destruction of the Constitution by paving the way for extra Constitutional or revolutionary changes in the Constitution. The theory of implied and inherent limitations cannot be allowed to act as a boa constrictor to the clear and unambiguous power of amendment. 945. If there is no express prohibition against amendment in Article 368 the ommission of any such restriction did not intend to impose any restriction. When certain restrictions are imposed it is not intended that other undefined restrictions should be imposed by implication. The general rule is not to import into statutes words which are not found there. Words are not to be added by implication into the language of a statute unless it is necessary to do so to give the paragraph sense and meaning in its context. If a matter is altogether omitted from statute it is not allowable to insert it by implication. Where the language of an Act is clear and explicit, effect is to be given to it whatever may be the consequences. The words of the statute speak the intention of the legislature. Where the reading of a statute produces an intelligible result there is no ground for reading any words or changing any words according to what may be supposed intention of the legislature. If a statute is passed for the purpose of enabling something to be done but omits to mention in Terms some detail which is of great importance to the proper performance of the work which the statute has in contemplation the courts are at liberty to infer that the statute by implication empowers the details to be carried out. The implication is to empower the authority"
+        }
+      ],
+      "recall_at_1": 0,
+      "recall_at_3": 0,
+      "recall_at_5": 0,
+      "recall_at_10": 1,
+      "expected_page_overlap": [
+        236
+      ],
+      "evidence_page_hit": true,
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "basic structure",
+        "constitution",
+        "amend"
+      ],
+      "missing_concepts": [],
+      "answer_status": "success",
+      "answer": "Based on the provided court judgment excerpts, the **Basic Structure Doctrine** refers to the idea that the Constitution rests on fundamental elements or \"props\" that give it its identity. If any of these foundational elements are removed, the constitutional structure collapses [Page 236].\n\n### Key Elements of the Basic Structure\nAs indicated in the Preamble and constitutional provisions, the basic structure is supported by several core elements:\n1. **Sovereign Democratic Republic** [Page 236]\n2. **Justice** (social, economic, and political) [Page 236]\n3. **Liberty** of thought, expression, belief, faith, and worship [Page 236]\n4. **Equality** of status and opportunity [Page 236]\n\nWithdrawing or substituting any of these elements means the Constitution cannot survive or maintain its identity [Page 236].\n\n---\n\n### Key Discussion and Arguments Recorded by the Court\n\n* **Limitation on Amendments:** Arguments presented to the court (including by Mr. Palkhivala) contended that while amendments are permissible, the \"core of essential features\" or basic structure of the Constitution cannot be damaged, destroyed, or amended [Page 176, Page 471].\n* **Lack of Explicit Standards:** The court discussed the difficulty in determining what constitutes an \"essential feature,\" noting that the text of the Constitution makes no explicit distinction between essential and non-essential features, nor does it provide an objective standard or yardstick to measure them [Page 176].\n* **Parliamentary Power vs. Judicial Review:** The text highlights a conflict regarding who determines essential features. If the courts evaluate whether an amendment abridges essential features, it places the ultimate power of validating amendments in the judiciary rather than Parliament [Page 176].\n* **Concerns Over Speculation and Change:** The judgment notes counter-arguments that looking for unwritten limitations introduces speculation and uncertainty into the Constitution [Page 338], and mentions the view that fundamental or basic principles can be changed through constitutional amendments [Page 178].",
+      "citation_count": 10,
+      "valid_citations": 10,
+      "citation_validity": 1.0,
+      "invalid_citations": []
+    },
+    {
+      "id": "rag_02",
+      "question": "What constitutional amendments were considered in the case?",
+      "expected_pages": [
+        1,
+        147,
+        375,
+        426,
+        477
+      ],
+      "expected_concepts": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment"
+      ],
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What constitutional amendments were considered in the case?",
+        "power to amend the Constitution",
+        "constitutional amendment power",
+        "validity of constitutional amendment",
+        "amending power"
+      ],
+      "retrieved_pages": [
+        156,
+        297,
+        391,
+        401,
+        367,
+        444,
+        381,
+        167,
+        229,
+        154
+      ],
+      "retrieved_evidence": [
+        {
+          "page_number": 156,
+          "chunk_id": "chunk_00380",
+          "score": 0.7509,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "amending power"
+          ],
+          "text": "A Constitution can be amended only in accordance with the process laid down in the Constitution. No other method is Constitutionally possible than that indicated in the provision for amendment of the Constitution. Once the Constitution has vested the power to amend in the bodies mentioned therein that is the only body for amending the Constitution. The people who gave the Constitution have expressed how it is to be changed. 840. The distinction between constituent and legislative power is brought out by the feature in a rigid Constitution that the amendment is by a different procedure than that by"
+        },
+        {
+          "page_number": 297,
+          "chunk_id": "chunk_00780",
+          "score": 0.7386,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "amending power"
+          ],
+          "text": "amended by remodeiling the Executive Department, abolishing what is known as Responsible Government, and introducing a new system, such as that which prevails in Switzerland; according to which the administration of the public departments is placed in the hands of officers elected by the Federal legislature. The Constitution could be amended by altering the tenure of the judges, by removing their appointment from the Executive, and authorizing the election of judges by the Parliament or by the people. The Constitution could be amended in its most vital part, the amending power itself, by providing that alterations may be initiated by the people, according to the plan of the Swiss Popular Initiative; that proposed alterations may be formulated by the Executive and submitted to the people; that proposed alterations may, with certain Constitutional exceptions, become law on being approved of by a majority of the electors voting, dispensing with the necessity of a majority of the States. 1369. On a consideration, therefore, of the nature of the amending power, the unqualified manner in which it is given in Article 368 of the Constitution it is impossible to imply any limitations on the power to amend the fundamental rights. Since there are no limitations express or implied on the amending power, it must be conceded that all the Amendments which are in question here must be deemed to be valid. We cannot question their policy or their wisdom. 1370. Coming to the actual amendments made in the Constitution by the twenty-fifth amendment Act, we find in the first place that the original Clause (2) of Article 31 is recast to some extent by deleting any reference to ’compensation’ in cases of compulsory acquisition and requisition for a public purpose. The fundamental right now is not to receive ’compensation’ which this Court construed to mean ’a just equivalent’ but to receive an \"amount\" which the legislature itself may fix or which may be determined in accordance with the principles as may be specified by the law. Then again the \"amount\" may be given in cash or in such manner as the law may specify. The principal objection to the amendment is that the clause arms the legislature with power to fix any amount which it considers fit and such fixation may be entirely arbitrary having no nexus whatsoever with the property of which a person is actually deprived. In similar cases, it is submitted, the amount fixed may be more in one and very much less in another depending entirely on the whim of the legislature. Conceivably the amount may be illusory having regard to the value of the property. The principles for determining the amount may equally be arbitrary and unrelated to"
+        },
+        {
+          "page_number": 391,
+          "chunk_id": "chunk_01025",
+          "score": 0.7376,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "constitutional amendment power"
+          ],
+          "text": "there is no provision for any such popular device and the power of amendment is vested only in the Amending Body. 1675. It is said that \"it is within the power of the people who made the Constitution to un- make it, that it is the creature of their own will and exists only by their will See Cohens v. Virginia 6 Wheat (19 U.S.) 264, 381. This dictum has no direct relevancy on the question of the power of the people to amend the Constitution. It only echoes the philosophy of John Locke that people have the political right to revolution in certain circumstances and to frame a Constitution in the exercise of their revolutionary constituent power. 1676. When the French political philosophers said that the nation alone possesses the constituent power, and an authority set up by a Constitution created by the nation has no constituent power apart from a power to amend that instrument within the lines originally adopted by the people, what is meant is that the nation cannot part with the constituent power, but only the power to amend the Constitution within the original scheme of the Constitution in minor details. Some jurists refer to these two powers, namely, the \"constituent power\" and the \"amending power\" as distinct. According to Carl J. Friedrich, the constituent power is the power which seeks to establish a Constitution which, in the exact sense, is to be understood the de-jacto residuary power of a not inconsiderable part of the community to change or replace an established order by a new Constitution. The constituent power is the power exercised in establishing a Constitution, that is the fundamental decision on revolutionary measures for the organisation and limitation of a new government. From this constituent power must be distinguished the amending power which changes an existing Constitution in form provided by the Constitution itself, for the amending power is itself a constituted authority. And he further points out that in French Constitutional Law the expression pouvoir constituant is often used to describe the ’amending authority’ as well as the constituent power, but the expression constituent power used by him is not identical with the pouvoir constituant of the French Constitutional Law See Carl J. Friedrich, \"Constitutional Government and Politics\" (1937), pp. 113, 118, 162 & 521. It is, however, unnecessary to enter this arid tract of what Lincoln called ’pernicious abstraction’ where no green things grow, or resolve the metaphysical niceties, for under our Constitution, there is no scope for the constituent power of amendment being exercised by the people after they have delegated power of amendment to the Amending Body. To what purpose did that instrument give the Amending Body the"
+        },
+        {
+          "page_number": 401,
+          "chunk_id": "chunk_01054",
+          "score": 0.7348,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "constitutional amendment power",
+            "amending power"
+          ],
+          "text": "power to amend will be abused? The remedy of the people, if these powers are abused, is in the polling booth and the ballot box. 1728. The contention that if the power to amend Fundamental Rights in such a way as to take away or abridge them were to vest in Parliament, it would bring about the catastrophic consequences apprehended by counsel has an air of unreality when tested in the light of our experience of what has happened between 1951 when Sankari Prasad’s case [1952] S.C.R. 89 recognised the power of the Parliament to amend the Fundamental Rights and 1967 when the Golaknath Case [1967] 2 S.C.R. 762 was decided. It should be remembered in this connection that the Parliament when it exercises its power to amend Fundamental Rights is as much the guardian of the liberties of the people as the Courts. 1729. If one of the tests to judge the essential features of the Constitution is the difficu lty with which those features can be amended, then it is clear that the features which are"
+        },
+        {
+          "page_number": 367,
+          "chunk_id": "chunk_00962",
+          "score": 0.731,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "constitutional amendment power"
+          ],
+          "text": "which can be conferred under the Constitution. As mentioned earlier, according to Finer, the amending clause is so fundamental to a Constitution that it may be called the Constitution itself while according to Burgess, the amending clause is the most important part of a Constitution. This circumstance accounts for the fact that an elaborate procedure is prescribed for the amending of the Constitution. The power of amendment being of such vital importance can neither be delegated nor can those vested with the authority to amend abdicate that power in favour of another body. Further, once such a power is granted, either directly or in effect, by a Constitutional amendment to the State Legislatures, it would be difficult to take away that power, because it can be done only by means of a Constitutional amendment and the States would be most reluctant, having got such a power, to part with it. In empowering a State Legislature to make laws violative of Articles 14, 19 and 31 of the Constitution and in further empowering the State Legislature to make laws immune from attack on the ground of being violative of Articles 14, 19 and 31 by inserting the requisite declaration, the authority vested with the power to"
+        },
+        {
+          "page_number": 444,
+          "chunk_id": "chunk_01169",
+          "score": 0.7246,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "amending power"
+          ],
+          "text": "the amending power is lodged therein. 1938. Power to amend the Constitution cannot reasonably be located in Entry 97 of List I of Schedule VII read with Article 248 of the Constitution. The idea of a provision for amending the Constitution was indisputably present in the minds of the Constitution- makers. If they had considered that the power to amend the Constitution was in its nature legislative, they would have surely included in express words this power in a specific entry in List I. Article 248 and Entry 97 of List I confer residuary power on Parliament."
+        },
+        {
+          "page_number": 381,
+          "chunk_id": "chunk_00998",
+          "score": 0.7124,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "amending power"
+          ],
+          "text": "1645. If the power to amend was to be found within Article 368 and not under Article 248 read with entry 97 of List I of the Seventh Schedule, it stands to reason to hold that constituent power for amend ment of the Constitution is distinct from legislative power. The leading majority in the Golaknath Case [1967] 2 S.C.R. 762 took pains to locate the power to amend in Article 248 read with entry 97 of List I of the Seventh Schedule to show that the Constitution can be amended by an ordinary law and that such a law would be within the purview of Article 13(2). But if the power to amend the Constitution is a legislative power and is located in the residuary entry (97 of List I of the Seventh Schedule), then any law amending the Constitution by virtue of that power, can be passed"
+        },
+        {
+          "page_number": 167,
+          "chunk_id": "chunk_00410",
+          "score": 0.7109,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "constitutional amendment power",
+            "validity of constitutional amendment"
+          ],
+          "text": "amendment and grant of authority by the people to Congress in the manner laid down in Article V of the American Constitution. It is not the function of Courts or legislative bodies to alter the method which the Constitution has fixed. Ratification is not an act of legislation. It derives its authority from the Constitution. Hawke v. Smith 253 U.S. 221; Dillon v. Gloss 256 U.S. 358, Leser v. Garnett 258 U.S. 130. Fifth, the power of amendment extends to every part of the Constitution. In amending the Constitution the General Assembly acts in the character and capacity of a convention expressing the supreme will or the sovereign people and is unlimited in its power save by the Constitution. Ex-parte Mrs. D.C. Kerby American Law Reports Annotated, Vol. 36, p. 1451. Sixth, the argument that amendments which touch rights of the people must be by convention is rejected by Supreme Court in American Article V of the American Constitution is clear in statement and meaning and contains no ambiguity. Where the intention is clear there is no room for construction. Rhode Island v. Palmer 253 U.S. 350; U.S. v. Sprague 282 U.S. 716. Seventh, principles of the Constitution can be changed under Article V Schneiderman v. United States of America 320 U.S. 118. Eight, the Constitution provides the method of alteration. While the procedure for amending the Constitution is restricted here is no restraint on the kind of amendment that may be made. Whitehall v. Elkins 389 U.S. 54. 899. Except for special methods of amendment in a rigid or controlled Constitution although the methods may vary in different Constitutions and except for express limitations, if any, in rigid or controlled Constitutions, the meaning and scope of the amending power is the same in both the flexible and rigid forms. 900. The flexible Constitution is one under which every law of every description can be legally changed with the same case and in the same manner by one and the same body. Laws in a flexible Constitution are called Constitutional because they refer to subjects supposed to affect the fundamenal institutions of the State, and not because they are legally more sacred or difficult to change than other laws. 901. A rigid Constitution is one under which certain laws generally known as Constitutional or fundamental laws cannot be changed in the same manner as ordinary laws. The rigidity of the Constitution consists in the absence of any right of the legislatures when acting in its ordinary capacity to modify or repeal definite laws termed Constitutional or fundamental. In a rigid Constitution the term \"Constitution\" means a particular enactment belonging to the Articles of the Constitution which cannot be legally changed"
+        },
+        {
+          "page_number": 229,
+          "chunk_id": "chunk_00584",
+          "score": 0.7069,
+          "matched_queries": [
+            "power to amend the Constitution"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 229 of 502 and that the Constitution cannot be substituted by a new Constitution. 1183. In further explaining his submission the learned Attorney-General said that the amending power in Article 368 as it stood before the Twenty-fourth Amendment and as it stands now has always been, and continues to be, a constituent power, that is to say, the power to deconstitute or re-constitute the Constitution or any part of it. Such power extends to the addition to or variation of any part of the Constitution. But the amending power does not mean that the Constitution at any point of time would be so amended by way of addition, variation or repeal as to leave a vacuum in the governance of the country. According to him that is the whole object and necessity of the amending power in a Constitution so that the Constitution continues, and a constituent power, unless it is expressly limited in the Constitution itself, can by its very nature have no limits, because if any such limit is assumed although not expressed in the Constitution, the whole object and purpose of the amending power will be nullified. 1184. If amendment does not mean abrogation or repeal as submitted in the note of the Advocate-General, dated February 23, 1973 in which he said, \"that repeal and abrogation mean the same thing since \"repeal\" has ’abrogation’ as one of its meaning and ’abrogation’ has ’repeal’ as one of its meanings\", a question arises, where, is the line to be drawn ? 1185. The learned Attorney-General said that Article 368, Clause (e) of the proviso by giving a power to amend the amending power, has conferred a wider power of amendment but that does not imply that the power of amendment had a limited meaning in the unamended article; that the word ’amendment’ has only one meaning and it is a wide power and in Article 368 there is a recreation of the Constituent Assembly. If this submission is correct, how can it not extend to abrogation of the Constitution or substituting it by another? 1186. To this question the answer of the Attorney-General was that Clause (e) of the proviso was added by way of abundant caution to meet a similar criticism which was directed against Article V of the U.S. Constitution. According to Advocate-General for Maharashtra, Clause (e) of the proviso was inserted to meet the assumption of Chief Justice in the Irish case of The State (Ryan and Ors.) v. Lennon and Ors. (1935) Irish Reports 170 that if amending provision could have been amended, then no limitation can be read. Hon’ble the Chief Justice has dealt with this aspect in"
+        },
+        {
+          "page_number": 154,
+          "chunk_id": "chunk_00373",
+          "score": 0.7022,
+          "matched_queries": [
+            "power to amend the Constitution"
+          ],
+          "text": "it the power to amend or repeal them. But these powers of legislatures do not include any power to amend the Constitution, because it is the Constituent Assembly which enacted the Constitution and the status given by Article 368 to Parliament and the State legislatures, is the status of a Constituent Assembly. The distinction between the power to amend the Constitution and the ordinary power to enact laws is fundamental to all federal Constitution. When Parliament is engaged in the amending process it is not legislating. It is exercising a particular power which is sui generis bestowed upon it by the amending clause in the Constitution. Thus an amendment of the Constitution under Article 368 is constituent law and not law within the meaning of Article 13(2) and law as defined in Article 13(3)(a). 826. The procedure that Bill for amendment of the Constitution has to be introduced in either House of Parliament and passed by both Houses does not alter the status of Parliament to amend the Constitution as a Constituent Assembly and does not assimilate it to that of the Union legislature. At this stage it may be stated that in Shankari Prasad case it was said that law in general sense may include the Constitution and the procedure of amendment is assimilated to ordinary legislative procedure. Assimilation of procedure does not make both the procedure same. Nor are the two separate powers to be lost sight of. The Constituent Assembly which has summoned on 19 December, 1946 to frame a Constitution was also invested after independence with legislative power. It framed the Constitution as the Constituent Assembly. It enacted ordinary laws as legislature. Under Article V of the American Constitution the Congress functions not as a legislature but as a Constituent Assembly. In Australia when a Bill for amendment has to be passed by Commonwealth Parliament and then has to be submitted to the verdict of the electorate the process is not ordinary legislative process of the Commonwealth Parliament. In our Constitution when the amendment falls within the proviso to Article 368 it requires that the amendment must be ratified by at least one half of the State legislatures and the process is radically different from ordinary legislative procedure. The Union legislature acting under Chapter II of Part V has no connection with the State legislatures. Therefore, when amendment is affected under the proviso to Article 368 Parliament does not act as a Union legislature. The feature that in the passage of the bill for amendment of the Constitution the House of Parliament has to adopt the procedure for ordinary legislation has little bearing. If the intention of the framers of the Constitution was to leave to"
+        }
+      ],
+      "recall_at_1": 0,
+      "recall_at_3": 0,
+      "recall_at_5": 0,
+      "recall_at_10": 0,
+      "expected_page_overlap": [],
+      "evidence_page_hit": false,
+      "concept_coverage": 0.6666666666666666,
+      "matched_concepts": [
+        "24th amendment",
+        "25th amendment"
+      ],
+      "missing_concepts": [
+        "29th amendment"
+      ],
+      "answer_status": "success",
+      "answer": "Based on the provided evidence, the specific constitutional amendment explicitly identified and discussed is the **Twenty-Fifth Amendment Act** [Page 297]. \n\n### Court's Discussion on the Amendment\n* **The Twenty-Fifth Amendment Act:** The court discussed the actual changes made to the Constitution by this act, noting that it altered Clause (2) of Article 31 [Page 297]. Specifically, it removed the term \"compensation\" (which courts had interpreted as \"a just equivalent\") and replaced it with an \"amount\" that the legislature may fix or determine based on specified principles [Page 297]. \n\n### General Scope in the Provided Evidence\n* The court noted that \"all the Amendments which are in question here\" must be deemed valid because Article 368 grants an unqualified amending power without express or implied limitations [Page 297]. However, the provided text excerpts do not explicitly list the specific numbers or names of any other amendments beyond the Twenty-Fifth Amendment Act.\n* The text also broadly references the Parliament's power to amend Fundamental Rights generally, citing the historical context between *Sankari Prasad's case* (1951) and the *Golaknath Case* (1967) [Page 401].\n\n*Note: The available evidence is insufficient to list any other specific amendment numbers that may have been part of the case, as only the Twenty-Fifth Amendment Act is explicitly named in the provided text [Page 297].*",
+      "citation_count": 6,
+      "valid_citations": 6,
+      "citation_validity": 1.0,
+      "invalid_citations": []
+    },
+    {
+      "id": "rag_03",
+      "question": "What was Parliament's power to amend the Constitution under Article 368?",
+      "expected_pages": [
+        71,
+        121,
+        331,
+        375,
+        388
+      ],
+      "expected_concepts": [
+        "article 368",
+        "parliament",
+        "amend",
+        "constitution"
+      ],
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What was Parliament's power to amend the Constitution under Article 368?",
+        "power to amend the Constitution",
+        "constitutional amendment power",
+        "validity of constitutional amendment",
+        "amending power",
+        "Parliament power to amend Constitution",
+        "constitutional amending power of Parliament",
+        "Article 368 amendment power",
+        "power of Parliament to amend",
+        "Article 368",
+        "constitutional amendment procedure",
+        "power to amend Constitution"
+      ],
+      "retrieved_pages": [
+        115,
+        262,
+        156,
+        120,
+        114,
+        494,
+        263,
+        154,
+        126,
+        444
+      ],
+      "retrieved_evidence": [
+        {
+          "page_number": 115,
+          "chunk_id": "chunk_00269",
+          "score": 0.7896,
+          "matched_queries": [
+            "Article 368 amendment power",
+            "Article 368"
+          ],
+          "text": "call into aid any of the rules of construction about which there was great deal of debate at the hearing. As the power to amend under the Article as it originally stood was only implied, the marginal note rightly referred to the procedure of amendment. The reference to the procedure in the marginal note does not negative the existence of the power implied in the Article. 659. The next question is whether the power conferred under Article 368 is available for amending each and every provision of the Constitution. The Article opens by saying \"An amendment of this Constitution\" which means an amendment of each and every provision and part of the Constitution. We find nothing in that Article to restrict its scop e. If we read Article 368 by itself, there can be no doubt that the power of amendment implied in that Article can reach each and every Article as well as every part of the Constitution."
+        },
+        {
+          "page_number": 262,
+          "chunk_id": "chunk_00680",
+          "score": 0.7751,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?"
+          ],
+          "text": "our Constitution gives specific powers of ordinary legislation to the Parliament and the State legislatures in respect of well demarcated subjects. But when it comes to the amendment of the Constitution, a special procedure has been prescribed in Article 368. Since the result of following the special procedure under the Article is the amendment of the Constitution the process which brings about the result is known as the exercise of constituent power by the bodies associated in the task of amending the Constitution. It is, therefore, obvious, that when the Parliament and the State Legislatures function in accordance with Article 368 with a view to amend the Constitution, they exercise constituent power as distinct from their ordinary legislative power under Articles 245 to 248. Article 368 is not entirely procedural. Undoubtedly part of it is procedural."
+        },
+        {
+          "page_number": 156,
+          "chunk_id": "chunk_00380",
+          "score": 0.767,
+          "matched_queries": [
+            "power to amend the Constitution",
+            "amending power",
+            "Parliament power to amend Constitution",
+            "power to amend Constitution"
+          ],
+          "text": "A Constitution can be amended only in accordance with the process laid down in the Constitution. No other method is Constitutionally possible than that indicated in the provision for amendment of the Constitution. Once the Constitution has vested the power to amend in the bodies mentioned therein that is the only body for amending the Constitution. The people who gave the Constitution have expressed how it is to be changed. 840. The distinction between constituent and legislative power is brought out by the feature in a rigid Constitution that the amendment is by a different procedure than that by"
+        },
+        {
+          "page_number": 120,
+          "chunk_id": "chunk_00282",
+          "score": 0.7649,
+          "matched_queries": [
+            "Article 368 amendment power",
+            "Article 368"
+          ],
+          "text": "word is not a crystal, transparent and unchanged; it is the skin of a living thought and may vary greatly in colour and content according to circumstances and the time in which it is used\". We must read the word \"amendment\" in Article 368 not in isolaion but as occurring in a single complex instrument, Article 368 is a part of the Constitution. The Constitution confers various powers on legislatures as well as on other authorities. It also imposes duties on those authorities. The power conferred under Article 368 is only one such power. Unless it is plain from the Constitutional scheme that the power conferred under Article 368 is a super power and is capable of destroying all other powers, as contended on behalf of the Union and the States, the various parts of the Constitution must be construed harmoniously for ascertaining the true purpose of Article 368. 679. In our Constitution unlike in the Constitution of the United States of America the words \"amendment\" and \"amend\" have been used to convey different meanings in different places. In some Articles they are used to confer a narrow power, a power merely to effect changes within prescribed limits-see Articles 4, 107(2), 111, 169(2), 196(2), 197(2) and 200. Under Paragraph 7 of the Fifth Schedule as well as Paragraph 21 of the Sixth Schedule to the Constitution, a much larger power to amend those Schedules has been conferred on Parliament. That power includes power to amend \"by way of addition, variation or repeal\". Similar is the position under the repealed Article 243(2), Article 252(2) and 350(5). It is true that the power to amend conferred under the Fifth and Sixth Schedules is merely a power to amend those Schedules but if the Constitution-makers were of the opinion that the word \"amendment\" or \"amend\" included within its scope, unless limited otherwise, a power to add, vary, or repeal, there was no purpose in mentioning in those Articles or parts \"amend by way of addition, variation or repeal\". In this connection it may also be remembered that the Constituent Assembly amended Section 291 of the Government of India Act, 1935 on August 21, 1949 just a few days before it approved Article 368 i.e. on September 17, 1949. The amended Section 291 empowered the Governor-General to amend certain provisions of the 1935 Act \"by way of addition, modification or repeal\". From these circumstances, there is prima facie reason to believe that our Constitution makers made a distinction between a mere power to amend and a power to amend by way of \"addition, modification or repeal\". It is one of the accepted rules of construction that the courts should presume that ordinarily the legislature"
+        },
+        {
+          "page_number": 114,
+          "chunk_id": "chunk_00266",
+          "score": 0.7581,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Parliament power to amend Constitution",
+            "power of Parliament to amend"
+          ],
+          "text": "be the power to amend the provision sought to be amended; and secondly, the \"form and the manner\" prescribed in Article 368 must be satisfied. If the power to amend the Article is wanting, the fact that Parliament has adhered to the form and manner prescribed in Article 368 becomes immaterial. Hence the primary question is whether Parliament has power to abridge or take away any of the Fundamental Rights prescribed in Part III of the Constitution ? 657. In order to find out whether Parliament has the power to take away or abridge any of the Fundamental Rights in exercise of its power under Article 368, we must first ascertain the true scope of that Article. As seen earlier in Sankari Prasad’s case, this Court ruled that the power to amend the Constitution is to be found in Article 368. The same view was taken by the majority of judges in Sajjan Singh’s case as well as in Golak Nath’s case. We respectively hold that view to be the correct view. As mentioned earlier, Part XX of the Constitution which purports to deal with amendment of the Constitution contains only one Article, i.e. Article 368. The title of that Part is \"Amendment of the"
+        },
+        {
+          "page_number": 494,
+          "chunk_id": "chunk_01309",
+          "score": 0.7542,
+          "matched_queries": [
+            "Article 368 amendment power"
+          ],
+          "text": "in Article 13 : \"(4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368.\" I have also taken the view that the old Article 368 not only prescribed the procedure for amendment of the Constitution but conferred the power of amendment. That position is made clear by Section 3 of the 24th Amendment which substitutes by Clause (a) a fully expressive marginal heading to Article 368. I have held that the power of amendment conferred by Article 368 was wide and untrammelled. Further, that Constitutional amendments are made in the exercise of constituent power and not in the exercise of ordinary law-making power. That position is reiterated by Clause (b) of Section 3. Clause (c) of Section 3 makes it obligatory for the President to give his assent to the bill for a Constitutional amendment. Rightly no arguments have been addressed on this innovation. Finally, Clause (d) of Section 3 of the 24th Amendment excludes the application of Article 13 to an amendment made under Article 368. As indicated in this judgment that was the correct interpretation of Articles 13 and 368."
+        },
+        {
+          "page_number": 263,
+          "chunk_id": "chunk_00683",
+          "score": 0.7511,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Article 368 amendment power",
+            "Article 368"
+          ],
+          "text": "it laid down for the Parliament in Part V, Chapter II and for the State Legislature in Part VI, Chapter III of the Constitution and, no other. To say that the power to make law lies in Article 245 and the procedure to make it in Article 368 is to ignore not only this compulsion, but also the fundamental Constitutional practice followed in our Constitution, as in most modern controlled Constitutions, prescribing special procedure for the amendment of the Constitution which is different from the procedure laid down for making ordinary laws. The conclusion, therefore, is that the power of amendment cannot be discovered in Article 248 read with the residuary entry. The argument that Article 368 does not speak of the power to amend but only of the procedure to amend in pursuance of the power found elsewhere is clearly untenable. The true position is that the alchemy of the special procedure prescribed in"
+        },
+        {
+          "page_number": 154,
+          "chunk_id": "chunk_00373",
+          "score": 0.7506,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "power to amend the Constitution",
+            "Parliament power to amend Constitution",
+            "constitutional amending power of Parliament",
+            "power of Parliament to amend",
+            "power to amend Constitution"
+          ],
+          "text": "it the power to amend or repeal them. But these powers of legislatures do not include any power to amend the Constitution, because it is the Constituent Assembly which enacted the Constitution and the status given by Article 368 to Parliament and the State legislatures, is the status of a Constituent Assembly. The distinction between the power to amend the Constitution and the ordinary power to enact laws is fundamental to all federal Constitution. When Parliament is engaged in the amending process it is not legislating. It is exercising a particular power which is sui generis bestowed upon it by the amending clause in the Constitution. Thus an amendment of the Constitution under Article 368 is constituent law and not law within the meaning of Article 13(2) and law as defined in Article 13(3)(a). 826. The procedure that Bill for amendment of the Constitution has to be introduced in either House of Parliament and passed by both Houses does not alter the status of Parliament to amend the Constitution as a Constituent Assembly and does not assimilate it to that of the Union legislature. At this stage it may be stated that in Shankari Prasad case it was said that law in general sense may include the Constitution and the procedure of amendment is assimilated to ordinary legislative procedure. Assimilation of procedure does not make both the procedure same. Nor are the two separate powers to be lost sight of. The Constituent Assembly which has summoned on 19 December, 1946 to frame a Constitution was also invested after independence with legislative power. It framed the Constitution as the Constituent Assembly. It enacted ordinary laws as legislature. Under Article V of the American Constitution the Congress functions not as a legislature but as a Constituent Assembly. In Australia when a Bill for amendment has to be passed by Commonwealth Parliament and then has to be submitted to the verdict of the electorate the process is not ordinary legislative process of the Commonwealth Parliament. In our Constitution when the amendment falls within the proviso to Article 368 it requires that the amendment must be ratified by at least one half of the State legislatures and the process is radically different from ordinary legislative procedure. The Union legislature acting under Chapter II of Part V has no connection with the State legislatures. Therefore, when amendment is affected under the proviso to Article 368 Parliament does not act as a Union legislature. The feature that in the passage of the bill for amendment of the Constitution the House of Parliament has to adopt the procedure for ordinary legislation has little bearing. If the intention of the framers of the Constitution was to leave to"
+        },
+        {
+          "page_number": 126,
+          "chunk_id": "chunk_00299",
+          "score": 0.7499,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "power of Parliament to amend"
+          ],
+          "text": "It was strenuously urged on behalf of the Union and the States that if we come to the conclusion that there are implied or inherent limitations on the amending power of Parliament under Article 368, it would be well nigh impossible for Parliament to decide before hand as to what amendments it could make and what amendments it is forbidden to make. According to the Counsel for the Union and the States, the conceptions of basic elements and fundamental features are illusive conceptions and their determination may differ from judge to judge and therefore we would be making the task of Parliament impossible if we uphold the contention that there are implied or inherent limitations on the amending power under Article 368. We are unable to accept this contention. The"
+        },
+        {
+          "page_number": 444,
+          "chunk_id": "chunk_01169",
+          "score": 0.7471,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "power to amend the Constitution",
+            "amending power",
+            "Parliament power to amend Constitution",
+            "constitutional amending power of Parliament",
+            "power of Parliament to amend",
+            "power to amend Constitution"
+          ],
+          "text": "the amending power is lodged therein. 1938. Power to amend the Constitution cannot reasonably be located in Entry 97 of List I of Schedule VII read with Article 248 of the Constitution. The idea of a provision for amending the Constitution was indisputably present in the minds of the Constitution- makers. If they had considered that the power to amend the Constitution was in its nature legislative, they would have surely included in express words this power in a specific entry in List I. Article 248 and Entry 97 of List I confer residuary power on Parliament."
+        }
+      ],
+      "recall_at_1": 0,
+      "recall_at_3": 0,
+      "recall_at_5": 0,
+      "recall_at_10": 0,
+      "expected_page_overlap": [],
+      "evidence_page_hit": false,
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "article 368",
+        "parliament",
+        "amend",
+        "constitution"
+      ],
+      "missing_concepts": [],
+      "answer_status": "success",
+      "answer": "Based on the provided court judgments, the court discussed Parliament’s power to amend the Constitution under Article 368 as follows:\n\n### 1. Nature of the Power (Constituent Power vs. Ordinary Legislative Power)\n* **Constituent Status:** When Parliament exercises its amending power under Article 368, it acts in the status of a Constituent Assembly, exercising a unique (*sui generis*) constituent power rather than ordinary legislative power [Page 154, Page 58].\n* **Not Ordinary Law:** An amendment made under Article 368 is \"constituent law\" and does not constitute a \"law\" within the meaning of Article 13(2) and Article 13(3)(a) [Page 154].\n* **Independent of Residuary Legislative Powers:** The power to amend the Constitution is not an ordinary legislative power and cannot be located in the residuary power under Article 248 or Entry 97 of List I of Schedule VII [Page 444, Page 58]. \n\n### 2. Scope and Limitations on Amending Power\n* **Cannot Self-Enlarge Power:** Parliament is a creature of the Constitution and cannot enlarge its own amending power beyond recognition or remove inherent or implied limitations [Page 58].\n* **Cannot Alter Identity of Article 368:** Although Parliament has the power to amend Article 368 itself, it cannot amend Article 368 to completely change its identity—for example, it cannot reduce the required two-thirds majority to a simple majority to render the Constitution uncontrolled [Page 58].\n* **Strict Adherence to Procedure:** The Constitution can only be amended strictly through the specific procedure laid down within the Constitution itself [Page 156].\n\n### 3. Amending Fundamental Rights\n* When Parliament exercises its power to amend Fundamental Rights, it acts as much as a guardian of the liberties of the people as the courts do [Page 401].",
+      "citation_count": 5,
+      "valid_citations": 2,
+      "citation_validity": 0.4,
+      "invalid_citations": [
+        58,
+        401
+      ]
+    },
+    {
+      "id": "rag_04",
+      "question": "What was the role of Article 13 in the case?",
+      "expected_pages": [
+        7,
+        71,
+        153,
+        375
+      ],
+      "expected_concepts": [
+        "article 13",
+        "law",
+        "fundamental rights"
+      ],
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What was the role of Article 13 in the case?",
+        "Article 13",
+        "Article 13(2)",
+        "law under Article 13",
+        "constitutional amendment and Article 13"
+      ],
+      "retrieved_pages": [
+        208,
+        450,
+        498,
+        202,
+        307,
+        278,
+        278,
+        217,
+        4,
+        317
+      ],
+      "retrieved_evidence": [
+        {
+          "page_number": 208,
+          "chunk_id": "chunk_00528",
+          "score": 0.7305,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13",
+            "Article 13(2)",
+            "law under Article 13",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "Article 13(2) applicable to it by mere implication, when in respect of minor instruments they were careful enough to include them in the definition of ’law’. 1126. While this is so, a consideration of the conspectus of various rights in Part III when read with Article 13(2) would, in my view, prohibit the taking away or abridging of those rights by a law made by the Legislature namely the Parliament, Legislature of a State, or by executive action. This conclusion of mine will be substantiated if Article 13(2) is read along with each of the Articles in Part III, in so far as any of them contain the word ’law’ which indeed it can be so read. The object of incorporating Article 13(2) was to avoid its repetition in each of the Articles conferring fundamental rights. Only one instance of this may be given in support of my conclusion. Clauses (2) to (6) of Article 19 which are"
+        },
+        {
+          "page_number": 450,
+          "chunk_id": "chunk_01187",
+          "score": 0.7095,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13",
+            "Article 13(2)",
+            "law under Article 13",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "’law’ in Article 13(2) does not show that it includes an amendment of the Constitution made under Article 368. The word ’law’ in Article 13(1) obviously does not include a Constitution. No Constitution existing at the time of the commencement of our Constitution and taking away or abridging the fundamental rights of the people conferred by Part III of the Constitution has been brought to our notice in spite of the assiduous research of Sri Palkhiwala. Article 13(3)(a) provides for an extensive definition of the word ’law’ by including things which are not ordinarily"
+        },
+        {
+          "page_number": 498,
+          "chunk_id": "chunk_01321",
+          "score": 0.7027,
+          "matched_queries": [
+            "Article 13",
+            "Article 13(2)",
+            "law under Article 13"
+          ],
+          "text": "of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 2226. A misconception regarding the ambit of this article may first be removed. The article protects only \"law\" and not an executive action. The term ’law’ is used in Article 13(3) in a wider sense, so as to include an Ordinance, order, bye-law, etc., but that definition is limited to the purposes of Article 13. Article 31C cannot therefore be said to"
+        },
+        {
+          "page_number": 202,
+          "chunk_id": "chunk_00510",
+          "score": 0.6901,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13",
+            "Article 13(2)",
+            "law under Article 13"
+          ],
+          "text": "laws and certain specified laws already passed from the combined operation of Article 13 read with other relevant Articles of Part III. The new Articles being thus essentially amendments of the Constitution have the power of enacting them. It was said that Parliament could not validate the law which it has no power to enact. The proposition holds good whether the validity of the impugned provision turns on whether the subject matter, falls within or without the jurisdiction of the legislature which passed it. But to make law, which"
+        },
+        {
+          "page_number": 307,
+          "chunk_id": "chunk_00805",
+          "score": 0.6889,
+          "matched_queries": [
+            "Article 13(2)",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "is no conflict between Articles 13(2) and 368. The two articles operate in different fields, the former in the field of law, the latter in that of Constitutional amendment. (v) If the First, Fourth, Sixteenth & Seventeenth Amendment Acts are void they do not legally exist from their inception. They cannot be valid from 1951 to 1957 and invalid thereafter. To say that they were valid in the past and will be invalid in the future is to amend the Constitution. Such a naked power of amendment is not given to the Judges and therefore the doctrine of prospective overruling cannot be adopted. We may now set out some of the conclusions of Ramswami J. as under: (i) In a written Constitution the amendment of the Constitution is a substantive constituent act which is made in the exercise of the sovereign power through a predesigned procedure unconnected with ordinary legislation. The amending power in Article 368 is hence sui generis and cannot be compared to the lawmaking power of Parliament pursuant to Article 246 read with Lists I and III. It follows that the expression ’law’ in Article 13(2) cannot be construed as including an amendment of the Constitution which is achieved by Parliament in exercise of its sovereign constituent power, but must mean law made by Parliament in its legislative capacity under Article 246 read with List I and List III of the 7th Schedule. (ii) The language of Article 368 is perfectly general and empowers Parliament to amend the Constitution without any exception whatsoever. The use of the word ’fundamental’ to describe the rights in Part III and the word ’gurantecd’ in Article 32 cannot lift the fundamental lights above the Constitution itself. (iii) There is no room for an implication in the construction of Article 368. If the Constitution makers wanted certain basic features to be unamendable they would have said so. (iv) It cannot be assumed that the Constitution makers intended to forge a political strait-jacket for generations to come. Today at a time when"
+        },
+        {
+          "page_number": 278,
+          "chunk_id": "chunk_00726",
+          "score": 0.6855,
+          "matched_queries": [
+            "Article 13",
+            "Article 13(2)",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "to avoid one provision of the law with reference to another provision of the same law. It becomes merely a matter of construction. It follows, therefore, that an amendment of the Constitution not being liable to be avoided with reference to a superior law is not a law about which you can predicate avoidability and, hence, stands outside the operation of Article 13(2). 1324. If the fundamental rights in Part III were unamendable, nothing would have been easier than to make a specific provision about it in Part XX which dealt specifically with the subject of the amendment of the Constitution. That was the proper place. Article V of the American Constitution clearly indicated the two subjects which were unamend able."
+        },
+        {
+          "page_number": 278,
+          "chunk_id": "chunk_00725",
+          "score": 0.6815,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13",
+            "Article 13(2)",
+            "law under Article 13",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "as standing for a Nation or a Conglomeration of all the governmental Agencies. The Nation is an amorphous conception. The bar under Article 13(2) is against concrete instrumentalities of the State, instrumentalities which are capable of making a law in accordance with the Constitution. 1321. By its very definition as discussed earlier, a body or set of bodies exercising, as indicated in the Constitution, sovereign constituent power whether in a ’flexible’ or a ’rigid’ Constitution is not a governmental organ owing supreme obligation to the Constitution. The body or bodies operate not under the Constitution but over the Constitution. They do not, therefore, while amending the Constitution, function as governmental organs and, therefore, cannot be regarded as the State for the purposes of Part III of the Constitution. 1322. We thus reach the conclusion that an amendment of the Constitution is not a law made by the State and hence Article 13(2) would not control an amendment of the Constitution. 1323. The same conclusion is arrived at by a slightly different approach. Article 13(2) speaks of a law which becomes void to the extent it takes away or abridges a fundamental right as conferred by certain articles or provisions in Part III of the Constitution. Thus i t embodies the doctrine of ultra vires well-known in English law. In other words, it is a law about which one can predicate voidability with reference to the provisions of the Constitution. This is possible only when it is a law made by the organs of the State. When an amendment is made, we have already shown, it becomes part of the Constitution, taking an equal status with the rest of the provisions of the Constitution. Voidability is predicated only with reference to a superior law and not an equal law. There is no superior law with reference to which its voidability can be determined. Indeed, if the amendment cannot entirely fit in with some other provisions of the Constitution the courts might have to reconcile the provisions, as was done in Sri Venktaramana v. The State of Mysore [1958] S.C.R. 895 in which the fundamental right under Article 26(b) was read subject to Article 25(2)(b) of the Constitution. The point, however, is that courts have no jurisdiction to avoid one provision of the law with reference to another provision of the same law. It becomes merely a matter of construction. It follows, therefore, that an amendment of the Constitution not being liable to be avoided with reference to a superior law is not a law about which you can predicate avoidability and, hence, stands outside the operation of Article 13(2). 1324. If the fundamental rights in Part III were unamendable, nothing would"
+        },
+        {
+          "page_number": 217,
+          "chunk_id": "chunk_00551",
+          "score": 0.6648,
+          "matched_queries": [
+            "constitutional amendment and Article 13"
+          ],
+          "text": "and other enactments, specified in Article 13(3)(a) is or is not an essential feature . If it is not, it can be amended under Article 368. Recognising this position the petitioner submits that if the effect of amending Article 368 and Article 13 is to permit the removal of the fetter of Article 13 on the ordinary legislative laws which can thereafter be empowered and left free to abrogate or take away fundamental rights, it would be an essential feature. 1142. The question whether there are any implied limitations on the power to amend under Article 368 or whether an amendment under that Article can damage or destroy the basic features of the Constitution would depend, as I said earlier, on the meaning of the word \"amendment\" before the Twenty-Fourth Amendment. If that word has a limited meaning, which is the case of the petitioner, it is contended that that power of amendment could not be enlarged by the use of the words \"amend by way of addition, variation and repeal\". 1143. It may be mentioned that arguments similar to those which were addressed before us were advanced in Golaknath’s case, namely, (i) that the expression ’amendment’ in Article 368 has a positive and negative content and that in exercise of that power Parliament cannot destroy the structure of the Constitution, but it can only modify the provisions thereof within the framework of the original instrument for its better effectuation; (ii) that if the fundamentals would be amendable to the ordinary process of amendment with a special majority the institution of the President can be abolished, the Parliamentary executive can be abrogated, the concept of federation can be obliterated and in short, the sovereign democratic republic can be converted into a totalitarian system of Government The leading majority judgment, though it found that there was considerable force in the argument, said that they were relieved of the necessity to express an opinion on this all important question, but so far as the fundamental rights are concerned, the question raised can be answered on a narrow basis. Subba Rao, C.J., observed at p. 805: \"This question may arise for consideration only if Parliament seeks to destroy the structure of the Constitution embodied in the provisions other than in Part III of the Constitution. We do not, therefore, propose to express our opinion in that regard\". 1144. Hidayatullah, J., on the other hand, dealing with implied limitations by reference to Article V of the United States Constitution, and the decisions rendered thereunder pointed out that although there is no clear pronouncement of the United States Supreme Court a great controversy exists as to whether questions of substance can ever come before the"
+        },
+        {
+          "page_number": 4,
+          "chunk_id": "chunk_00008",
+          "score": 0.6567,
+          "matched_queries": [
+            "constitutional amendment and Article 13"
+          ],
+          "text": "no complete definition of the word \"law\"’ in the article but it is significant that the definition does not seek to exclude Constitutional amendments which it would have been easy to indicate in the definition by adding \"but shall not include an amendment of the Constitution\". 30. He further observed: The meaning of Article 13 thus depends on the sense in which the word \"law\" in Article 13(2) is to be understood. If an amendment can be said to fall within the term \"law\", the Fundamental Rights become \"eternal and inviolate\" to borrow the language of the Japanese Constitution. Article 13 is then on par with Article 5 of the American Federal Constitution in its immutable prohibition as long as it stands. 31. According to him \"Our Preamble is more akin in nature to the American Declaration of Independence (July 4, 1776) then to the preamble to the Constittuion of the United States. It does not make any grant of power but it gives a direction and purpose to the Constitution which is reflected in Parts III and IV. Is it to be imagined that a two-thirds majority of the two Houses at any time is all that is necessary to alter it without even consulting the States ? It is not even included in the proviso to Article 368 and it is difficult to think that as it has not the protection of the proviso it must be within the ma in part of Article 368. 32. He further observed: I would require stronger reason than those given in Sankari Prasad’s case to make me accept the view that Fundamental Rights were not really fundamental but were intended to be within the powers of amendment in common with the other parts of the Constitution and without the concurrence of the States. 33. He held: What Article 368 does is to lay down the manner of amendment and the necessary conditions for the effectiveness of the amendment.... The Constitution gives so many assurances in Part III that it would be difficult to think that they were the play-things of a special majority. To hold this would mean prima facie that the most solemn parts of our Constitution stand on the same footing as any other provision and even on a less firm ground than one on which the articles mentioned in the proviso stand."
+        },
+        {
+          "page_number": 317,
+          "chunk_id": "chunk_00831",
+          "score": 0.6517,
+          "matched_queries": [
+            "Article 13(2)",
+            "constitutional amendment and Article 13"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 317 of 502 372(1). 1431. The language of Article 13(2) shows that it was not intended to cover amendments of the Constitution made in accordance with Article 368. It is difficult to accede to the contention that even though the framers of the Constitution put no express limitations in Article 368 on the power to make amendment, they curtailed that power by implication under Article 13(2). In order to find the true scope of Article 13(2) in the context of its possible impact on the power of amendment, we should read it not in isolation but along with Article 368. The rule of construction, to use the words of Lord Wright M.R. in James v. Commonwealth of Australia [1936] A.C. 578 is to read the actual words used \"not in vacuo but as occurring in a single complex instrument in which one part may throw light on another\". A combined reading of Article 13(2) and Article 368, in my view, clearly points to the conclusion that extinguishment or abridgement of fundamental rights contained in Part III of the Constitution is not beyond the amendatory power conferred by Article 368. The alleged conflict between Article 13(2) and Article 368 is apparent and not real because the two provisions operate in different fields and deal with different objects. 1432. The Constitution itself treats the subject of ordinary legislation as something distinct and different from that of amendment of the Constitution. Articles 245 to 248 read with Seventh Schedule deal with ordinary legislation, while amendment of Constitution is the subject matter of Article 368 in a separate Part. Article 368 is independent and self-contained. Article 368 does not contain the words \"subject to the provisions of this Constitution\" as are to be found at the beginning of Article 245. The absence of those words in Article 368 thus shows that an amendment of the Constitution made under that article has a status higher than that of legislative law and the two are of unequal dignity. If there is any limitation on power of amendment, it must be found in Article 368 itself which is the sole fountain-head of power to amend, and not in other provisions dealing with ordinary legislation. As stated on pages 24-26 in the Amending of Federal Constitution by Orfield, ’limitation on the scope of amendment should be found written in the amending clause and the other articles of the Constitution should not be viewed as limitations’. The very fact that the power of amendment is put in a separate Part (Part XX) and has not been put in the Part and Chapter (Part XI Chapter I) dealing with legislative powers shows that the"
+        }
+      ],
+      "recall_at_1": 0,
+      "recall_at_3": 0,
+      "recall_at_5": 0,
+      "recall_at_10": 0,
+      "expected_page_overlap": [],
+      "evidence_page_hit": false,
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "article 13",
+        "law",
+        "fundamental rights"
+      ],
+      "missing_concepts": [],
+      "answer_status": "api_or_generation_error",
+      "answer_error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 45.077935936s.', 'code': 'too_many_requests'}}"
+    },
+    {
+      "id": "rag_05",
+      "question": "Who were the parties in the case?",
+      "expected_pages": [
+        1
+      ],
+      "expected_concepts": [
+        "kesavananda bharati",
+        "state of kerala"
+      ],
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "Who were the parties in the case?"
+      ],
+      "retrieved_pages": [
+        473,
+        102,
+        478,
+        492,
+        144,
+        190,
+        212,
+        385,
+        259,
+        474
+      ],
+      "retrieved_evidence": [
+        {
+          "page_number": 473,
+          "chunk_id": "chunk_01250",
+          "score": 0.4703,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "Kariapper’s case (1967); (2) The decisions of the Federal Court in the C.P. & Berar Reference (1938), Subramaniam Chettiyar’s case (1940) and Suraj Narain Anand’s case (1941); (3) The decisions of the American Supreme Court in Lochner’s case (1904), Hawke v. Smith (1920), the Rhode Island Case (1920), Dillon v. Gloss (1920), Lesser v. Garnett (1922), Ex parte Grossman (1925), Sprague’s case (1931); Schneiderman’s case (1943) and Skrupa’s case (1963); (4) The decisions of the American State Supreme Courts in Livermore v. Waite (1894), Edwards v. Lesseur (1896), Ex parte Dillon (1920) and"
+        },
+        {
+          "page_number": 102,
+          "chunk_id": "chunk_00233",
+          "score": 0.4135,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "a Constitution because they deal with the question mostly of repugnancy of ordinary legislation to Constitutional provisions. The main decision however, was in Ryan’s [1935] Ir. Rep. 170 case in which Kennedy C.J. drew various implications from the Constitution but the majority of judges declined to do so and read the word \"amendment\" as wide enough to allow the repeal of a number of articles, however important in substance they might be. 611. It is equally unnecessary to deal with the argument on behalf of the respondents that the Privy Council in Moore v. Attorney General of Irish Free State [1935] A.C. 484 rejected the contention of the counsel based on the reasoning of Kennedy C.J. Moore’s case was decided principally on the effect of the passing of the statute of Westminster as is clear from the summing up of the position by their Lordships. Ibid p. 498 612. As regards the position in the United States of America a great deal of reliance has been placed on behalf of the respondents on United States of America v. William H. Sprague. 75 L. Ed. 640. According to that decision the choice between submission of a proposed amendment to the federal Constitution to State Legislatures and submission to State Conventions under Article 5 of the Constitution was in the sole discretion of Congress irrespective of whether the amendment was one dealing with the machinery of government or with matters affecting the liberty of the citizen. It was argued that amendments may be of different kinds, e.g., mere changes in the character of federal means of machinery on the one hand, and matters affecting the liberty of the citizen, on the other. It was said that the framers of the Constitution accepted the former sort to be ratified by the legislature whereas they intended that the latter must be referred to the people because not only of lack of power in the legislature to ratify but also because of doubt as to their truly representing the people. The Court observed that where the intention was clear there was no room for construction and no excuse for interpolation or addition and it had been repeatedly and consistently declared in earlier decisions that the choice of mode rested solely in the discretion of the Congress. It is sought to be concluded from this decision that the Supreme Court of the United States refused to read any implications of the nature argued in that case. 613. Mr. Palkhivala says that the decision in U.S. v. W.H. Sprague (Supra) has no relevance to the questions before us. All that it laid down was that the Congress had the sole discretion to decide whether a proposed amendment"
+        },
+        {
+          "page_number": 478,
+          "chunk_id": "chunk_01265",
+          "score": 0.4043,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "13(2) would take in laws made in the exercise of the latter power only. Hidayatullah J. and Mudholkar J. concurred in the final conclusion but by separate judgments they doubted the majority view and observed that it was possible that Article 368 merely laid down the procedure for amending the Constitution but did not confer the power to amend the Constitution. Both the learned Judges however stated expressely that they should not be taken to have expressed a final opinion on that question. The seeds of the controversial decision in I.C. Golak Nath and Ors. v. State of Punjab and Anr. [1967] 2 S.C.R. 762 were sown by the doubt thus expressed by Hidayatullah J. and Mudholkar J. 2100. The decision in the Golak Nath case was rendered by a Bench of 11 Judges of this"
+        },
+        {
+          "page_number": 492,
+          "chunk_id": "chunk_01302",
+          "score": 0.4025,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 492 of 502 left free and unimpaired. Our Court rejected this theory in State of West Bengal v. Union of India [1964] 1 S.C.R. 394, 407. Sinha C.J. observed that the argument presented before the Court was : \"a resucitation of the new exploded doctrine of the immunity of instrumentalities which originating from the observations of Marshall C.J. in Mc. Culloch v. Maryland has been decisively rejected by the Privy Council...and has been practically given up even in the United States.\" The doctrine originally arose out of supposed existence of an implied prohibition that the Federal and State Governments being sovereign and independent must each be free from the control of the other. Dr. Wynes observes in his book : \"Legislative, Executive and Judicial Powers in Australia (4th Edition)\" that the doctrine has undergone considerable change in the United States and its progressive retreat is traced by Dixon J. in the Essendon Corporation case [1947] 74 C.L.R. 1, p. 19. In that case, after tracing the history of the doctrine since its enunciati on by Chief Justice Marshall, Dixon J. says : \"I think that the abandonment by the Supreme Court of the United States of the old doctrine may be fairly said to be now complete. 2194. A large number of cases bearing on inherent or implied limitations were cited to us from U.S.A. Canada, Australia, South-Africa and Ceylon. Having considered those cases carefully, I find it difficult to say that the theory of implied or inherent limitations has received a wide recognition. In McCawley v. R. [1920] A.C. 691, 28 C.L.R. 106 the dissenting judgment of Isaacs and Rich JJ. in the Australian High Court was upheld by the Privy Council, except in regard to a matter which is here not relevant. The judgment of the two learned Judges which received high praise from the Privy Council (p. 112 of Commonwealth Law Reports), shows that implications in limitation of power ought not to be imported from general concepts but only from express or necessarily implied limitations. It also shows that in granting powers to colonial legislatures, the British Parliament, as far back as 1865, refused to place on such powers limitations of vague character. The decision of the Privy Council in Bribery Commissioner v. Ranasinghe 1965 A.C. 172 was discussed before us in great details by both the sides. The matter arose under the Constitution of Ceylon, of which the material provisions bear a near parallel to our Constitution, a fact which, with respect, was not noticed in the judgment of the leading\" majority in the Golak Nath case. It was not argued by the respondents in Ranasinghe’s case that any provision"
+        },
+        {
+          "page_number": 144,
+          "chunk_id": "chunk_00345",
+          "score": 0.3907,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "and decision, this was not done by any member of the Court and that on the contrary all accepted the common assumption of the parties and decided the case accordingly. Undesirable as it is that doubtful questions of validity should’ go by default, the fact is that, the court usually acts upon the presumption of validity until the law is specifically challenged. 775. Similar was the view expressed by Viscount Simonds speaking for the Judicial Committee in Attorney-General of Commonwealth of Australia v. The Queen and Ors. 95, C.L.R. 529 at 547 It is therefore asked and no one can doubt that it is a formidable question, why for a quarter of a century no litigant has attacked the validity of this obviously illegitimate unions. Why in Alexannder’s case (1918) 25, C.L.R. 434) itself was no challenge made ? How came it that in a series of cases, which are enumerated in the majority and the dissentient, judgments it was assumed without question that the provisions now impugned were valid ? It is clear from the majority judgment that the learned Chief Justice and the Judges who shared his opinion were heavily pressed by this consideration. It could not be otherwise. Yet they were impelled to their conclusion by the clear conviction that consistently with the Constitution the validity of the impugned provision could not be sustained. Whether the result would have been different if their validity had previously been judicially determined after full argument directed to the precise question and had not rested on judicial dicta and common assumption it is not for their Lordships to say. Upon a question of the applicability of the doctrine of stare decisis to matters of far reaching Constitutional importance they would imperatively require the assistance of the High Court itself. But here no such question arises. Whatever the reason may be, just as there was a patent invalidity in the original Act which for a number of years went unchallenged, so far a greater number of years an invalidity which to their Lordships as to the majority of the High Court has been convincingly demonstrated, has been disregarded. Such clear conviction must find expression, in the appropriate judgment. 776. The contention that Article 31C may be considered as an amendment of Article 368 is not tenable. It does not purport to be so. That Article does not find a place in Part XX of the Constitution. It is not shown as a proviso to Article 368, the only Article which deals with the amendment of the Constitution as such. Article 31C does not say that the powers conferred under that Article are available \"notwithstanding anything contained in Article 368\" or \"notwithstanding anything"
+        },
+        {
+          "page_number": 190,
+          "chunk_id": "chunk_00476",
+          "score": 0.3878,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "Mr. Palkhivala relied, namely, the observations of Barton and Issacs, JJ. p. 468 and p. 474 were both prefaced by the word \"probably\" which amply shows that the observations are obiter. The question whether the representative character of the legislature could be changed or whether the Crown could be eliminated did not call for decision. The other learned Judges Gavan Duffy and Rich, JJ. said \"It may perhaps be that the legislature must always remain a representative legislature as defined by the statute, but it is unnecessary in the present case to determine whether that is so or not\". 1034. Issacs, J. held in that case that the word \"legislature\" did not include the Crown"
+        },
+        {
+          "page_number": 212,
+          "chunk_id": "chunk_00538",
+          "score": 0.3849,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "proceedings of the Constiuent Assembly, I must first consider the question whether the Constituent Assembly Debates can be looked into by the Court for construing those provisions. The Advocate-General of Maharashtra says until the decision of this Court in H.H. Maharajadhiraja Madhav Rao Jiwaji Rao Scindia Bahadur and Ors. v. Union of India (1971) 3 S.C.R. 9-commonly known as Privy Purses case- debates and proceedings were held not to be admissible. Nonetheless counsel on either side made copious reference to them. In dealing with the interpretation of ordinary legislation, the widely held view is that while it is not permissible to refer to the debate s as an aid to construction, the various stages through which the draft passed, the amendments proposed to it either to add or or delete any part of it, the purpose for which the attempt was made and the reason for its rejection may throw light on the intention of"
+        },
+        {
+          "page_number": 385,
+          "chunk_id": "chunk_01009",
+          "score": 0.3827,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "the opinion that in principle the Court should be free to inform itself concerning the social context of the problems involved from all reliable sources and that it is difficult to see in principle why British courts should exclude rigidly all recourse to the debates attending the legislative process. He asked the question on what basis is it explicable that lawyers can regard with equanimity cases in which judges may pronounce ex-cathedra that so and so clearly could not have been in the legislators’ minds when the parliamentary debates ready at hand might show that that was precisely what was in their minds See Julius Stone, \"Legal System and Lawyer’s Reasoning\", p. 351; See also H.C.L. Merillat, \"The Sound Proof Room : A Matter of Interpretation\" (1967) 9, Journal of the Indian Law Institute, p. 521. 1658. Logically, there is no reason why we should exclude altogether the speeches made in the Constituent Assembly by individual members if they throw any light which will resolve latent ambiguity in a provision of the Constitution. Chief Justice Marshall struck at the core of the matter when he said : United States v. Fisher, 2 Cranch 358, 386 U.S. 1805 Where the mind labours to discover the design of the legislature, it seizes everything from which aid can be derived. If the purpose of construction is the ascertainment of meaning, nothing that is logically relevant should, as a matter of theory, be excluded. The rigidity of English Courts in interpreting language merely by reading it, disregards the fact that enactments are, as it were, organisms which exist in their environment. It is, of course, difficult to say that judges who profess to exclude from their consideration all extrinsic sources are confined psychologically as they purport to be legally. A judge who deems himself limited to reading the provisions of the Constitution without an awareness of the history of their adoption in it would be taking a mechanical view of the task of construction See Frankfurter \"On reading the statute\" in \"Of Law and Men\", p. 64. 1659. If the debates in the Constituent Assembly can be looked into to understand the legislative history of a provision of the Constitution including its derivation, that is, th e various steps leading up to and attending its enactment, to ascertain the intention of the makers of the Constitution, it is difficult to see why the debates are inadmissible to throw light on the purpose and general intent of the provision. After all, legislative history onl y tends to reveal the legislative purpose in enacting the provision and thereby sheds light upon legislative intent. It would be drawing an invisible distinction if resort to debates i s"
+        },
+        {
+          "page_number": 259,
+          "chunk_id": "chunk_00670",
+          "score": 0.379,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "that view but considered that it was not necessary to dissent from the decision as the point was not squarely before the court In the third case namely Golak Nath v. State of Punjab [1967] (2) S.C.R. 762 the, view taken in the earlier cases by eight Judges was overruled by a majority of six Judges to five. The majority held that Parliament had no power to amend the Constitution under Article 368 so as to abridge or take away the fundamental rights, one of them (Hidayatullah, J), who delivered a separate judgment, expressing the view that this could not be done even by amending Article 368 with the object of clothing the Parliament with the necessary powers. In this state of affairs the Union Government was obliged to take a definite stand. It would appear that the Union Government and the Parliament agreed with the view taken in Sankari Prasad’s case by the majority in Sajjan Singh’s case and the substantial minority of Judges in Golak Nath’s case. They were out of sympathy with the view adopted by the majority in Golak Nath’s case. Hence the 24th Amendment. That amendment principally sought to clarify what was held to be implicit in Articles 13 and 368 by a majority of Judges of this Court over the years, namely, (1) that nothing in Article 13 applied to an amendment to the Constitution made under Article 368; (2) that Article 368 did not merely lay down the procedure for a Constitutional amendment but also contained the power to amend the Constitution; (3) that the Parliament’s power under Article 368 was a constituent power as distinct from legislative power; (4) that this power to amend included the power to amend by way of addition, variation or repeal of any provision of the Constitution. 1268. After passing the 24th Amendment the other two amendments were passed in accordance with the Constitution as amended by the 24th Amendment. 1269. In his argument before us Mr. Palkhivala, appearing on behalf of the petitioner, supported the majority decision in Golak Nath with supplemental arguments. In any event, he further contended, the power of Parliament to amend the Constitution under Article 368 did not extend to the damaging or destroying what he called the essential features and basic principles of the Constitution and since fundamental rights came in that category, any amendment which damaged or destroyed the core of these rights was impermissible. The argument on behalf of the State of Kerala and the Union of India was that an amendment of the Constitution abridging or taking away fundamental rights was not only permissible after the clarificatory 24th Amendment but also under the unamended Articles 13 and 368,"
+        },
+        {
+          "page_number": 474,
+          "chunk_id": "chunk_01253",
+          "score": 0.3776,
+          "matched_queries": [
+            "Who were the parties in the case?"
+          ],
+          "text": "or in regard to criminal matters. In Canada, as many as six different views have been propounded on civil liberties and it would appear that though different judges have voiced their opinion in favour of one or the other of such views, none has pronounced finally in favour of any particular view. 2084. A special word must be said of Ryan’s case which was decided by the Irish Supreme Court. It was read out in extenso to us and I am free to confess that it evoked in me a quick response. In that case, the three Judges of the Irish High Court and two of the 3 Judges of their Supreme Court rejected contentions similar to those of the petitioner herein but Chief Justice Kennedy, though he did not deal directly with the meaning of the"
+        }
+      ],
+      "recall_at_1": 0,
+      "recall_at_3": 0,
+      "recall_at_5": 0,
+      "recall_at_10": 0,
+      "expected_page_overlap": [],
+      "evidence_page_hit": false,
+      "concept_coverage": 0.5,
+      "matched_concepts": [
+        "state of kerala"
+      ],
+      "missing_concepts": [
+        "kesavananda bharati"
+      ],
+      "answer_status": "api_or_generation_error",
+      "answer_error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\\nPlease retry in 33.120299867s.', 'code': 'too_many_requests'}}"
+    }
+  ]
+}

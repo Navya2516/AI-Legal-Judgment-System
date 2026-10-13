@@ -1,0 +1,54 @@
+{
+  "document_id": "d17b3b95da0c4930a8cece3d1c5c7fe5",
+  "provision": "Article 19",
+  "explanation": {
+    "provision": "Article 19",
+    "what_the_provision_is_discussed_as": "Article 19 is directly discussed in the supplied judgment evidence. [Page 403]",
+    "why_it_appears_in_the_judgment": "The supplied evidence shows that Article 19 forms part of the legal discussion in the judgment. [Page 403]",
+    "court_discussion": "The supplied judgment evidence directly discusses Article 19: \"e by the citizens wherein their Lordships, inter alia, ruled that firstly, “right to privacy” has multiple facets and though such right can be classified as a part of fundamental right emanating from Article 19(1)(a) and (d) and Article 21, yet it is not absolute and secondly, it is always subject to certain reasonable restrictions on the basis of compelling social, moral and public interest and lastly, a\" [Page 403]",
+    "evidence": [
+      {
+        "page": 403,
+        "text": "e by the citizens wherein their Lordships, inter alia, ruled that firstly, “right to privacy” has multiple facets and though such right can be classified as a part of fundamental right emanating from Article 19(1)(a) and (d) and Article 21, yet it is not absolute and secondly, it is always subject to certain reasonable restrictions on the basis of compelling social, moral and public interest and lastly, a",
+        "type": "court_discussion"
+      },
+      {
+        "page": 403,
+        "text": "emanating from the two expressions of the Preamble namely, “liberty of thought, expression, belief, faith and worship” and “Fraternity assuring the dignity of the individual” and also emanating from Article 19 (1)(a) which gives to every citizen “a freedom of speech and expression” and further emanating from Article 19(1)(d) which gives to every citizen “a right to move freely throughout the territory of",
+        "type": "court_discussion"
+      },
+      {
+        "page": 403,
+        "text": "orship” and “Fraternity assuring the dignity of the individual” and also emanating from Article 19 (1)(a) which gives to every citizen “a freedom of speech and expression” and further emanating from Article 19(1)(d) which gives to every citizen “a right to move freely throughout the territory of India” and lastly, emanating from the expression “personal liberty” under Article 21. Indeed, the right to pri",
+        "type": "court_discussion"
+      },
+      {
+        "page": 391,
+        "text": "right of privacy is as inalienable as the right to perform any constitutionally permissible act. Privacy in all its aspects constitutes the springboard for the exercise of the freedoms guaranteed by Article 19(1). Freedom of speech and expression is always dependent on the capacity to think, read and write in private and is often exercised in a state of privacy, to the exclusion of those not intended to be",
+        "type": "court_discussion"
+      },
+      {
+        "page": 376,
+        "text": "hat a standard of review for limiting the right of privacy needs to be chosen. 44. At the very outset, if a privacy claim specifically flows only from one of the expressly enumerated provisions under Article 19, then the standard of review would be as expressly provided under Article 19. However, the possibility of a privacy claim being entirely traceable to rights other than Art. 21 is bleak. Without disc",
+        "type": "court_discussion"
+      },
+      {
+        "page": 376,
+        "text": ". 44. At the very outset, if a privacy claim specifically flows only from one of the expressly enumerated provisions under Article 19, then the standard of review would be as expressly provided under Article 19. However, the possibility of a privacy claim being entirely traceable to rights other than Art. 21 is bleak. Without discounting that possibility, it needs to be noted that Art. 21 is the bedrock of",
+        "type": "court_discussion"
+      },
+      {
+        "page": 375,
+        "text": "ation is not at issue here. 43. To begin with, the options canvassed for limiting the right to privacy include an Article 14 type reasonableness enquiry62; limitation as per the express provisions of Article 19; a just, fair and reasonable basis (that is, substantive due process) for limitation per Article 21; and finally, a just, fair and reasonable standard per Article 21 plus the amorphous standard of ‘c",
+        "type": "court_discussion"
+      },
+      {
+        "page": 374,
+        "text": "A B C D E F G H 942 SUPREME COURT REPORTS [2017] 10 S.C.R. recognised the freedom to travel throughout the country under Article 19(1)(d). This Court has already recognised that such a right takes within its sweep the right to travel abroad.59 A person’s freedom to choose the place of his residence once again is a part of his ri",
+        "type": "court_discussion"
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The explanation is limited to the provision-specific evidence retrieved from the judgment."
+  }
+}

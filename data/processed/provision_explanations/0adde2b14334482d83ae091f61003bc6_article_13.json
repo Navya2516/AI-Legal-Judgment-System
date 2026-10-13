@@ -1,0 +1,26 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "provision": "Article 13",
+  "explanation": {
+    "provision": "Article 13",
+    "what_the_provision_is_discussed_as": "Article 13 (and specifically Article 13(2)) is discussed as a provision that prohibits laws taking away or abridging fundamental rights, raising the question of whether 'law' refers only to rules/regulations made under ordinary legislative power or also includes Constitutional amendments made under constituent power [Page 3, Page 4].",
+    "why_it_appears_in_the_judgment": "It appears in the judgment because the court is assessing the extent of Parliament's amending power under Article 368 and determining whether Constitutional Amendment Acts that abridge Part III fundamental rights fall within the prohibition of Article 13(2) [Page 2, Page 3, Page 4].",
+    "court_discussion": "The judgment references discussions and prior observations regarding whether Article 13(2) controls amendments made under Article 368 [Page 3, Page 4]. It notes the distinction made between ordinary law (ordinary legislative power) and Constitutional law (constituent power) in relation to Article 13 [Page 3]. It discusses observations that Article 13(1) and (2) were included out of 'abundant caution' [Page 4], that if Constitution-makers intended amendments to be subject to Article 13(2) they would have clearly provided so [Page 4], and that if an amendment falls within 'law' under Article 13(2), Fundamental Rights would become 'eternal and inviolate' [Page 4].",
+    "evidence": [
+      {
+        "page": 2,
+        "support": "Identifies the core issue as the extent of amending power conferred by Article 368 apart from Article 13(2) on Parliament."
+      },
+      {
+        "page": 3,
+        "support": "Examines whether an Amendment Act abridging Part III rights falls within the prohibition of Article 13(2) and notes that 'law' in the context of Article 13 must be taken to mean ordinary legislative rules rather than constituent power amendments."
+      },
+      {
+        "page": 4,
+        "support": "Discusses the applicability of Article 13(2) to Article 368 amendments, referencing Kania C.J.'s observation on 'abundant caution' and noting that if an amendment falls within 'law' under Article 13(2), Fundamental Rights become eternal and inviolate."
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The supplied evidence consists only of selected excerpts from pages 2, 3, and 4 and is insufficient to provide the full legal context, final court ruling, or overall outcome of the judgment regarding Article 13."
+  }
+}

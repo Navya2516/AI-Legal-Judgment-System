@@ -1,0 +1,54 @@
+{
+  "document_id": "7d0fdaf4bb1a48f5bcf6306c914d8066",
+  "provision": "Article 368",
+  "explanation": {
+    "provision": "Article 368",
+    "what_the_provision_is_discussed_as": "Article 368 is directly discussed in the supplied judgment evidence. [Page 501]",
+    "why_it_appears_in_the_judgment": "The supplied evidence shows that Article 368 forms part of the legal discussion in the judgment. [Page 501]",
+    "court_discussion": "The supplied judgment evidence directly discusses Article 368: \"ments, then woe betide those in whom the country has placed such massive faith. 2241. My conclusions are briefly these: 2242. The decision of the leading majority in the Golak Nath case that the then Article 368 of the Constitution merely prescribed the procedure for amendment of the Constitution and that the power of amendment had to be traced to Entry 97 of List I, Schedule VII read with Articles 245, 246\" [Page 501]",
+    "evidence": [
+      {
+        "page": 501,
+        "text": "ments, then woe betide those in whom the country has placed such massive faith. 2241. My conclusions are briefly these: 2242. The decision of the leading majority in the Golak Nath case that the then Article 368 of the Constitution merely prescribed the procedure for amendment of the Constitution and that the power of amendment had to be traced to Entry 97 of List I, Schedule VII read with Articles 245, 246",
+        "type": "court_discussion"
+      },
+      {
+        "page": 501,
+        "text": "h J. that there is no distinction between an ordinary law and a law amending the Constitution is incorrect. Article 13(2) took in only ordinary laws, not amendments to the Constitution effected under Article 368. 2244. The decision of the leading majority and of Hidayatullah J. that Parliament had no power to amend the Constitution so as to abrogate or take away Fundamental Rights is incorrect. 2245. The pow",
+        "type": "court_discussion"
+      },
+      {
+        "page": 501,
+        "text": "tullah J. that Parliament had no power to amend the Constitution so as to abrogate or take away Fundamental Rights is incorrect. 2245. The power of amendment of the Constitution conferred by the then Article 368 was wide and unfettered. It reached every part and provision of the Constitution. 2246. Preamble is a part of the Constitution and is not outside the reach of the amending power under Article 368. 22",
+        "type": "court_discussion"
+      },
+      {
+        "page": 501,
+        "text": "hen Article 368 was wide and unfettered. It reached every part and provision of the Constitution. 2246. Preamble is a part of the Constitution and is not outside the reach of the amending power under Article 368. 2247. There are no inherent limitations on the amending power in the sense that the Amending Body lacks the power to make amendments so as to damage or destroy the essential features or the fundamen",
+        "type": "court_discussion"
+      },
+      {
+        "page": 500,
+        "text": "d [1952] S.C.R. 113. In the Golak Golak Nath case, Subba Rao C.J. clarified that he had not referred to the speeches made in the Constituent Assembly for the purpose of interpreting the provisions of Article 368. Bachawat J. also took the same view. 2237. It was urged by the learned Advocate-General of Maharashtra that there is a noticeable change in the attitude of this Court to parliamentary debates since",
+        "type": "party_argument"
+      },
+      {
+        "page": 499,
+        "text": "pressed upon us, that Article 31C delegates the amending power to State Legislatures and empowers them to make amendments to the Constitution without complying with the form and manner prescribed by Article 368. I am also unable to appreciate that the article empowers the Parliament likewise. The true nature and character of Article 31C is that it identifies a class of legislation and exempts it from the op",
+        "type": "court_discussion"
+      },
+      {
+        "page": 499,
+        "text": "ers to laws in relation to their object does not, in my opinion, make any difference in principle. 2231. The argument that Article 31C permits a blatant violation of the form and manner prescribed by Article 368 overlooks that the article took birth after a full and complete compliance with the form and manner spoken of in Article 368. Besides, implicit in the right to amend Article 368 is the power, by comp",
+        "type": "court_discussion"
+      },
+      {
+        "page": 499,
+        "text": "ticle 31C permits a blatant violation of the form and manner prescribed by Article 368 overlooks that the article took birth after a full and complete compliance with the form and manner spoken of in Article 368. Besides, implicit in the right to amend Article 368 is the power, by complying with the form and manner of Article 368, to authorise any other body to make the desired amendments to Constitutional p",
+        "type": "court_discussion"
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The explanation is limited to the provision-specific evidence retrieved from the judgment."
+  }
+}

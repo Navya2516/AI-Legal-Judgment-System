@@ -1,0 +1,104 @@
+{
+  "project": {
+    "name": "AI-Powered Multilingual Legal Judgment Explanation System",
+    "document_id": "0adde2b14334482d83ae091f61003bc6",
+    "evaluation_document": "Kesavananda Bharati Sripadagalvaru v. State of Kerala (1973)",
+    "evaluation_scope": "Baseline component-level evaluation"
+  },
+  "legal_provision_extraction": {
+    "evaluation_method": "Key-provision target coverage",
+    "methodology_note": "The expected provisions represent key provisions for the evaluation judgment rather than an exhaustive annotation of every provision mentioned in the full judgment. Additional extracted provisions are therefore reported separately and are not treated as false positives in the primary evaluation.",
+    "articles": {
+      "target_count": 6,
+      "target_found": 6,
+      "target_missing": 0,
+      "target_recall": 1.0,
+      "predicted_count": 175,
+      "additional_extracted_count": 169,
+      "matched": [
+        "article 13",
+        "article 19",
+        "article 31",
+        "article 31a",
+        "article 32",
+        "article 368"
+      ],
+      "missing_targets": []
+    },
+    "constitutional_amendments": {
+      "target_count": 3,
+      "target_found": 3,
+      "target_missing": 0,
+      "target_recall": 1.0,
+      "predicted_count": 15,
+      "additional_extracted_count": 12,
+      "matched": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment"
+      ],
+      "missing_targets": []
+    },
+    "overall": {
+      "target_count": 9,
+      "target_found": 9,
+      "target_missing": 0,
+      "target_recall": 1.0,
+      "predicted_count": 190,
+      "additional_extracted_count": 181,
+      "strict_set_diagnostic": {
+        "true_positive": 9,
+        "false_positive": 181,
+        "false_negative": 0,
+        "precision": 0.04736842105263158,
+        "recall": 1.0,
+        "f1_score": 0.09045226130653267
+      }
+    }
+  },
+  "summarization": {
+    "rouge1_f1": 0.5098,
+    "rouge2_f1": 0.2434,
+    "rougeL_f1": 0.2941
+  },
+  "summary_faithfulness": {
+    "total_claims": 3,
+    "claims_with_citations": 3,
+    "grounded_claims": 3,
+    "unsupported_claims": 0,
+    "citation_coverage": 1.0,
+    "grounding_rate": 1.0,
+    "evaluation_method": "Page-citation based lexical grounding baseline"
+  },
+  "multilingual_semantic_faithfulness": {
+    "language": "Tamil",
+    "english_claim_count": 3,
+    "tamil_claim_count": 3,
+    "compared_claim_count": 3,
+    "faithful_claims": 1,
+    "semantic_faithfulness_rate": 0.3333,
+    "mean_cross_language_similarity": 0.426,
+    "citation_validity": 1.0,
+    "citation_coverage": 1.0,
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "faithfulness_threshold": 0.6,
+    "evaluation_method": "Cross-language semantic similarity with one-to-one claim matching"
+  },
+  "multilingual_claim_preservation": {
+    "language": "Tamil",
+    "english_claims": 3,
+    "tamil_claims": 3,
+    "compared_claims": 3,
+    "meaning_preserved": 0,
+    "meaning_preservation_rate": 1.0,
+    "minor_issues": 0,
+    "major_issues": 0,
+    "citation_coverage": 1.0,
+    "subject_preserved": 1.0,
+    "legal_provision_preserved": 1.0,
+    "action_or_power_preserved": 1.0,
+    "limitation_or_condition_preserved": 1.0,
+    "conclusion_preserved": 1.0,
+    "evaluation_type": "llm_assisted_legal_claim_preservation"
+  }
+}

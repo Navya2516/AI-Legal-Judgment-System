@@ -1,0 +1,21 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "evaluation_type": "Reference-based summarization",
+  "metrics": {
+    "rouge1": {
+      "precision": 0.6903,
+      "recall": 0.4041,
+      "f1": 0.5098
+    },
+    "rouge2": {
+      "precision": 0.3304,
+      "recall": 0.1927,
+      "f1": 0.2434
+    },
+    "rougeL": {
+      "precision": 0.3982,
+      "recall": 0.2332,
+      "f1": 0.2941
+    }
+  }
+}

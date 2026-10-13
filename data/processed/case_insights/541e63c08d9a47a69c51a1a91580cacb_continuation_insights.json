@@ -1,0 +1,242 @@
+{
+  "document_id": "541e63c08d9a47a69c51a1a91580cacb",
+  "document": {
+    "filename": null,
+    "total_pages": 502
+  },
+  "ranked_provisions": [
+    {
+      "provision": "Article 368",
+      "category": "Article",
+      "relevance_score": 84.88,
+      "confidence": "high",
+      "page_count": 313,
+      "evidence_count": 1281,
+      "confidence_counts": {
+        "high": 119,
+        "medium": 1119,
+        "low": 43
+      }
+    },
+    {
+      "provision": "Article 13",
+      "category": "Article",
+      "relevance_score": 79.97,
+      "confidence": "high",
+      "page_count": 149,
+      "evidence_count": 525,
+      "confidence_counts": {
+        "high": 40,
+        "medium": 471,
+        "low": 14
+      }
+    },
+    {
+      "provision": "Article 31C",
+      "category": "Article",
+      "relevance_score": 75.63,
+      "confidence": "high",
+      "page_count": 83,
+      "evidence_count": 351,
+      "confidence_counts": {
+        "high": 57,
+        "medium": 287,
+        "low": 7
+      }
+    },
+    {
+      "provision": "Article 31",
+      "category": "Article",
+      "relevance_score": 75.51,
+      "confidence": "high",
+      "page_count": 99,
+      "evidence_count": 370,
+      "confidence_counts": {
+        "high": 45,
+        "medium": 305,
+        "low": 20
+      }
+    },
+    {
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 73.09,
+      "confidence": "high",
+      "page_count": 85,
+      "evidence_count": 226,
+      "confidence_counts": {
+        "high": 16,
+        "medium": 198,
+        "low": 12
+      }
+    }
+  ],
+  "insights": {
+    "status": "llm_unavailable",
+    "message": "Gemini continuation analysis is unavailable because of a quota limit. The sections below contain extraction-based research leads only.",
+    "document_id": "541e63c08d9a47a69c51a1a91580cacb",
+    "potential_legal_provisions": [
+      {
+        "provision": "Article 368",
+        "confidence": "high",
+        "why_relevant": "This provision was identified by the judgment's legal-provision extraction and ranking pipeline. Its relevance to any future proceedings requires review.",
+        "judgment_discussion": "The extraction pipeline reports 1281 evidence item(s) across 313 page(s). The actual passages must be reviewed before drawing conclusions.",
+        "potential_continuation_issue": "Research question: examine the judgment's discussion of this provision and determine whether it is relevant to any issue that remains in dispute. This is not a finding that an issue remains pending.",
+        "evidence": [],
+        "limitation": "The fallback does not have verified evidence snippets or page-level citations available from the ranked result."
+      },
+      {
+        "provision": "Article 13",
+        "confidence": "high",
+        "why_relevant": "This provision was identified by the judgment's legal-provision extraction and ranking pipeline. Its relevance to any future proceedings requires review.",
+        "judgment_discussion": "The extraction pipeline reports 525 evidence item(s) across 149 page(s). The actual passages must be reviewed before drawing conclusions.",
+        "potential_continuation_issue": "Research question: examine the judgment's discussion of this provision and determine whether it is relevant to any issue that remains in dispute. This is not a finding that an issue remains pending.",
+        "evidence": [],
+        "limitation": "The fallback does not have verified evidence snippets or page-level citations available from the ranked result."
+      },
+      {
+        "provision": "Article 31C",
+        "confidence": "high",
+        "why_relevant": "This provision was identified by the judgment's legal-provision extraction and ranking pipeline. Its relevance to any future proceedings requires review.",
+        "judgment_discussion": "The extraction pipeline reports 351 evidence item(s) across 83 page(s). The actual passages must be reviewed before drawing conclusions.",
+        "potential_continuation_issue": "Research question: examine the judgment's discussion of this provision and determine whether it is relevant to any issue that remains in dispute. This is not a finding that an issue remains pending.",
+        "evidence": [],
+        "limitation": "The fallback does not have verified evidence snippets or page-level citations available from the ranked result."
+      },
+      {
+        "provision": "Article 31",
+        "confidence": "high",
+        "why_relevant": "This provision was identified by the judgment's legal-provision extraction and ranking pipeline. Its relevance to any future proceedings requires review.",
+        "judgment_discussion": "The extraction pipeline reports 370 evidence item(s) across 99 page(s). The actual passages must be reviewed before drawing conclusions.",
+        "potential_continuation_issue": "Research question: examine the judgment's discussion of this provision and determine whether it is relevant to any issue that remains in dispute. This is not a finding that an issue remains pending.",
+        "evidence": [],
+        "limitation": "The fallback does not have verified evidence snippets or page-level citations available from the ranked result."
+      },
+      {
+        "provision": "Article 19",
+        "confidence": "high",
+        "why_relevant": "This provision was identified by the judgment's legal-provision extraction and ranking pipeline. Its relevance to any future proceedings requires review.",
+        "judgment_discussion": "The extraction pipeline reports 226 evidence item(s) across 85 page(s). The actual passages must be reviewed before drawing conclusions.",
+        "potential_continuation_issue": "Research question: examine the judgment's discussion of this provision and determine whether it is relevant to any issue that remains in dispute. This is not a finding that an issue remains pending.",
+        "evidence": [],
+        "limitation": "The fallback does not have verified evidence snippets or page-level citations available from the ranked result."
+      }
+    ],
+    "issues_for_continuation": [
+      {
+        "issue": "Review the judgment's treatment of Article 368",
+        "description": "Research task: locate and read the relevant passages, verify the applicable legal context, and establish whether any related question actually remains unresolved. The fallback cannot determine the status of a future hearing.",
+        "evidence": [],
+        "confidence": "requires_manual_review",
+        "limitation": "This is a suggested research task based on an extracted provision, not an identified pending issue or a recommendation for a legal defence."
+      },
+      {
+        "issue": "Review the judgment's treatment of Article 13",
+        "description": "Research task: locate and read the relevant passages, verify the applicable legal context, and establish whether any related question actually remains unresolved. The fallback cannot determine the status of a future hearing.",
+        "evidence": [],
+        "confidence": "requires_manual_review",
+        "limitation": "This is a suggested research task based on an extracted provision, not an identified pending issue or a recommendation for a legal defence."
+      },
+      {
+        "issue": "Review the judgment's treatment of Article 31C",
+        "description": "Research task: locate and read the relevant passages, verify the applicable legal context, and establish whether any related question actually remains unresolved. The fallback cannot determine the status of a future hearing.",
+        "evidence": [],
+        "confidence": "requires_manual_review",
+        "limitation": "This is a suggested research task based on an extracted provision, not an identified pending issue or a recommendation for a legal defence."
+      },
+      {
+        "issue": "Review the judgment's treatment of Article 31",
+        "description": "Research task: locate and read the relevant passages, verify the applicable legal context, and establish whether any related question actually remains unresolved. The fallback cannot determine the status of a future hearing.",
+        "evidence": [],
+        "confidence": "requires_manual_review",
+        "limitation": "This is a suggested research task based on an extracted provision, not an identified pending issue or a recommendation for a legal defence."
+      },
+      {
+        "issue": "Review the judgment's treatment of Article 19",
+        "description": "Research task: locate and read the relevant passages, verify the applicable legal context, and establish whether any related question actually remains unresolved. The fallback cannot determine the status of a future hearing.",
+        "evidence": [],
+        "confidence": "requires_manual_review",
+        "limitation": "This is a suggested research task based on an extracted provision, not an identified pending issue or a recommendation for a legal defence."
+      }
+    ],
+    "related_provisions": [
+      {
+        "provision": "Article 368",
+        "category": "Article",
+        "relevance_score": 84.88,
+        "confidence": "high",
+        "page_count": 313,
+        "evidence_count": 1281,
+        "confidence_counts": {
+          "high": 119,
+          "medium": 1119,
+          "low": 43
+        },
+        "relationship": "Identified by the judgment's provision-ranking pipeline. A specific legal relationship with other provisions has not been independently established by this fallback.",
+        "evidence": []
+      },
+      {
+        "provision": "Article 13",
+        "category": "Article",
+        "relevance_score": 79.97,
+        "confidence": "high",
+        "page_count": 149,
+        "evidence_count": 525,
+        "confidence_counts": {
+          "high": 40,
+          "medium": 471,
+          "low": 14
+        },
+        "relationship": "Identified by the judgment's provision-ranking pipeline. A specific legal relationship with other provisions has not been independently established by this fallback.",
+        "evidence": []
+      },
+      {
+        "provision": "Article 31C",
+        "category": "Article",
+        "relevance_score": 75.63,
+        "confidence": "high",
+        "page_count": 83,
+        "evidence_count": 351,
+        "confidence_counts": {
+          "high": 57,
+          "medium": 287,
+          "low": 7
+        },
+        "relationship": "Identified by the judgment's provision-ranking pipeline. A specific legal relationship with other provisions has not been independently established by this fallback.",
+        "evidence": []
+      },
+      {
+        "provision": "Article 31",
+        "category": "Article",
+        "relevance_score": 75.51,
+        "confidence": "high",
+        "page_count": 99,
+        "evidence_count": 370,
+        "confidence_counts": {
+          "high": 45,
+          "medium": 305,
+          "low": 20
+        },
+        "relationship": "Identified by the judgment's provision-ranking pipeline. A specific legal relationship with other provisions has not been independently established by this fallback.",
+        "evidence": []
+      },
+      {
+        "provision": "Article 19",
+        "category": "Article",
+        "relevance_score": 73.09,
+        "confidence": "high",
+        "page_count": 85,
+        "evidence_count": 226,
+        "confidence_counts": {
+          "high": 16,
+          "medium": 198,
+          "low": 12
+        },
+        "relationship": "Identified by the judgment's provision-ranking pipeline. A specific legal relationship with other provisions has not been independently established by this fallback.",
+        "evidence": []
+      }
+    ],
+    "overall_limitation": "These results are generated without the LLM. No evidence snippets, page citations, legal strategy, or predictions about future proceedings have been generated. Verify the original judgment and consult a qualified legal professional.",
+    "disclaimer": "This output is not legal advice. Research leads must be checked against the original judgment and applicable law by a qualified legal professional."
+  }
+}

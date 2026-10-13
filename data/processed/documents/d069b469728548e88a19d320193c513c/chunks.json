@@ -1,0 +1,19 @@
+{
+  "source_file": "d069b469728548e88a19d320193c513c_harshibar_s_resume.pdf",
+  "total_pages": 1,
+  "total_chunks": 1,
+  "chunking_config": {
+    "target_words": 450,
+    "overlap_words": 75
+  },
+  "chunks": [
+    {
+      "chunk_id": "chunk_00001",
+      "page_number": 1,
+      "chunk_index_on_page": 1,
+      "source_file": "d069b469728548e88a19d320193c513c_harshibar_s_resume.pdf",
+      "text": "Navya S navyasaravanan16@gmail.com | 9345648853 | Coimbatore, India LinkedIn | GitHub | LeetCode | HackerRank Objective Computer Science undergraduate with experience in AI-powered applications,backend development and REST APIs. Passionate about building scalable software systems and intelligent applications using Python, FastAPI, and modern machine learning technologies. Key Skills Programming: Python, Java Core CS: Data Structures & Algorithms, Object-Oriented Programming AI/ML & LLM: RAG, Prompt Engineering, Semantic Search, Text Embeddings, FAISS, HuggingFace Transformers Backend: FastAPI, REST APIs, API Integration, HTTP Methods Databases: MySQL, PostgreSQL Tools: Git, GitHub, Postman, VS Code Libraries: Pandas, NumPy, Scikit-learn, TensorFlow, OpenCV Projects User Management API GitHub Tech Stack: Python, FastAPI, PostgreSQL, SQLAlchemy • Designed and developed scalable RESTful APIs for user management using FastAPI. • Implemented database integration with PostgreSQL and SQLAlchemy ORM. • Ensured data validation and integrity using Pydantic models. • Tested and debugged five API endpoints using Postman and Swagger UI. Brain Tumor Classification GitHub Tech Stack: Python, TensorFlow, OpenCV, Scikit-learn • Developed a MobileNetV2-based CNN achieving 95% accuracy on a 4-class MRI dataset. • Applied Grad-CAM for explainable AI, improving interpretability of model predictions. Calorie Burnt Prediction API GitHub Tech Stack: Python, FastAPI, Scikit-learn, XGBoost • Built a backend system for calorie prediction using FastAPI and machine learning models. • Designed API endpoints for real-time prediction based on user input. • Integrated ML model with backend services for seamless inference. Gen AI Study Assistant for Students GitHub Tech Stack: Python, LangChain, FAISS, Hugging Face, Streamlit • Built a document-based question-answering system using LangChain and FAISS. • Designed a pipeline for processing PDFs and retrieving relevant information efficiently. • Developed an interactive web interface using Streamlit for user interaction. Internships Lennox India Technology Center Pvt Ltd — Student Intern 2025 • Tested and validated REST APIs, improving backend reliability. • Debugged API response issues and enhanced system performance. • Automated testing workflows using Selenium and Robot Framework. CodSoft — Machine Learning Intern 2024 • Built and evaluated machine learning models for classification tasks. • Performed data preprocessing and feature engineering on 1000+ data samples to improve model performance. • Developed end-to-end ML workflows ensuring efficient performance. Education KPR Institute of Engineering and Technology, Coimbatore 2023 – 2027 B.E. Computer Science and Engineering (Artificial Intelligence & Machine Learning) CGPA: 8.11/10 The TVS School, Madurai 2023 HSC Percentage: 85.5% Certifications Introduction to Generative AI Concepts - Google Cloud 2025 Introduction to Machine Learning Concepts - Google Cloud 2025 Generative AI Concepts - Microsoft 2025 RDBMS PostgreSQL - IIT Bombay 2025 Python 3.4.3 - IIT Bombay 2025 Cyber Security and Privacy - NPTEL 2025 Introduction to Large Language Models(LLM) - NPTEL 2026",
+      "word_count": 435
+    }
+  ]
+}

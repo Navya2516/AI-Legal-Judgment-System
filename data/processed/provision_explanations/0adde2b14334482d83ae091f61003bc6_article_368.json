@@ -1,0 +1,30 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "provision": "Article 368",
+  "explanation": {
+    "provision": "Article 368",
+    "what_the_provision_is_discussed_as": "Article 368 is discussed as the constitutional provision conferring and regulating the power and procedure to amend the Constitution, including the debate over whether it confers power on Parliament or a designated body and whether it constitutes a complete code [Page 1, Page 2, Page 3].",
+    "why_it_appears_in_the_judgment": "It appears in the judgment because the core legal issue requires the Court to determine the true extent of the amending power conferred by Article 368 on Parliament (specifically whether it allows the abrogation of fundamental rights or is limited) and to interpret original Article 368 alongside constitutional amendments [Page 1, Page 2].",
+    "court_discussion": "Sikri, C.J. outlines that the judgment addresses the interpretation of the original Article 368 prior to its amendment and the validity of the Constitution (Twenty-fourth Amendment) Act [Page 1]. The Court observes that the real issue is the extent of the amending power conferred by Article 368 apart from Article 13(2) [Page 2]. The Court notes conflicting arguments: respondents contend that Parliament can use Article 368 to abrogate fundamental rights or establish any form of government, while petitioners argue Parliament's power is much more limited [Page 2]. Sikri, C.J. states that Article 368 must be interpreted in the setting of the Constitution, historical background, and national aspirations [Page 2]. Additionally, the judgment reviews past arguments and holdings on whether Article 368 is a complete code and whether the provisional Parliament was competent to exercise amending powers under Article 368 [Page 3].",
+    "evidence": [
+      {
+        "page": 1,
+        "support": "Sikri, C.J. outlines Part III dealing with the interpretation of the original Article 368 as it existed prior to its amendment, and Part IV dealing with the validity of the Constitution (Twenty-fourth Amendment) Act."
+      },
+      {
+        "page": 2,
+        "support": "The judgment states that the real issue is the extent of the amending power conferred by Article 368 apart from Article 13(2) on Parliament, noting respondents' argument that fundamental rights can be abrogated under Article 368 and petitioners' argument that Parliament's power is much more limited."
+      },
+      {
+        "page": 2,
+        "support": "Sikri, C.J. states he must interpret Article 368 in the setting of the Constitution, in the background of history, and in the light of aspirations and hopes."
+      },
+      {
+        "page": 3,
+        "support": "Summarizes past arguments including whether power under Article 368 was conferred on Parliament or two Houses as a designated body, whether Article 368 is a complete code in itself, and the holding that provisional Parliament was competent to amend the Constitution under Article 368."
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The supplied evidence consists only of excerpts from pages 1 to 3 of the judgment. It does not contain the full text of the judgment or the final detailed conclusions reached by all judges on the ultimate scope of Article 368."
+  }
+}

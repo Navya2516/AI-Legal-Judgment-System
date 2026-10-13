@@ -1,0 +1,1524 @@
+{
+  "evaluation_name": "RAG Evaluation V2 - Deterministic",
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "gemini_calls": 0,
+  "production_rag_modified": false,
+  "metrics": {
+    "retrieval_success_rate": 0.875,
+    "overall_concept_coverage": 1.0,
+    "semantic_concept_coverage": 1.0,
+    "amendment_concept_coverage": 1.0,
+    "amendment_full_concept_coverage_rate": 1.0,
+    "metadata_answer_coverage": 1.0
+  },
+  "interpretation": {
+    "concept_coverage": "Primary retrieval-quality metric for this evaluation. It checks whether retrieved evidence contains the expected legal concepts.",
+    "page_recall": "Not used as the primary aggregate metric because manually selected reference pages do not exhaustively represent all valid evidence locations in a 502-page judgment.",
+    "metadata": "Evaluated separately because parties/case metadata are handled by structured metadata rather than ordinary semantic retrieval.",
+    "generation": "Not evaluated here. This script intentionally makes zero Gemini calls so quota/API failures cannot contaminate retrieval metrics."
+  },
+  "test_results": [
+    {
+      "id": "semantic_01",
+      "category": "semantic",
+      "question": "What is the Basic Structure Doctrine?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What is the Basic Structure Doctrine?",
+        "basic structure doctrine",
+        "basic structure of the Constitution",
+        "basic features of the Constitution",
+        "essential features of the Constitution",
+        "fundamental features of the Constitution",
+        "limitations on constitutional amendment",
+        "basic structure cannot be destroyed"
+      ],
+      "retrieved_pages": [
+        338,
+        292,
+        186,
+        338,
+        91,
+        126,
+        286,
+        338,
+        295,
+        236
+      ],
+      "top_1_page": 338,
+      "top_3_pages": [
+        338,
+        292,
+        186
+      ],
+      "top_5_pages": [
+        338,
+        292,
+        186,
+        338,
+        91
+      ],
+      "top_10_pages": [
+        338,
+        292,
+        186,
+        338,
+        91,
+        126,
+        286,
+        338,
+        295,
+        236
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "basic structure",
+        "constitution",
+        "amend"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 338,
+          "chunk_id": "chunk_00885",
+          "score": 0.7754,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 338 of 502 stated that those higher values constitute the spirit and provide the scheme of the Constitution. This aspect of implied limitations is linked with the existence of natural rights and it is stated that such rights being of paramount character, no amendment of Constitution can result in their erosion. 1498. I may at this stage clarify that there are certain limitations which inhere and are implicit in the word \"amendment\". These are limitations which flow from the use of the word \"amendment\" and relate to the meaning or construction of the word \"amendment\" This aspect has been dealt with elsewhere while construing the word \"amendment\". Subject to this clarification, we may now advert to the two facets of the concept of implied limitations referred to above. 1499. So far as the first facet is concerned regarding a limitation which flows by necessary implication from an express provision of the Constitution, the concept derives its force and is founded upon a principle of interpretation of statutes. In the absence of any compelling reason, it may be said that a Constitutional provision is not exempt from the operation of such a principle. I have applied this principle to Article 368 and despite that, I have not been able to discern in the language of that article or other relevant articles any implied limitation on the power to make amendment contained in the said article. 1500. We may now deal with the second aspect of the question which pertains to limitation on the power of making amendment because such a limitation, though not flowing from an express provision, is stated to be based upon higher values which are very dear to the human heart and are considered essential traits of civilized existence. So far as this aspect is concerned, one obvious objection which must strike every one is that the Constitution of India is one of the lengthiest Constitutions, if not the lengthiest, of the world. The framers of the Constitution dealt with different Constitutional matters at considerable length and made detailed and exhaustive provisions about them. Is it then conceivable that after having dealt with the matter so exhaustively and at such great length in express words, they would leave things in the realm of implication in respect of such an important article as that relating to the amendment of the Constitution. If it was intended that limitations should be read on the power of making amendment, question would necessarily arise as to why the framers of the Constitution refrained from expressly incorporating such limitations on the power of amendment in the Constitution itself. The theory of implied limitations on the power of making"
+        },
+        {
+          "page_number": 292,
+          "chunk_id": "chunk_00766",
+          "score": 0.7385,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "efforts to have the court examine into the subject matter of Constitutional amendment\" In The National Prohibition 65 Law, edn. 994 cases decided earlier, the Prohibition Amendment (18th) was challenged, as the briefs show, on a host of alleged implied limitations based on the Constitution, its scheme and its history. The opinion of the court did not accept any of them, in fact, did not even notice them. American jurists are clearly of the opinion that the Supreme Court had rejected the argument of implied limitations. See for example Cooley Constitutional Law, 4th edition, 46-47; Burdick Law of American Constitution pp. 45 to 48. 1360. The argument that essential features (by which Mr. Palkhivala means \"essential features, basic elements or fundamental principles\")’ of the Constitution, though capable of amendment to a limited extent are not liable to be damaged or destroyed is only a variation on the argument previously urged before this Court on the basis of the socalled"
+        },
+        {
+          "page_number": 186,
+          "chunk_id": "chunk_00465",
+          "score": 0.7195,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "Tenth Amendment 1006. The question which has arisen on the Fifth Article of the American Constitution is whether there are implied limitations upon the power to amend. The two express limitations were these. First, no amendment which may be made prior to 1808 shall in any manner effect the First and the Fourth clauses in the Ninth Section of the First Article. That Limitation became exhausted by passage of time. The second express limitation is that no State without its consent shall be deprived of its equal suffrage in t he Senate. The express limitation is to safeguard the equal representation of the smaller States in the Senate. The limitation can only be changed by unanimous consent of the States."
+        },
+        {
+          "page_number": 338,
+          "chunk_id": "chunk_00886",
+          "score": 0.7156,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "leave things in the realm of implication in respect of such an important article as that relating to the amendment of the Constitution. If it was intended that limitations should be read on the power of making amendment, question would necessarily arise as to why the framers of the Constitution refrained from expressly incorporating such limitations on the power of amendment in the Constitution itself. The theory of implied limitations on the power of making amendment may have some fascination and attraction for political theorists, but a deeper reflection would revea l that such a theory is based upon a doctrinaire approach and not what is so essential for the purpose of construing and working a Constitution, viz., a pragmatic and practical approach. This circumstance perhaps accounts for the fact that the above theory of implied limitations has not been accepted by the highest court in any country. 1501 As the concept of implied limitations on the power of amendment under the second aspect is not based upon some express provision of the Constitution, it must be regarded as essentially nebulous. The concept has no definite contours and its acceptance would necessarily introduce elements of uncertainty and vagueness in a matter of so vital an importance as that pertaining to the amendment of the Constitution. Whatever might be the justification for invoking the concept of implied limitations in a short Constitution, s o far as the Constitution of India with all its detailed provisions is concerned, there is hardly any scope or justification for invoking the above concept. What was intended by the framers of the Constitution was put in express words and, in the absence of any words which may expressly or by necessary implication point to the existence of limitations on the power of amendment, it is, in my opinion, not permissible to read such limitations in the Constitution and place them on the power of amendment. I find it difficult to accede to the submission that the framers of the Constitution after having made such detailed provisions for different subjects left something to be decided by implication, that in addition to what was said there were things which were not said but which were intended to be as effective as things said. The quest for things not said, but which were to be as effective as things said, would take us to the realm of speculation and theorising and must bring in its wake the uncertainty which inevitably is there in all such speculation and theorising. All the efforts of the framers of the Constitution to make its provisions to be definite and precise would thus be undone. We shall be in doing so, not merely ignoring"
+        },
+        {
+          "page_number": 91,
+          "chunk_id": "chunk_00202",
+          "score": 0.7034,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "Jurisprudence (2d), Vol. 16, p. 251 Although the courts have rejected in various cases a plea that a particular inherent or implied limitation should be put upon some specific Constitutional power, no court, says Mr. Palkhivala, has ever rejected the principle that such limitations which are fairly and properly deducible from the scheme of the Constitution should be read as restrictions upon a power expressed in general terms. Several decisions of our court, of the Privy Council, Irish courts, Canadian and Australian courts have been cited in support of the contention advanced by him. The approach to this question has essentially to be to look at our own decisions first. They fall in two categories. In one category are those cases where limitations have been spelt out of Constitutional provisions; the second category consists of such decisions as have laid down that there is an implied limitation on legislative power. 582. Taking up the cases of the first category, before 1955, Article 13(2) was read as"
+        },
+        {
+          "page_number": 126,
+          "chunk_id": "chunk_00297",
+          "score": 0.6996,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 126 of 502 our conclusion that there can be implied limitations on the amending power. 698. In support of the contention that there can be no implied limitations on the amending power, our attention was invited to writings of various jurists of eminence. Most of the writings relate to the amending power under Article 5 of the United States Constitution. It is true that in the United States most of the writers are of opinion that there is no implie d limitation on the amending power under the United States Constitution. The Supreme Court of the United States has not specifically pronounced on this question. The only case in which the question of implied limitation on the amending power under the United States Constitution came up for consideration was Rhode Island v. Palmer 64 L. Edn. 946. In that case the Supreme Court of United States rejecting the contention that the 18th Amendment-National Prohibition Amendment-was outside the amending power under Article 5 because of implied limitations on that power, held that the Amendment was valid. The Supreme Court, however, did not discuss the question of implied limitations on the amending power as such. In fact the judgment that was rendered in that case gave no reasons. Only certain questions were formulated and answered. It is not clear from the judgment whether the particular limitation pleaded was rejected’ or whether the plea of implied limitation on the amending power was rejected though writers of most text books have taken the view that the court rejected the plea of implied limitations on the amending power. It may be noted that in the United States not a single human right has been taken away or even its scope narrowed. There the controversy centred round two questions viz. (1) abolition of slavery and (2) prohibition of sale and consumption of liquor. We will not be justified in expounding our Constitution on the basis of the controversies relating to those issues. Article 5 of the U.S. Constitution is not similar to Article 368 of our Constitution. In the former Article, there is an express limitation on th e amending power i.e. regarding the representation of the States in the Senate. Further the amendment under Article 5 of the United States Constitution can be proposed either by the Congress or by State Conventions. They may be ratified either by a minimum of 3/4th of the State Legislatures or by Conventions held in at least 3/4th of the States. Whether a particular amendment should be ratified by the State Legislatures or by the State Conventions is entirely left to the discretion of the Congress. As held by the United States Supreme"
+        },
+        {
+          "page_number": 286,
+          "chunk_id": "chunk_00747",
+          "score": 0.6961,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "amendments made after that period had to be approved in every case by a referendum and the people. By a Constitutional amendment of 1928 (Amendment NO. 10) the compulsion of Article 47 was got rid of, and by an amendment of 1929 (Amendment No. 16) made within the eight year period already referred to, the period of 8 years was extended to 16 years. The result was that the Constitution now authorized the Parliament to amend by ordinary legislation its Constitution for the period of 16 years from the commencement of the Constitution without being required to have recourse to a referendum. In 1931 by a further Amendment (Amendment No. 17) extensive alterations were made by which inter alia, personal liberty was curtailed, denying trial by Jury or by the regular courts. Ryan who was one of the victims of the new law applied to the High Court for a Writ of Habeas Corpus on the ground that the several amendments were invalid, especially No. 16, by which the period of 8 years had been extended to 16 years. If Amendment No. 16 was invalid, that would have automatically resulted in Amendment No. 17 being invalid, having been made after the first period of 8 years. The High Court (3 JJ) unanimously held that all the Amendments were valid. In appeal to the Supreme Court that decision was confirmed by a majority, Kennedy, Chief Justice, dissenting. One of the chief contentions directed against Amendment No. 16 was that the Parliament could not have ’enlarged’ its power from 8 to 16 years to change the Constitution without a referendum by ordinary legislation. This conten tion was rejected by the majority. Kennedy, C.J. took a different view of the amendment. He held that Article 50 did not provide for the amending of the Amendatory power, conceding that otherwise the power could have been so ’enlarged’. Since there is no dispute in our case that by reason of Clause (e) of proviso of Article 368 power is given to amend the amendatory power, it was open to Parliament to ’enlarge’ the power by amendment. If it is assumed-and we have shown there is no ground to make such an assumption-that there was some implied limitation to be derived from other provisions of the Constitution, that limitation, if any, is now removed by the non-obstante clause in Clause 1 of the Amended Article 368. 1346. It is of some interest to note here that in a case which later went to the Privy Council, Moore v. Attorney General for the Irish State [1935] A.C. 484 and in which a Constitutional amendment made by the Irish Parliament in 1933 (Amendment No. 22) was challenged, Mr."
+        },
+        {
+          "page_number": 338,
+          "chunk_id": "chunk_00887",
+          "score": 0.6945,
+          "matched_queries": [
+            "basic structure of the Constitution",
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution"
+          ],
+          "text": "The quest for things not said, but which were to be as effective as things said, would take us to the realm of speculation and theorising and must bring in its wake the uncertainty which inevitably is there in all such speculation and theorising. All the efforts of the framers of the Constitution to make its provisions to be definite and precise would thus be undone. We shall be in doing so, not merely ignoring but setting at naught what must be regarded as a cardinal principle that a Constitution is not a subject of fastidious and abstract dialectics but has to be worked on a practical plan e so that it may become a real and effective vehicle of the nation’s progress. As observed"
+        },
+        {
+          "page_number": 295,
+          "chunk_id": "chunk_00774",
+          "score": 0.6931,
+          "matched_queries": [
+            "limitations on constitutional amendment"
+          ],
+          "text": "the several features of the Constitution. Any attempt by amendment, it is contended, to go beyond such irreducible minimum-also called the ’core’ of essential features-should be disallowed as invalid. In other words, we are invited to resort to the substantive due process doctrine of the Supreme Court of America in the interpretation of a Constitutional Amendment. That doctrine was rejected long ago by this Court (Gopalan’s case) even in its application to ordinary legislation. See 1950 S.C.R. 88 (Kania, C.J. 110) (Das, J. 312). The argument does not have anything to do with the meaning of the expression ’Amendment of the Constitution’ because it is conceded for the purpose of this argument that ’amendment of this Constitution’ means amendment of all provisions by way of addition, alteration or repeal’ What is contended, is that by the very implications of the structure, general principles and concepts embodied in the Constitution, an amendment can go only thus far and no further. In other words, the scope of amendment is circumscribed not by what the constituent body thinks, but by what the Judges ultimately think is its proper limits. And these limits, it is obvious, will vary with individual Judges, and as in due process, the limits will be those fixed by a majority of Judges at one time, changed, if necessary, by a bigger majority at another. Every time an amendment is made of some magnitude as by the Twenty-fifth Amendment we will have, without anything to go on, to consider how, in our opinion, the several provisions of the Constitution react on one another, their relative importance from our point of view, the limits on such imponderable concepts as liberty, equality, justice, we think proper to impose, whether we shall give preponderance to directive principles in one case and fundamental rights in another-in short, determine the ’spirit of the Constitution’ and decide how far the amendment conforms with that ’spirit’. We are no longer, than construing the words of the Constitution which is our legitimate province but determining the spirit of the Constitution-a course deprecated by this Court in Gopalan’s case at pages 120-121. When concepts of social or economic justice are offered for our examination in their interaction on provisions relating to right to property-matters traditionally left to legislative policy and wisdom, we are bound to flounder \"in labyrinths to the character of which we have no sufficient guides. 1364. It is true that Judges do judicially determine whether certain restrictions imposed in a statute are reasonable or not. We also decide questions involving reasonableness of any particular action. But Judges do this because there are objective guides. The Constitution and the Legislatures specifically leave such determination to the higher"
+        },
+        {
+          "page_number": 236,
+          "chunk_id": "chunk_00605",
+          "score": 0.6904,
+          "matched_queries": [
+            "What is the Basic Structure Doctrine?",
+            "basic structure doctrine",
+            "basic structure of the Constitution",
+            "basic features of the Constitution",
+            "essential features of the Constitution",
+            "fundamental features of the Constitution",
+            "basic structure cannot be destroyed"
+          ],
+          "text": "fundamental in the governance of the country which the State is enjoined to achieve for the amelieration and happiness of its people. The elements of the basic structure are indicated in the preamble and translated in the various provisions of the Constitution. The edifice of our Constitution is built upon and stands on several props, remove any of them, the Constitution collapses. These are: (1) Sovereign Democratic Republic; (2) Justice, social, economic and political; (3) Liberty of thought, expression, belief, faith and worship; (4) Equality of status and of opportunity. Each one of these is important and collectively they assure a way of life to the people of India which the Constitution guarantees. To withdraw any of the above elements the structure will not survive and it will not be the same Constitution, or this Constitution nor can it maintain its identity, if something quite different is substituted in its place, which the sovereign"
+        }
+      ]
+    },
+    {
+      "id": "amendment_01",
+      "category": "amendment",
+      "question": "What constitutional amendments were considered in the case?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What constitutional amendments were considered in the case?",
+        "24th Amendment",
+        "Twenty-fourth Amendment",
+        "Constitution (Twenty-fourth Amendment) Act",
+        "Constitution Twenty-fourth Amendment Act",
+        "24th Constitutional Amendment",
+        "Twenty Fourth Amendment",
+        "25th Amendment",
+        "Twenty-fifth Amendment",
+        "Constitution (Twenty-fifth Amendment) Act",
+        "Constitution Twenty-fifth Amendment Act",
+        "25th Constitutional Amendment",
+        "Twenty Fifth Amendment",
+        "29th Amendment",
+        "Twenty-ninth Amendment",
+        "Constitution (Twenty-ninth Amendment) Act",
+        "Constitution Twenty-ninth Amendment Act",
+        "29th Constitutional Amendment",
+        "Twenty Ninth Amendment",
+        "constitutional amendments considered in the case",
+        "amendments challenged in the case",
+        "validity of constitutional amendments",
+        "validity of amendments",
+        "constitutional amendment Acts"
+      ],
+      "retrieved_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "top_1_page": 178,
+      "top_3_pages": [
+        178,
+        434,
+        282
+      ],
+      "top_5_pages": [
+        178,
+        434,
+        282,
+        427,
+        111
+      ],
+      "top_10_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "24th amendment",
+        "25th amendment",
+        "29th amendment"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 178,
+          "chunk_id": "chunk_00441",
+          "score": 0.7385,
+          "matched_queries": [
+            "24th Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "be amended by Parliament. The leading majority judgment with reference to the meaning of the word \"amendment\" and without deciding the matter observed that there was great force in the argument that certain fundamental features e.g. the concept of federalism, the institutions of the President and the Parliamentary executive could not be abolished by amendment. Shankari Prasad case, Sajjan Singh case and the dissenting minority judgment in Golak Nath case took the view that every provision of the Constitution could be amended in exercise of constituent power. As a necessary corollary, the 24th Amendment excludes the operation of Article 13 by amending Article 13 by a new Sub-article (4) that nothing in Article 13 shall apply to any amendment of this Constitution under Article 368. The amendment of Article 13 by an insertion of Sub-article (4) is also reinforced by the opening words introduced in Article 368 by the 24th Amendment, viz., notwithstanding anything contained in this Constitution, which would certainly exclude Article 13. 959. The Constitution 24th Amendment Act raises three aspects. First, does the word \"amend\" include abrogation or repeal of the whole Constitution? Does amendment mean that there is some feature of the Constitution which cannot be changed. Secondly, what light does the proviso to Article 368 throw on the nature of the amending power and on the doctrine of inherent and implied limitations on the amending power that essential features of the Constitution cannot be damaged or destroyed. Thirdly, does Clause (e) of the proviso to Article 368 enable Parliament and the requisite majority of the States to increase the power of amendment that was conferred by Article 368. 960. Article 368 in the unamended form contained power as well as self executing procedure which if followed by the prescribed authorities would result in an amendment of the Constitution. Both the Attorney General and Mr. Seervai rightly said that the words \"Constitution shall stand amended\" in Article 368 will exclude a simple repeal that is without substituting anything in place of the repealed Constitution. If the Constitution were totally repealed and a vacuum was created it could not be said that the Constitution stands amended. The Constitution means the mode in which a State is constituted or organised specially as to the location of sovereign power. The Constitution also means the system or body of fundamental principles according to which the nation, State and body politic is constituted and governed. In the case of a written Constitution the Constitution is more fundamental than any particular law and contains a principle with which all legislation must be in harmony. Therefore, an amendment of the Constitution is an amendment of something which provides a system according to which"
+        },
+        {
+          "page_number": 434,
+          "chunk_id": "chunk_01140",
+          "score": 0.7293,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the amending power, in so elaborate a Constitution, could not possibly omit from its ambit or scope the power of amendment of any part of it so that the 24th Amendment merely clarifies the original intention to lodge a wide amending power within the bosom of Article 368. It has been rightly pointed out that the careful manner in which the Constitution, and, particularly, the amending Article 368 was framed precludes the possibility of a delibrate casus omissus so as to exclude from its scope the making of any provision which may either take away or abridge or affect a fundamental right or any other basic feature. In any case, in such a Constitution as ours, we must strongly lean against a construction which may enable us to hold that any part of the Constitution is exempt from the scope of Article 368"
+        },
+        {
+          "page_number": 282,
+          "chunk_id": "chunk_00736",
+          "score": 0.7252,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the Constitution; (7) A secular State; (8) A free and independent judiciary; (9) The dual structure of the Union and the States; (10) The balance between the legislature, the executive and the judiciary; (11) A Parliamentary form of Government as distinct from Presidential form of Government; (12) The amendability of the Constitution as per the basic scheme of Article 368. 1333. These, according to Mr. Palkhivala, are some of the essential features of the Constitution and they cannot be substantially altered by the amendatory process. 1334. A question of very wide import is raised by the submission. So far as the present case is concerned, the 24th amendment does no more than give effect to Parliament’s acceptance of the view taken in Sankari Prasad’s case, the majority in Sajjan Singh’s case and the minority in Golak Nath’s case with regard to the nature of the amending power in relation to fundamental rights. It is clarificatory of the original Article 368. What was implicit in Article 368 is now made explicit and the essence of Article 368 is retained. Therefore, there can be no objection to the 24th Amendment on the ground that any essential feature of the Constitution is affected. 1335. The 25th Amendment introduces some abridgement of the fundamental right to property. Right to property has been subject to abridgement right from the Constitution itself (See : Article 31(4) & (6)) and the 25th amendment is a further inroad on the right to property. In Golak Nath’s case, the first, fourth and the seventeenth amendments were held by the majority as having contravened Article 13(2). Nevertheless the amendments were not struck down but permitted to continue as if they were valid. Since I have come to the conclusion that Article 13(2) does not control an amendment of the Constitution, it must be held that all previous amendments to the Constitution, so far made, could not be challenged on the ground of repugnancy to Article 13(2). It follows that any amendment of the Constitution cannot be challenged on that ground, and that would be true not only of the 24th amendment but also the 25th amendment, and the 29th amendment. 1336. The question still survives whether the 25th amendment and the 29th amendment are invalid because, as contended by Mr. Palkhivala, an essential feature of the Constitution has been substantially affected. The argument proceeds on the assumption"
+        },
+        {
+          "page_number": 427,
+          "chunk_id": "chunk_01124",
+          "score": 0.7166,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment"
+          ],
+          "text": "The questions of the correct interpretation of the 24th Amendment and its validity cannot be decided unless this Hon’ble Court first comes to a conclusion as to whether the original power was limited or unlimited. If it was originally limited the question would arise whether the 24th Amendment should be \"read down\" or whether it should be held to be unConstitutional. Even the question of the correct construction of the 24th Amendment cannot be decided unless the starting point is first established, namely, the true, scope of the original amending power\". Again, it would be impossible to decide the question whether Article 31(2) which has been altered by the 25th Amendment should be \"read down\" in such a way as to preserve the right to property or should be declared unConstitutional as abrogating the right to property,-unless and until it is first decided whether Parliament has the right to abrogate the right to property. This directly involves the question whether the amending power is limited or unlimited. When one comes to Article 31C the necessity of deciding the limits of the amending power becomes unmistakable. The Article violates 7 essential features of the Constitution and makes the Constitution suffer a loss of identity. There can be no question of ’reading down’ Article 31C. It can only be held to be unConstitutional on the ground that Parliament’s amending power was limited\". To decide the question of the validity of Article 31C only on the ground that it virtually provider for amendment of the Constitution in a \"manner and form\" different from that prescribed by Article 368 would be a most unsatisfactory ground of decision. The question of prune importance is the limit on the amending power. The question of manner and form pales into total insignificance compared to the question of substantive limitation on the amending power\". It is submitted with the greatest respect that the 69 days hearing would be virtually wasted if the judgment were to rest merely on the point of manner and form, avoiding the real issue of momentous significance,"
+        },
+        {
+          "page_number": 111,
+          "chunk_id": "chunk_00258",
+          "score": 0.7158,
+          "matched_queries": [
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the power of amendment contained in Article 368 is of a special nature which has been exclusively conferred on Parliament and can be exercised only in the manner laid down in that Article. The same could not be delegated to any other legislature in the country. Section 3, therefore, must be declared to be unConstitutional and invalid. 7. The 29th Amendment is valid. However, the question whether the Acts included in the Ninth Schedule by that amendment or any provision of those Acts abrogates any of the basic elements of the Constitutional structure or denudes them of their identity will have to be examined when the validity of those Acts comes up for consideration. 647. The petitions are remitted to the Constitution Bench to be decided in accordance with this judgment and the law. The Constitution Bench will also decide the validity of the 26th Amendment in the light of our judgment. K.S. Hegde and A.K. Mukherjea, JJ. 648. In these writ petitions questions of great Constitutional importance have arisen for consideration. Herein we are called upon to decide the Constitutional validity of the 24th, 25th, 26th and 29th Amendments to the Constitution. We have had the advantage of hearing long and illuminating arguments covering over 65 working days. We have been referred to numerous decisions of this Court and of the courts in England, United States, Canada, Australia, Germany, Ireland and Ceylon. Our attention has also been invited to various writings of jurists, present and past, of several countries. For paucity of time, we have not taken up the question of the validity of the 26th Amendment. That question can be conveniently considered later after this bench decides certain fundamental questions of law arising for decision. For the same reason we have also refrained from going into the merits of various writ petitions at this stage. At present we are merely deciding the scope and validity of the 24th, 25th and 29th Amendments to the Constitution. 649. In order to decide the validity of the Amendments referred to earlier, it is necessary"
+        },
+        {
+          "page_number": 170,
+          "chunk_id": "chunk_00419",
+          "score": 0.7144,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act"
+          ],
+          "text": "makes a Constitutional amendment under Article 368 it acts in exercise of constituent power. Third, it had provided by amendment in Articles 13 and 368 that the power in Article 13(2) against abridging or taking away of the fundamental rights shall not apply to any amendment under Article 368. The Constitution 24th Amendment Act is, therefore, to be construed as empowering Parliament to exercise full constituent power of the people and to vest in Parliament the ultimate legal sovereignty of the people as authorising Parliament to alter or destroy all o r any of the essential features, basic elements and fundamental principles of the Constitution. Likewise, Parliament is construed by the Constitution 24th Amendment Act"
+        },
+        {
+          "page_number": 171,
+          "chunk_id": "chunk_00420",
+          "score": 0.7142,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 171 of 502 to be authorised to damage or destroy the essence of all or any of the fundamental rights. Therefore, the amendment must be illegal and invalid. 921. In the alternative it was submitted on behalf of the petitioner that if the Constitutio n 24th Amendment is valid it can be only on a reading down of the amended provisions of Article 13 and 368 which reading would preserve the original inherent and implied limitations. Even after the Constitution 24th Amendment Act Parliament will have no power to alter or destroy the essential features of the Constitution and secondly, fundamental rights are among the essential features of the Constitution and, therefore, the essence of any of the fundamental rights cannot be altered or destroyed or damaged even when they are sought to be abridged. 922. The Attorney General stressed the background in which Article 368 was enacted by the Constituent Assembly to show that any limitation on the amending power was never in controversy. The only controversy was regarding the degree of flexibility of an amendment of all the provisions of the Constitution. Our Constitution has adopted three methods of amendment of the Constitution. Certain provisions of the Constitution may be amended by a simple majority in Parliament. Others may be amended by two-thirds majority. The third category relates to provisions where amendments must be ratified by one half of the States. This scheme strikes a good balance by protecting the rights of the States while leaving the remainder of the Constitution easy to amend. Of the three ways of amending the Constitution two are laid down in Article 368 itself and the third is provided for in about 24 other Articles. 923. The Constitutional Adviser incorporated in his draft Constitution prepared by him in October, 1947 a recommendation contained in the supplementary Report of the Union Constitution Committee. Following the recommendation of the Advisory Committee he included a proviso that the provisions in the Constitution relating to the reservation of seats for the Muslims, the Scheduled Castes, the Scheduled Tribes, the Indian Christians and the Sikhs, either in the Federal Parliament or in any Provincial Legislature, should not be amended before the expiry of ten years from the commencement of the Constitution. 924. The Drafting Committee in February, 1948 considered the provisions for amendment. It made three material changes in the provisions made by the Constitution Adviser. First, the Committee framed a self contained and independent Article regarding the reservation of seats in the legislatures for minorities. These provisions could not be amended for a period of ten years and would then cease to have effect unless continued in operation by an"
+        },
+        {
+          "page_number": 375,
+          "chunk_id": "chunk_00980",
+          "score": 0.7132,
+          "matched_queries": [
+            "24th Amendment",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "29th Constitutional Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 375 of 502 Acts or the provisions thereof violate any of the Fundamental Rights. 1606. The petitioner challenges the validity of these Amendments. 1607. As the validity of the 25th and the 29th Amendments essentially depends upon the validity of the 24th Amendment, it is necessary to consider and decide that question first. I, therefore, torn to the circumstances which necessitated the Constitutional 24th Amendment Act. 1608. The Constitution (First Amendment) Act, 1951, was passed by Parliament on June 18, 1951. Sections 2, 3 and 4 of the Act made amendments in some of the articles in Part III of the Constitution. The validity of the Amendment was challenged before this Court in Sankari Prasad v. The Union of India [1952] S.C.R. 89, and one of the questions which fell for decision was whether, in view of Clause 2 of Article 13, Parliament had power to amend the Fundamental Rights in such a way as to take away or abridge them. And the argument was that the word \"State\" in Clause 2 of Article 13 includes Parliament and the word ’law’ would take in an amendment of the Constitution and, therefore, Parliament had no power to pass a law amending the Constitution in such a way as to take away or abridge the Fundamental Rights. Patanjali Sastri, J. who delivered the judgment of the Court said that although the word ’law’ would ordinarily include Constitutional law, there is a distinction between ordinary law made in the exercise of legislative power and Constitutional law made in the exercise of constituent power and that in the context of Clause 2 of Article 13, the word ’law’ would not include an amendment of the Constitution. 1609. This decision was followed in Sajjan Singh v. State of Rajasthan [1965] 1 S.C.R. 933. There, Gajendragadkar, C.J., speaking for himself and two of his colleagues, substantially agreed with the reasoning of Patanjali Sastri, J. in Sankari Prasad v. The Union of India [1952] S.C.R. 89. Hidayatullah and Mudholkar, JJ. expressed certain doubts as to whether Fundamental Rights could be abridged or taken away by amendment of the Constitution under Article 368. 1610. The question again came up before this Court in Golaknath v. State of Punjab [1967] 2 S.C.R. 762, hereinafter called ’Golaknath Case’ where the validity of the 17th Amendment was challenged on much the same grounds. The majority constituting the Bench decided that Parliament has no power to amend the Fundamental Rights in such a way as to take away or abridge them, but that the 1st, 4th and 17th Amendments were valid for all time on the basis of the doctrine of prospective overruling and that the"
+        },
+        {
+          "page_number": 298,
+          "chunk_id": "chunk_00783",
+          "score": 0.7076,
+          "matched_queries": [
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "of Article 19(1)(f) to a law referred to in Clause (2) of Article 31 is merely a re-statement of the law laid down by this Court after the constiution came into force. The mutual exclusiveness of Article 19(1)(f) and Article 31(2) had been recognized by this Court in a scries of cases. See : Sitabati Debi and Anr. v. State of West Bengal and Anr. [1967] (2) S.C.R. 949. That principle is now embodied in the new amendment. 1372. The only substantial objection to the twenty-fifth amendment is based on the new Article 31C inserted in the Constitution by Section 3 of the twenty-fifth amendment act. 1373. The new article is as follows: 31C. Notwithstanding anything contained in Article 13, no law giving effect to the policy of the state towards securing the principles specified in Clause (b) or Clause (c) of Article 39 shall be deemed to be void on the ground that it is inconsistent with, or takes away or abridges any of the rights conferred by Article 14, Article 19 or Article 31; and no law containing a declaration chat it is for giving effect to such policy shall be called in question in any court on the ground that it does not give effect to such policy. Provided that where such law is made by the Legislature of a State, the provisions of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 1374. Ignoring the proviso for the moment, one finds that the main clause of the article falls into two parts. The first part provides that a law of a particular description shall n ot be deemed to be void on the ground that it affects injuriously somebody’s fundamental rights under Articles 14, 19 and 31. The second part provides that if such a law contains a particular declaration, courts shall not entertain a particular kind of objection. 1375. In the first place, it should be noted that what is saved by Article 31C is a law i.e. a law made by a competent legislature. Secondly since Article 31C comes under the specific heading ’Right to property’ in Part III dealing with fundamental rights it is evident that the law must involve right to property. That it must of necessity do so is apparent from the description of the law given in the article. The description is that the law gives effect to the policy of the State towards securing the principles specified in Clauses (b) & (c) of Article 39. That article is one of the several articles in Part IV of t he Constitution dealing with Directive Principles of State"
+        },
+        {
+          "page_number": 425,
+          "chunk_id": "chunk_01119",
+          "score": 0.706,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment"
+          ],
+          "text": "or abridge them was wrong, that the power to amend under Article 368 as it stood before the 24th Amendment was plenary in character and extended to all the provisions of the Constitution, that the 24th Amendment did not add anything to the content of Article 368 as it stood before the amendment, that it is declaratory in character except as regards the compulsory nature of the assent of the President to a bill for amendment and that the article as amended makes it clear that all the provisions of the Constitution can be amended by way of addition, variation or repeal. The only limitation is that the Constitution cannot be repealed or abrogated in the exercise of the power of amendment without substituting a mechanism"
+        }
+      ]
+    },
+    {
+      "id": "amendment_02",
+      "category": "amendment",
+      "question": "What did the 24th Amendment change?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What did the 24th Amendment change?",
+        "24th Amendment",
+        "Twenty-fourth Amendment",
+        "Constitution (Twenty-fourth Amendment) Act",
+        "Constitution Twenty-fourth Amendment Act",
+        "24th Constitutional Amendment",
+        "Twenty Fourth Amendment",
+        "25th Amendment",
+        "Twenty-fifth Amendment",
+        "Constitution (Twenty-fifth Amendment) Act",
+        "Constitution Twenty-fifth Amendment Act",
+        "25th Constitutional Amendment",
+        "Twenty Fifth Amendment",
+        "29th Amendment",
+        "Twenty-ninth Amendment",
+        "Constitution (Twenty-ninth Amendment) Act",
+        "Constitution Twenty-ninth Amendment Act",
+        "29th Constitutional Amendment",
+        "Twenty Ninth Amendment",
+        "constitutional amendments considered in the case",
+        "amendments challenged in the case",
+        "validity of constitutional amendments",
+        "validity of amendments",
+        "constitutional amendment Acts"
+      ],
+      "retrieved_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        375,
+        298
+      ],
+      "top_1_page": 178,
+      "top_3_pages": [
+        178,
+        434,
+        282
+      ],
+      "top_5_pages": [
+        178,
+        434,
+        282,
+        427,
+        111
+      ],
+      "top_10_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        375,
+        298
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "24th amendment"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 178,
+          "chunk_id": "chunk_00441",
+          "score": 0.7385,
+          "matched_queries": [
+            "What did the 24th Amendment change?",
+            "24th Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "be amended by Parliament. The leading majority judgment with reference to the meaning of the word \"amendment\" and without deciding the matter observed that there was great force in the argument that certain fundamental features e.g. the concept of federalism, the institutions of the President and the Parliamentary executive could not be abolished by amendment. Shankari Prasad case, Sajjan Singh case and the dissenting minority judgment in Golak Nath case took the view that every provision of the Constitution could be amended in exercise of constituent power. As a necessary corollary, the 24th Amendment excludes the operation of Article 13 by amending Article 13 by a new Sub-article (4) that nothing in Article 13 shall apply to any amendment of this Constitution under Article 368. The amendment of Article 13 by an insertion of Sub-article (4) is also reinforced by the opening words introduced in Article 368 by the 24th Amendment, viz., notwithstanding anything contained in this Constitution, which would certainly exclude Article 13. 959. The Constitution 24th Amendment Act raises three aspects. First, does the word \"amend\" include abrogation or repeal of the whole Constitution? Does amendment mean that there is some feature of the Constitution which cannot be changed. Secondly, what light does the proviso to Article 368 throw on the nature of the amending power and on the doctrine of inherent and implied limitations on the amending power that essential features of the Constitution cannot be damaged or destroyed. Thirdly, does Clause (e) of the proviso to Article 368 enable Parliament and the requisite majority of the States to increase the power of amendment that was conferred by Article 368. 960. Article 368 in the unamended form contained power as well as self executing procedure which if followed by the prescribed authorities would result in an amendment of the Constitution. Both the Attorney General and Mr. Seervai rightly said that the words \"Constitution shall stand amended\" in Article 368 will exclude a simple repeal that is without substituting anything in place of the repealed Constitution. If the Constitution were totally repealed and a vacuum was created it could not be said that the Constitution stands amended. The Constitution means the mode in which a State is constituted or organised specially as to the location of sovereign power. The Constitution also means the system or body of fundamental principles according to which the nation, State and body politic is constituted and governed. In the case of a written Constitution the Constitution is more fundamental than any particular law and contains a principle with which all legislation must be in harmony. Therefore, an amendment of the Constitution is an amendment of something which provides a system according to which"
+        },
+        {
+          "page_number": 434,
+          "chunk_id": "chunk_01140",
+          "score": 0.7293,
+          "matched_queries": [
+            "What did the 24th Amendment change?",
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the amending power, in so elaborate a Constitution, could not possibly omit from its ambit or scope the power of amendment of any part of it so that the 24th Amendment merely clarifies the original intention to lodge a wide amending power within the bosom of Article 368. It has been rightly pointed out that the careful manner in which the Constitution, and, particularly, the amending Article 368 was framed precludes the possibility of a delibrate casus omissus so as to exclude from its scope the making of any provision which may either take away or abridge or affect a fundamental right or any other basic feature. In any case, in such a Constitution as ours, we must strongly lean against a construction which may enable us to hold that any part of the Constitution is exempt from the scope of Article 368"
+        },
+        {
+          "page_number": 282,
+          "chunk_id": "chunk_00736",
+          "score": 0.7252,
+          "matched_queries": [
+            "What did the 24th Amendment change?",
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the Constitution; (7) A secular State; (8) A free and independent judiciary; (9) The dual structure of the Union and the States; (10) The balance between the legislature, the executive and the judiciary; (11) A Parliamentary form of Government as distinct from Presidential form of Government; (12) The amendability of the Constitution as per the basic scheme of Article 368. 1333. These, according to Mr. Palkhivala, are some of the essential features of the Constitution and they cannot be substantially altered by the amendatory process. 1334. A question of very wide import is raised by the submission. So far as the present case is concerned, the 24th amendment does no more than give effect to Parliament’s acceptance of the view taken in Sankari Prasad’s case, the majority in Sajjan Singh’s case and the minority in Golak Nath’s case with regard to the nature of the amending power in relation to fundamental rights. It is clarificatory of the original Article 368. What was implicit in Article 368 is now made explicit and the essence of Article 368 is retained. Therefore, there can be no objection to the 24th Amendment on the ground that any essential feature of the Constitution is affected. 1335. The 25th Amendment introduces some abridgement of the fundamental right to property. Right to property has been subject to abridgement right from the Constitution itself (See : Article 31(4) & (6)) and the 25th amendment is a further inroad on the right to property. In Golak Nath’s case, the first, fourth and the seventeenth amendments were held by the majority as having contravened Article 13(2). Nevertheless the amendments were not struck down but permitted to continue as if they were valid. Since I have come to the conclusion that Article 13(2) does not control an amendment of the Constitution, it must be held that all previous amendments to the Constitution, so far made, could not be challenged on the ground of repugnancy to Article 13(2). It follows that any amendment of the Constitution cannot be challenged on that ground, and that would be true not only of the 24th amendment but also the 25th amendment, and the 29th amendment. 1336. The question still survives whether the 25th amendment and the 29th amendment are invalid because, as contended by Mr. Palkhivala, an essential feature of the Constitution has been substantially affected. The argument proceeds on the assumption"
+        },
+        {
+          "page_number": 427,
+          "chunk_id": "chunk_01124",
+          "score": 0.7166,
+          "matched_queries": [
+            "What did the 24th Amendment change?",
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment"
+          ],
+          "text": "The questions of the correct interpretation of the 24th Amendment and its validity cannot be decided unless this Hon’ble Court first comes to a conclusion as to whether the original power was limited or unlimited. If it was originally limited the question would arise whether the 24th Amendment should be \"read down\" or whether it should be held to be unConstitutional. Even the question of the correct construction of the 24th Amendment cannot be decided unless the starting point is first established, namely, the true, scope of the original amending power\". Again, it would be impossible to decide the question whether Article 31(2) which has been altered by the 25th Amendment should be \"read down\" in such a way as to preserve the right to property or should be declared unConstitutional as abrogating the right to property,-unless and until it is first decided whether Parliament has the right to abrogate the right to property. This directly involves the question whether the amending power is limited or unlimited. When one comes to Article 31C the necessity of deciding the limits of the amending power becomes unmistakable. The Article violates 7 essential features of the Constitution and makes the Constitution suffer a loss of identity. There can be no question of ’reading down’ Article 31C. It can only be held to be unConstitutional on the ground that Parliament’s amending power was limited\". To decide the question of the validity of Article 31C only on the ground that it virtually provider for amendment of the Constitution in a \"manner and form\" different from that prescribed by Article 368 would be a most unsatisfactory ground of decision. The question of prune importance is the limit on the amending power. The question of manner and form pales into total insignificance compared to the question of substantive limitation on the amending power\". It is submitted with the greatest respect that the 69 days hearing would be virtually wasted if the judgment were to rest merely on the point of manner and form, avoiding the real issue of momentous significance,"
+        },
+        {
+          "page_number": 111,
+          "chunk_id": "chunk_00258",
+          "score": 0.7158,
+          "matched_queries": [
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the power of amendment contained in Article 368 is of a special nature which has been exclusively conferred on Parliament and can be exercised only in the manner laid down in that Article. The same could not be delegated to any other legislature in the country. Section 3, therefore, must be declared to be unConstitutional and invalid. 7. The 29th Amendment is valid. However, the question whether the Acts included in the Ninth Schedule by that amendment or any provision of those Acts abrogates any of the basic elements of the Constitutional structure or denudes them of their identity will have to be examined when the validity of those Acts comes up for consideration. 647. The petitions are remitted to the Constitution Bench to be decided in accordance with this judgment and the law. The Constitution Bench will also decide the validity of the 26th Amendment in the light of our judgment. K.S. Hegde and A.K. Mukherjea, JJ. 648. In these writ petitions questions of great Constitutional importance have arisen for consideration. Herein we are called upon to decide the Constitutional validity of the 24th, 25th, 26th and 29th Amendments to the Constitution. We have had the advantage of hearing long and illuminating arguments covering over 65 working days. We have been referred to numerous decisions of this Court and of the courts in England, United States, Canada, Australia, Germany, Ireland and Ceylon. Our attention has also been invited to various writings of jurists, present and past, of several countries. For paucity of time, we have not taken up the question of the validity of the 26th Amendment. That question can be conveniently considered later after this bench decides certain fundamental questions of law arising for decision. For the same reason we have also refrained from going into the merits of various writ petitions at this stage. At present we are merely deciding the scope and validity of the 24th, 25th and 29th Amendments to the Constitution. 649. In order to decide the validity of the Amendments referred to earlier, it is necessary"
+        },
+        {
+          "page_number": 170,
+          "chunk_id": "chunk_00419",
+          "score": 0.7144,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act"
+          ],
+          "text": "makes a Constitutional amendment under Article 368 it acts in exercise of constituent power. Third, it had provided by amendment in Articles 13 and 368 that the power in Article 13(2) against abridging or taking away of the fundamental rights shall not apply to any amendment under Article 368. The Constitution 24th Amendment Act is, therefore, to be construed as empowering Parliament to exercise full constituent power of the people and to vest in Parliament the ultimate legal sovereignty of the people as authorising Parliament to alter or destroy all o r any of the essential features, basic elements and fundamental principles of the Constitution. Likewise, Parliament is construed by the Constitution 24th Amendment Act"
+        },
+        {
+          "page_number": 171,
+          "chunk_id": "chunk_00420",
+          "score": 0.7142,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 171 of 502 to be authorised to damage or destroy the essence of all or any of the fundamental rights. Therefore, the amendment must be illegal and invalid. 921. In the alternative it was submitted on behalf of the petitioner that if the Constitutio n 24th Amendment is valid it can be only on a reading down of the amended provisions of Article 13 and 368 which reading would preserve the original inherent and implied limitations. Even after the Constitution 24th Amendment Act Parliament will have no power to alter or destroy the essential features of the Constitution and secondly, fundamental rights are among the essential features of the Constitution and, therefore, the essence of any of the fundamental rights cannot be altered or destroyed or damaged even when they are sought to be abridged. 922. The Attorney General stressed the background in which Article 368 was enacted by the Constituent Assembly to show that any limitation on the amending power was never in controversy. The only controversy was regarding the degree of flexibility of an amendment of all the provisions of the Constitution. Our Constitution has adopted three methods of amendment of the Constitution. Certain provisions of the Constitution may be amended by a simple majority in Parliament. Others may be amended by two-thirds majority. The third category relates to provisions where amendments must be ratified by one half of the States. This scheme strikes a good balance by protecting the rights of the States while leaving the remainder of the Constitution easy to amend. Of the three ways of amending the Constitution two are laid down in Article 368 itself and the third is provided for in about 24 other Articles. 923. The Constitutional Adviser incorporated in his draft Constitution prepared by him in October, 1947 a recommendation contained in the supplementary Report of the Union Constitution Committee. Following the recommendation of the Advisory Committee he included a proviso that the provisions in the Constitution relating to the reservation of seats for the Muslims, the Scheduled Castes, the Scheduled Tribes, the Indian Christians and the Sikhs, either in the Federal Parliament or in any Provincial Legislature, should not be amended before the expiry of ten years from the commencement of the Constitution. 924. The Drafting Committee in February, 1948 considered the provisions for amendment. It made three material changes in the provisions made by the Constitution Adviser. First, the Committee framed a self contained and independent Article regarding the reservation of seats in the legislatures for minorities. These provisions could not be amended for a period of ten years and would then cease to have effect unless continued in operation by an"
+        },
+        {
+          "page_number": 375,
+          "chunk_id": "chunk_00980",
+          "score": 0.7132,
+          "matched_queries": [
+            "What did the 24th Amendment change?",
+            "24th Amendment",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "29th Constitutional Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 375 of 502 Acts or the provisions thereof violate any of the Fundamental Rights. 1606. The petitioner challenges the validity of these Amendments. 1607. As the validity of the 25th and the 29th Amendments essentially depends upon the validity of the 24th Amendment, it is necessary to consider and decide that question first. I, therefore, torn to the circumstances which necessitated the Constitutional 24th Amendment Act. 1608. The Constitution (First Amendment) Act, 1951, was passed by Parliament on June 18, 1951. Sections 2, 3 and 4 of the Act made amendments in some of the articles in Part III of the Constitution. The validity of the Amendment was challenged before this Court in Sankari Prasad v. The Union of India [1952] S.C.R. 89, and one of the questions which fell for decision was whether, in view of Clause 2 of Article 13, Parliament had power to amend the Fundamental Rights in such a way as to take away or abridge them. And the argument was that the word \"State\" in Clause 2 of Article 13 includes Parliament and the word ’law’ would take in an amendment of the Constitution and, therefore, Parliament had no power to pass a law amending the Constitution in such a way as to take away or abridge the Fundamental Rights. Patanjali Sastri, J. who delivered the judgment of the Court said that although the word ’law’ would ordinarily include Constitutional law, there is a distinction between ordinary law made in the exercise of legislative power and Constitutional law made in the exercise of constituent power and that in the context of Clause 2 of Article 13, the word ’law’ would not include an amendment of the Constitution. 1609. This decision was followed in Sajjan Singh v. State of Rajasthan [1965] 1 S.C.R. 933. There, Gajendragadkar, C.J., speaking for himself and two of his colleagues, substantially agreed with the reasoning of Patanjali Sastri, J. in Sankari Prasad v. The Union of India [1952] S.C.R. 89. Hidayatullah and Mudholkar, JJ. expressed certain doubts as to whether Fundamental Rights could be abridged or taken away by amendment of the Constitution under Article 368. 1610. The question again came up before this Court in Golaknath v. State of Punjab [1967] 2 S.C.R. 762, hereinafter called ’Golaknath Case’ where the validity of the 17th Amendment was challenged on much the same grounds. The majority constituting the Bench decided that Parliament has no power to amend the Fundamental Rights in such a way as to take away or abridge them, but that the 1st, 4th and 17th Amendments were valid for all time on the basis of the doctrine of prospective overruling and that the"
+        },
+        {
+          "page_number": 375,
+          "chunk_id": "chunk_00982",
+          "score": 0.7126,
+          "matched_queries": [
+            "What did the 24th Amendment change?"
+          ],
+          "text": "before the 24th Amendment gave power to Parliament to amend the rights conferred by Part III in such a way as to take away or abridge them. 1614. In Golaknath Case [1967] 2 S.C.R. 762, Hidayatullah, J. said that it is difficult to take a narrow view of the word ’amendment’ as including only minor changes within the general framework, that by an amendment, new matter may be added, old matter removed or altered, and that except two dozen articles in Part III, all the provisions of th e Constitution could be amended. Wanchoo, J. speaking for the leading minority in that case was of the view that the word ’amendment’ in its setting in the article was of the widest amplitude and that any provision of the Constitution could be amended. Bachawat,"
+        },
+        {
+          "page_number": 298,
+          "chunk_id": "chunk_00783",
+          "score": 0.7076,
+          "matched_queries": [
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "of Article 19(1)(f) to a law referred to in Clause (2) of Article 31 is merely a re-statement of the law laid down by this Court after the constiution came into force. The mutual exclusiveness of Article 19(1)(f) and Article 31(2) had been recognized by this Court in a scries of cases. See : Sitabati Debi and Anr. v. State of West Bengal and Anr. [1967] (2) S.C.R. 949. That principle is now embodied in the new amendment. 1372. The only substantial objection to the twenty-fifth amendment is based on the new Article 31C inserted in the Constitution by Section 3 of the twenty-fifth amendment act. 1373. The new article is as follows: 31C. Notwithstanding anything contained in Article 13, no law giving effect to the policy of the state towards securing the principles specified in Clause (b) or Clause (c) of Article 39 shall be deemed to be void on the ground that it is inconsistent with, or takes away or abridges any of the rights conferred by Article 14, Article 19 or Article 31; and no law containing a declaration chat it is for giving effect to such policy shall be called in question in any court on the ground that it does not give effect to such policy. Provided that where such law is made by the Legislature of a State, the provisions of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 1374. Ignoring the proviso for the moment, one finds that the main clause of the article falls into two parts. The first part provides that a law of a particular description shall n ot be deemed to be void on the ground that it affects injuriously somebody’s fundamental rights under Articles 14, 19 and 31. The second part provides that if such a law contains a particular declaration, courts shall not entertain a particular kind of objection. 1375. In the first place, it should be noted that what is saved by Article 31C is a law i.e. a law made by a competent legislature. Secondly since Article 31C comes under the specific heading ’Right to property’ in Part III dealing with fundamental rights it is evident that the law must involve right to property. That it must of necessity do so is apparent from the description of the law given in the article. The description is that the law gives effect to the policy of the State towards securing the principles specified in Clauses (b) & (c) of Article 39. That article is one of the several articles in Part IV of t he Constitution dealing with Directive Principles of State"
+        }
+      ]
+    },
+    {
+      "id": "amendment_03",
+      "category": "amendment",
+      "question": "What did the 25th Amendment change?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What did the 25th Amendment change?",
+        "24th Amendment",
+        "Twenty-fourth Amendment",
+        "Constitution (Twenty-fourth Amendment) Act",
+        "Constitution Twenty-fourth Amendment Act",
+        "24th Constitutional Amendment",
+        "Twenty Fourth Amendment",
+        "25th Amendment",
+        "Twenty-fifth Amendment",
+        "Constitution (Twenty-fifth Amendment) Act",
+        "Constitution Twenty-fifth Amendment Act",
+        "25th Constitutional Amendment",
+        "Twenty Fifth Amendment",
+        "29th Amendment",
+        "Twenty-ninth Amendment",
+        "Constitution (Twenty-ninth Amendment) Act",
+        "Constitution Twenty-ninth Amendment Act",
+        "29th Constitutional Amendment",
+        "Twenty Ninth Amendment",
+        "constitutional amendments considered in the case",
+        "amendments challenged in the case",
+        "validity of constitutional amendments",
+        "validity of amendments",
+        "constitutional amendment Acts"
+      ],
+      "retrieved_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "top_1_page": 178,
+      "top_3_pages": [
+        178,
+        434,
+        282
+      ],
+      "top_5_pages": [
+        178,
+        434,
+        282,
+        427,
+        111
+      ],
+      "top_10_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "25th amendment"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 178,
+          "chunk_id": "chunk_00441",
+          "score": 0.7385,
+          "matched_queries": [
+            "24th Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "be amended by Parliament. The leading majority judgment with reference to the meaning of the word \"amendment\" and without deciding the matter observed that there was great force in the argument that certain fundamental features e.g. the concept of federalism, the institutions of the President and the Parliamentary executive could not be abolished by amendment. Shankari Prasad case, Sajjan Singh case and the dissenting minority judgment in Golak Nath case took the view that every provision of the Constitution could be amended in exercise of constituent power. As a necessary corollary, the 24th Amendment excludes the operation of Article 13 by amending Article 13 by a new Sub-article (4) that nothing in Article 13 shall apply to any amendment of this Constitution under Article 368. The amendment of Article 13 by an insertion of Sub-article (4) is also reinforced by the opening words introduced in Article 368 by the 24th Amendment, viz., notwithstanding anything contained in this Constitution, which would certainly exclude Article 13. 959. The Constitution 24th Amendment Act raises three aspects. First, does the word \"amend\" include abrogation or repeal of the whole Constitution? Does amendment mean that there is some feature of the Constitution which cannot be changed. Secondly, what light does the proviso to Article 368 throw on the nature of the amending power and on the doctrine of inherent and implied limitations on the amending power that essential features of the Constitution cannot be damaged or destroyed. Thirdly, does Clause (e) of the proviso to Article 368 enable Parliament and the requisite majority of the States to increase the power of amendment that was conferred by Article 368. 960. Article 368 in the unamended form contained power as well as self executing procedure which if followed by the prescribed authorities would result in an amendment of the Constitution. Both the Attorney General and Mr. Seervai rightly said that the words \"Constitution shall stand amended\" in Article 368 will exclude a simple repeal that is without substituting anything in place of the repealed Constitution. If the Constitution were totally repealed and a vacuum was created it could not be said that the Constitution stands amended. The Constitution means the mode in which a State is constituted or organised specially as to the location of sovereign power. The Constitution also means the system or body of fundamental principles according to which the nation, State and body politic is constituted and governed. In the case of a written Constitution the Constitution is more fundamental than any particular law and contains a principle with which all legislation must be in harmony. Therefore, an amendment of the Constitution is an amendment of something which provides a system according to which"
+        },
+        {
+          "page_number": 434,
+          "chunk_id": "chunk_01140",
+          "score": 0.7293,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the amending power, in so elaborate a Constitution, could not possibly omit from its ambit or scope the power of amendment of any part of it so that the 24th Amendment merely clarifies the original intention to lodge a wide amending power within the bosom of Article 368. It has been rightly pointed out that the careful manner in which the Constitution, and, particularly, the amending Article 368 was framed precludes the possibility of a delibrate casus omissus so as to exclude from its scope the making of any provision which may either take away or abridge or affect a fundamental right or any other basic feature. In any case, in such a Constitution as ours, we must strongly lean against a construction which may enable us to hold that any part of the Constitution is exempt from the scope of Article 368"
+        },
+        {
+          "page_number": 282,
+          "chunk_id": "chunk_00736",
+          "score": 0.7252,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the Constitution; (7) A secular State; (8) A free and independent judiciary; (9) The dual structure of the Union and the States; (10) The balance between the legislature, the executive and the judiciary; (11) A Parliamentary form of Government as distinct from Presidential form of Government; (12) The amendability of the Constitution as per the basic scheme of Article 368. 1333. These, according to Mr. Palkhivala, are some of the essential features of the Constitution and they cannot be substantially altered by the amendatory process. 1334. A question of very wide import is raised by the submission. So far as the present case is concerned, the 24th amendment does no more than give effect to Parliament’s acceptance of the view taken in Sankari Prasad’s case, the majority in Sajjan Singh’s case and the minority in Golak Nath’s case with regard to the nature of the amending power in relation to fundamental rights. It is clarificatory of the original Article 368. What was implicit in Article 368 is now made explicit and the essence of Article 368 is retained. Therefore, there can be no objection to the 24th Amendment on the ground that any essential feature of the Constitution is affected. 1335. The 25th Amendment introduces some abridgement of the fundamental right to property. Right to property has been subject to abridgement right from the Constitution itself (See : Article 31(4) & (6)) and the 25th amendment is a further inroad on the right to property. In Golak Nath’s case, the first, fourth and the seventeenth amendments were held by the majority as having contravened Article 13(2). Nevertheless the amendments were not struck down but permitted to continue as if they were valid. Since I have come to the conclusion that Article 13(2) does not control an amendment of the Constitution, it must be held that all previous amendments to the Constitution, so far made, could not be challenged on the ground of repugnancy to Article 13(2). It follows that any amendment of the Constitution cannot be challenged on that ground, and that would be true not only of the 24th amendment but also the 25th amendment, and the 29th amendment. 1336. The question still survives whether the 25th amendment and the 29th amendment are invalid because, as contended by Mr. Palkhivala, an essential feature of the Constitution has been substantially affected. The argument proceeds on the assumption"
+        },
+        {
+          "page_number": 427,
+          "chunk_id": "chunk_01124",
+          "score": 0.7166,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment"
+          ],
+          "text": "The questions of the correct interpretation of the 24th Amendment and its validity cannot be decided unless this Hon’ble Court first comes to a conclusion as to whether the original power was limited or unlimited. If it was originally limited the question would arise whether the 24th Amendment should be \"read down\" or whether it should be held to be unConstitutional. Even the question of the correct construction of the 24th Amendment cannot be decided unless the starting point is first established, namely, the true, scope of the original amending power\". Again, it would be impossible to decide the question whether Article 31(2) which has been altered by the 25th Amendment should be \"read down\" in such a way as to preserve the right to property or should be declared unConstitutional as abrogating the right to property,-unless and until it is first decided whether Parliament has the right to abrogate the right to property. This directly involves the question whether the amending power is limited or unlimited. When one comes to Article 31C the necessity of deciding the limits of the amending power becomes unmistakable. The Article violates 7 essential features of the Constitution and makes the Constitution suffer a loss of identity. There can be no question of ’reading down’ Article 31C. It can only be held to be unConstitutional on the ground that Parliament’s amending power was limited\". To decide the question of the validity of Article 31C only on the ground that it virtually provider for amendment of the Constitution in a \"manner and form\" different from that prescribed by Article 368 would be a most unsatisfactory ground of decision. The question of prune importance is the limit on the amending power. The question of manner and form pales into total insignificance compared to the question of substantive limitation on the amending power\". It is submitted with the greatest respect that the 69 days hearing would be virtually wasted if the judgment were to rest merely on the point of manner and form, avoiding the real issue of momentous significance,"
+        },
+        {
+          "page_number": 111,
+          "chunk_id": "chunk_00258",
+          "score": 0.7158,
+          "matched_queries": [
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the power of amendment contained in Article 368 is of a special nature which has been exclusively conferred on Parliament and can be exercised only in the manner laid down in that Article. The same could not be delegated to any other legislature in the country. Section 3, therefore, must be declared to be unConstitutional and invalid. 7. The 29th Amendment is valid. However, the question whether the Acts included in the Ninth Schedule by that amendment or any provision of those Acts abrogates any of the basic elements of the Constitutional structure or denudes them of their identity will have to be examined when the validity of those Acts comes up for consideration. 647. The petitions are remitted to the Constitution Bench to be decided in accordance with this judgment and the law. The Constitution Bench will also decide the validity of the 26th Amendment in the light of our judgment. K.S. Hegde and A.K. Mukherjea, JJ. 648. In these writ petitions questions of great Constitutional importance have arisen for consideration. Herein we are called upon to decide the Constitutional validity of the 24th, 25th, 26th and 29th Amendments to the Constitution. We have had the advantage of hearing long and illuminating arguments covering over 65 working days. We have been referred to numerous decisions of this Court and of the courts in England, United States, Canada, Australia, Germany, Ireland and Ceylon. Our attention has also been invited to various writings of jurists, present and past, of several countries. For paucity of time, we have not taken up the question of the validity of the 26th Amendment. That question can be conveniently considered later after this bench decides certain fundamental questions of law arising for decision. For the same reason we have also refrained from going into the merits of various writ petitions at this stage. At present we are merely deciding the scope and validity of the 24th, 25th and 29th Amendments to the Constitution. 649. In order to decide the validity of the Amendments referred to earlier, it is necessary"
+        },
+        {
+          "page_number": 170,
+          "chunk_id": "chunk_00419",
+          "score": 0.7144,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act"
+          ],
+          "text": "makes a Constitutional amendment under Article 368 it acts in exercise of constituent power. Third, it had provided by amendment in Articles 13 and 368 that the power in Article 13(2) against abridging or taking away of the fundamental rights shall not apply to any amendment under Article 368. The Constitution 24th Amendment Act is, therefore, to be construed as empowering Parliament to exercise full constituent power of the people and to vest in Parliament the ultimate legal sovereignty of the people as authorising Parliament to alter or destroy all o r any of the essential features, basic elements and fundamental principles of the Constitution. Likewise, Parliament is construed by the Constitution 24th Amendment Act"
+        },
+        {
+          "page_number": 171,
+          "chunk_id": "chunk_00420",
+          "score": 0.7142,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 171 of 502 to be authorised to damage or destroy the essence of all or any of the fundamental rights. Therefore, the amendment must be illegal and invalid. 921. In the alternative it was submitted on behalf of the petitioner that if the Constitutio n 24th Amendment is valid it can be only on a reading down of the amended provisions of Article 13 and 368 which reading would preserve the original inherent and implied limitations. Even after the Constitution 24th Amendment Act Parliament will have no power to alter or destroy the essential features of the Constitution and secondly, fundamental rights are among the essential features of the Constitution and, therefore, the essence of any of the fundamental rights cannot be altered or destroyed or damaged even when they are sought to be abridged. 922. The Attorney General stressed the background in which Article 368 was enacted by the Constituent Assembly to show that any limitation on the amending power was never in controversy. The only controversy was regarding the degree of flexibility of an amendment of all the provisions of the Constitution. Our Constitution has adopted three methods of amendment of the Constitution. Certain provisions of the Constitution may be amended by a simple majority in Parliament. Others may be amended by two-thirds majority. The third category relates to provisions where amendments must be ratified by one half of the States. This scheme strikes a good balance by protecting the rights of the States while leaving the remainder of the Constitution easy to amend. Of the three ways of amending the Constitution two are laid down in Article 368 itself and the third is provided for in about 24 other Articles. 923. The Constitutional Adviser incorporated in his draft Constitution prepared by him in October, 1947 a recommendation contained in the supplementary Report of the Union Constitution Committee. Following the recommendation of the Advisory Committee he included a proviso that the provisions in the Constitution relating to the reservation of seats for the Muslims, the Scheduled Castes, the Scheduled Tribes, the Indian Christians and the Sikhs, either in the Federal Parliament or in any Provincial Legislature, should not be amended before the expiry of ten years from the commencement of the Constitution. 924. The Drafting Committee in February, 1948 considered the provisions for amendment. It made three material changes in the provisions made by the Constitution Adviser. First, the Committee framed a self contained and independent Article regarding the reservation of seats in the legislatures for minorities. These provisions could not be amended for a period of ten years and would then cease to have effect unless continued in operation by an"
+        },
+        {
+          "page_number": 375,
+          "chunk_id": "chunk_00980",
+          "score": 0.7132,
+          "matched_queries": [
+            "What did the 25th Amendment change?",
+            "24th Amendment",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "29th Constitutional Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 375 of 502 Acts or the provisions thereof violate any of the Fundamental Rights. 1606. The petitioner challenges the validity of these Amendments. 1607. As the validity of the 25th and the 29th Amendments essentially depends upon the validity of the 24th Amendment, it is necessary to consider and decide that question first. I, therefore, torn to the circumstances which necessitated the Constitutional 24th Amendment Act. 1608. The Constitution (First Amendment) Act, 1951, was passed by Parliament on June 18, 1951. Sections 2, 3 and 4 of the Act made amendments in some of the articles in Part III of the Constitution. The validity of the Amendment was challenged before this Court in Sankari Prasad v. The Union of India [1952] S.C.R. 89, and one of the questions which fell for decision was whether, in view of Clause 2 of Article 13, Parliament had power to amend the Fundamental Rights in such a way as to take away or abridge them. And the argument was that the word \"State\" in Clause 2 of Article 13 includes Parliament and the word ’law’ would take in an amendment of the Constitution and, therefore, Parliament had no power to pass a law amending the Constitution in such a way as to take away or abridge the Fundamental Rights. Patanjali Sastri, J. who delivered the judgment of the Court said that although the word ’law’ would ordinarily include Constitutional law, there is a distinction between ordinary law made in the exercise of legislative power and Constitutional law made in the exercise of constituent power and that in the context of Clause 2 of Article 13, the word ’law’ would not include an amendment of the Constitution. 1609. This decision was followed in Sajjan Singh v. State of Rajasthan [1965] 1 S.C.R. 933. There, Gajendragadkar, C.J., speaking for himself and two of his colleagues, substantially agreed with the reasoning of Patanjali Sastri, J. in Sankari Prasad v. The Union of India [1952] S.C.R. 89. Hidayatullah and Mudholkar, JJ. expressed certain doubts as to whether Fundamental Rights could be abridged or taken away by amendment of the Constitution under Article 368. 1610. The question again came up before this Court in Golaknath v. State of Punjab [1967] 2 S.C.R. 762, hereinafter called ’Golaknath Case’ where the validity of the 17th Amendment was challenged on much the same grounds. The majority constituting the Bench decided that Parliament has no power to amend the Fundamental Rights in such a way as to take away or abridge them, but that the 1st, 4th and 17th Amendments were valid for all time on the basis of the doctrine of prospective overruling and that the"
+        },
+        {
+          "page_number": 298,
+          "chunk_id": "chunk_00783",
+          "score": 0.7076,
+          "matched_queries": [
+            "What did the 25th Amendment change?",
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "of Article 19(1)(f) to a law referred to in Clause (2) of Article 31 is merely a re-statement of the law laid down by this Court after the constiution came into force. The mutual exclusiveness of Article 19(1)(f) and Article 31(2) had been recognized by this Court in a scries of cases. See : Sitabati Debi and Anr. v. State of West Bengal and Anr. [1967] (2) S.C.R. 949. That principle is now embodied in the new amendment. 1372. The only substantial objection to the twenty-fifth amendment is based on the new Article 31C inserted in the Constitution by Section 3 of the twenty-fifth amendment act. 1373. The new article is as follows: 31C. Notwithstanding anything contained in Article 13, no law giving effect to the policy of the state towards securing the principles specified in Clause (b) or Clause (c) of Article 39 shall be deemed to be void on the ground that it is inconsistent with, or takes away or abridges any of the rights conferred by Article 14, Article 19 or Article 31; and no law containing a declaration chat it is for giving effect to such policy shall be called in question in any court on the ground that it does not give effect to such policy. Provided that where such law is made by the Legislature of a State, the provisions of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 1374. Ignoring the proviso for the moment, one finds that the main clause of the article falls into two parts. The first part provides that a law of a particular description shall n ot be deemed to be void on the ground that it affects injuriously somebody’s fundamental rights under Articles 14, 19 and 31. The second part provides that if such a law contains a particular declaration, courts shall not entertain a particular kind of objection. 1375. In the first place, it should be noted that what is saved by Article 31C is a law i.e. a law made by a competent legislature. Secondly since Article 31C comes under the specific heading ’Right to property’ in Part III dealing with fundamental rights it is evident that the law must involve right to property. That it must of necessity do so is apparent from the description of the law given in the article. The description is that the law gives effect to the policy of the State towards securing the principles specified in Clauses (b) & (c) of Article 39. That article is one of the several articles in Part IV of t he Constitution dealing with Directive Principles of State"
+        },
+        {
+          "page_number": 425,
+          "chunk_id": "chunk_01119",
+          "score": 0.706,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment"
+          ],
+          "text": "or abridge them was wrong, that the power to amend under Article 368 as it stood before the 24th Amendment was plenary in character and extended to all the provisions of the Constitution, that the 24th Amendment did not add anything to the content of Article 368 as it stood before the amendment, that it is declaratory in character except as regards the compulsory nature of the assent of the President to a bill for amendment and that the article as amended makes it clear that all the provisions of the Constitution can be amended by way of addition, variation or repeal. The only limitation is that the Constitution cannot be repealed or abrogated in the exercise of the power of amendment without substituting a mechanism"
+        }
+      ]
+    },
+    {
+      "id": "amendment_04",
+      "category": "amendment",
+      "question": "What did the 29th Amendment change?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What did the 29th Amendment change?",
+        "24th Amendment",
+        "Twenty-fourth Amendment",
+        "Constitution (Twenty-fourth Amendment) Act",
+        "Constitution Twenty-fourth Amendment Act",
+        "24th Constitutional Amendment",
+        "Twenty Fourth Amendment",
+        "25th Amendment",
+        "Twenty-fifth Amendment",
+        "Constitution (Twenty-fifth Amendment) Act",
+        "Constitution Twenty-fifth Amendment Act",
+        "25th Constitutional Amendment",
+        "Twenty Fifth Amendment",
+        "29th Amendment",
+        "Twenty-ninth Amendment",
+        "Constitution (Twenty-ninth Amendment) Act",
+        "Constitution Twenty-ninth Amendment Act",
+        "29th Constitutional Amendment",
+        "Twenty Ninth Amendment",
+        "constitutional amendments considered in the case",
+        "amendments challenged in the case",
+        "validity of constitutional amendments",
+        "validity of amendments",
+        "constitutional amendment Acts"
+      ],
+      "retrieved_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "top_1_page": 178,
+      "top_3_pages": [
+        178,
+        434,
+        282
+      ],
+      "top_5_pages": [
+        178,
+        434,
+        282,
+        427,
+        111
+      ],
+      "top_10_pages": [
+        178,
+        434,
+        282,
+        427,
+        111,
+        170,
+        171,
+        375,
+        298,
+        425
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "29th amendment"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 178,
+          "chunk_id": "chunk_00441",
+          "score": 0.7385,
+          "matched_queries": [
+            "24th Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "be amended by Parliament. The leading majority judgment with reference to the meaning of the word \"amendment\" and without deciding the matter observed that there was great force in the argument that certain fundamental features e.g. the concept of federalism, the institutions of the President and the Parliamentary executive could not be abolished by amendment. Shankari Prasad case, Sajjan Singh case and the dissenting minority judgment in Golak Nath case took the view that every provision of the Constitution could be amended in exercise of constituent power. As a necessary corollary, the 24th Amendment excludes the operation of Article 13 by amending Article 13 by a new Sub-article (4) that nothing in Article 13 shall apply to any amendment of this Constitution under Article 368. The amendment of Article 13 by an insertion of Sub-article (4) is also reinforced by the opening words introduced in Article 368 by the 24th Amendment, viz., notwithstanding anything contained in this Constitution, which would certainly exclude Article 13. 959. The Constitution 24th Amendment Act raises three aspects. First, does the word \"amend\" include abrogation or repeal of the whole Constitution? Does amendment mean that there is some feature of the Constitution which cannot be changed. Secondly, what light does the proviso to Article 368 throw on the nature of the amending power and on the doctrine of inherent and implied limitations on the amending power that essential features of the Constitution cannot be damaged or destroyed. Thirdly, does Clause (e) of the proviso to Article 368 enable Parliament and the requisite majority of the States to increase the power of amendment that was conferred by Article 368. 960. Article 368 in the unamended form contained power as well as self executing procedure which if followed by the prescribed authorities would result in an amendment of the Constitution. Both the Attorney General and Mr. Seervai rightly said that the words \"Constitution shall stand amended\" in Article 368 will exclude a simple repeal that is without substituting anything in place of the repealed Constitution. If the Constitution were totally repealed and a vacuum was created it could not be said that the Constitution stands amended. The Constitution means the mode in which a State is constituted or organised specially as to the location of sovereign power. The Constitution also means the system or body of fundamental principles according to which the nation, State and body politic is constituted and governed. In the case of a written Constitution the Constitution is more fundamental than any particular law and contains a principle with which all legislation must be in harmony. Therefore, an amendment of the Constitution is an amendment of something which provides a system according to which"
+        },
+        {
+          "page_number": 434,
+          "chunk_id": "chunk_01140",
+          "score": 0.7293,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the amending power, in so elaborate a Constitution, could not possibly omit from its ambit or scope the power of amendment of any part of it so that the 24th Amendment merely clarifies the original intention to lodge a wide amending power within the bosom of Article 368. It has been rightly pointed out that the careful manner in which the Constitution, and, particularly, the amending Article 368 was framed precludes the possibility of a delibrate casus omissus so as to exclude from its scope the making of any provision which may either take away or abridge or affect a fundamental right or any other basic feature. In any case, in such a Constitution as ours, we must strongly lean against a construction which may enable us to hold that any part of the Constitution is exempt from the scope of Article 368"
+        },
+        {
+          "page_number": 282,
+          "chunk_id": "chunk_00736",
+          "score": 0.7252,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "25th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the Constitution; (7) A secular State; (8) A free and independent judiciary; (9) The dual structure of the Union and the States; (10) The balance between the legislature, the executive and the judiciary; (11) A Parliamentary form of Government as distinct from Presidential form of Government; (12) The amendability of the Constitution as per the basic scheme of Article 368. 1333. These, according to Mr. Palkhivala, are some of the essential features of the Constitution and they cannot be substantially altered by the amendatory process. 1334. A question of very wide import is raised by the submission. So far as the present case is concerned, the 24th amendment does no more than give effect to Parliament’s acceptance of the view taken in Sankari Prasad’s case, the majority in Sajjan Singh’s case and the minority in Golak Nath’s case with regard to the nature of the amending power in relation to fundamental rights. It is clarificatory of the original Article 368. What was implicit in Article 368 is now made explicit and the essence of Article 368 is retained. Therefore, there can be no objection to the 24th Amendment on the ground that any essential feature of the Constitution is affected. 1335. The 25th Amendment introduces some abridgement of the fundamental right to property. Right to property has been subject to abridgement right from the Constitution itself (See : Article 31(4) & (6)) and the 25th amendment is a further inroad on the right to property. In Golak Nath’s case, the first, fourth and the seventeenth amendments were held by the majority as having contravened Article 13(2). Nevertheless the amendments were not struck down but permitted to continue as if they were valid. Since I have come to the conclusion that Article 13(2) does not control an amendment of the Constitution, it must be held that all previous amendments to the Constitution, so far made, could not be challenged on the ground of repugnancy to Article 13(2). It follows that any amendment of the Constitution cannot be challenged on that ground, and that would be true not only of the 24th amendment but also the 25th amendment, and the 29th amendment. 1336. The question still survives whether the 25th amendment and the 29th amendment are invalid because, as contended by Mr. Palkhivala, an essential feature of the Constitution has been substantially affected. The argument proceeds on the assumption"
+        },
+        {
+          "page_number": 427,
+          "chunk_id": "chunk_01124",
+          "score": 0.7166,
+          "matched_queries": [
+            "24th Amendment",
+            "Twenty-fourth Amendment",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment"
+          ],
+          "text": "The questions of the correct interpretation of the 24th Amendment and its validity cannot be decided unless this Hon’ble Court first comes to a conclusion as to whether the original power was limited or unlimited. If it was originally limited the question would arise whether the 24th Amendment should be \"read down\" or whether it should be held to be unConstitutional. Even the question of the correct construction of the 24th Amendment cannot be decided unless the starting point is first established, namely, the true, scope of the original amending power\". Again, it would be impossible to decide the question whether Article 31(2) which has been altered by the 25th Amendment should be \"read down\" in such a way as to preserve the right to property or should be declared unConstitutional as abrogating the right to property,-unless and until it is first decided whether Parliament has the right to abrogate the right to property. This directly involves the question whether the amending power is limited or unlimited. When one comes to Article 31C the necessity of deciding the limits of the amending power becomes unmistakable. The Article violates 7 essential features of the Constitution and makes the Constitution suffer a loss of identity. There can be no question of ’reading down’ Article 31C. It can only be held to be unConstitutional on the ground that Parliament’s amending power was limited\". To decide the question of the validity of Article 31C only on the ground that it virtually provider for amendment of the Constitution in a \"manner and form\" different from that prescribed by Article 368 would be a most unsatisfactory ground of decision. The question of prune importance is the limit on the amending power. The question of manner and form pales into total insignificance compared to the question of substantive limitation on the amending power\". It is submitted with the greatest respect that the 69 days hearing would be virtually wasted if the judgment were to rest merely on the point of manner and form, avoiding the real issue of momentous significance,"
+        },
+        {
+          "page_number": 111,
+          "chunk_id": "chunk_00258",
+          "score": 0.7158,
+          "matched_queries": [
+            "What did the 29th Amendment change?",
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "29th Constitutional Amendment",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "the power of amendment contained in Article 368 is of a special nature which has been exclusively conferred on Parliament and can be exercised only in the manner laid down in that Article. The same could not be delegated to any other legislature in the country. Section 3, therefore, must be declared to be unConstitutional and invalid. 7. The 29th Amendment is valid. However, the question whether the Acts included in the Ninth Schedule by that amendment or any provision of those Acts abrogates any of the basic elements of the Constitutional structure or denudes them of their identity will have to be examined when the validity of those Acts comes up for consideration. 647. The petitions are remitted to the Constitution Bench to be decided in accordance with this judgment and the law. The Constitution Bench will also decide the validity of the 26th Amendment in the light of our judgment. K.S. Hegde and A.K. Mukherjea, JJ. 648. In these writ petitions questions of great Constitutional importance have arisen for consideration. Herein we are called upon to decide the Constitutional validity of the 24th, 25th, 26th and 29th Amendments to the Constitution. We have had the advantage of hearing long and illuminating arguments covering over 65 working days. We have been referred to numerous decisions of this Court and of the courts in England, United States, Canada, Australia, Germany, Ireland and Ceylon. Our attention has also been invited to various writings of jurists, present and past, of several countries. For paucity of time, we have not taken up the question of the validity of the 26th Amendment. That question can be conveniently considered later after this bench decides certain fundamental questions of law arising for decision. For the same reason we have also refrained from going into the merits of various writ petitions at this stage. At present we are merely deciding the scope and validity of the 24th, 25th and 29th Amendments to the Constitution. 649. In order to decide the validity of the Amendments referred to earlier, it is necessary"
+        },
+        {
+          "page_number": 170,
+          "chunk_id": "chunk_00419",
+          "score": 0.7144,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act"
+          ],
+          "text": "makes a Constitutional amendment under Article 368 it acts in exercise of constituent power. Third, it had provided by amendment in Articles 13 and 368 that the power in Article 13(2) against abridging or taking away of the fundamental rights shall not apply to any amendment under Article 368. The Constitution 24th Amendment Act is, therefore, to be construed as empowering Parliament to exercise full constituent power of the people and to vest in Parliament the ultimate legal sovereignty of the people as authorising Parliament to alter or destroy all o r any of the essential features, basic elements and fundamental principles of the Constitution. Likewise, Parliament is construed by the Constitution 24th Amendment Act"
+        },
+        {
+          "page_number": 171,
+          "chunk_id": "chunk_00420",
+          "score": 0.7142,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 171 of 502 to be authorised to damage or destroy the essence of all or any of the fundamental rights. Therefore, the amendment must be illegal and invalid. 921. In the alternative it was submitted on behalf of the petitioner that if the Constitutio n 24th Amendment is valid it can be only on a reading down of the amended provisions of Article 13 and 368 which reading would preserve the original inherent and implied limitations. Even after the Constitution 24th Amendment Act Parliament will have no power to alter or destroy the essential features of the Constitution and secondly, fundamental rights are among the essential features of the Constitution and, therefore, the essence of any of the fundamental rights cannot be altered or destroyed or damaged even when they are sought to be abridged. 922. The Attorney General stressed the background in which Article 368 was enacted by the Constituent Assembly to show that any limitation on the amending power was never in controversy. The only controversy was regarding the degree of flexibility of an amendment of all the provisions of the Constitution. Our Constitution has adopted three methods of amendment of the Constitution. Certain provisions of the Constitution may be amended by a simple majority in Parliament. Others may be amended by two-thirds majority. The third category relates to provisions where amendments must be ratified by one half of the States. This scheme strikes a good balance by protecting the rights of the States while leaving the remainder of the Constitution easy to amend. Of the three ways of amending the Constitution two are laid down in Article 368 itself and the third is provided for in about 24 other Articles. 923. The Constitutional Adviser incorporated in his draft Constitution prepared by him in October, 1947 a recommendation contained in the supplementary Report of the Union Constitution Committee. Following the recommendation of the Advisory Committee he included a proviso that the provisions in the Constitution relating to the reservation of seats for the Muslims, the Scheduled Castes, the Scheduled Tribes, the Indian Christians and the Sikhs, either in the Federal Parliament or in any Provincial Legislature, should not be amended before the expiry of ten years from the commencement of the Constitution. 924. The Drafting Committee in February, 1948 considered the provisions for amendment. It made three material changes in the provisions made by the Constitution Adviser. First, the Committee framed a self contained and independent Article regarding the reservation of seats in the legislatures for minorities. These provisions could not be amended for a period of ten years and would then cease to have effect unless continued in operation by an"
+        },
+        {
+          "page_number": 375,
+          "chunk_id": "chunk_00980",
+          "score": 0.7132,
+          "matched_queries": [
+            "What did the 29th Amendment change?",
+            "24th Amendment",
+            "Constitution Twenty-fourth Amendment Act",
+            "24th Constitutional Amendment",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "29th Constitutional Amendment"
+          ],
+          "text": "http://JUDIS.NIC.IN SUPREME COURT OF INDIA Page 375 of 502 Acts or the provisions thereof violate any of the Fundamental Rights. 1606. The petitioner challenges the validity of these Amendments. 1607. As the validity of the 25th and the 29th Amendments essentially depends upon the validity of the 24th Amendment, it is necessary to consider and decide that question first. I, therefore, torn to the circumstances which necessitated the Constitutional 24th Amendment Act. 1608. The Constitution (First Amendment) Act, 1951, was passed by Parliament on June 18, 1951. Sections 2, 3 and 4 of the Act made amendments in some of the articles in Part III of the Constitution. The validity of the Amendment was challenged before this Court in Sankari Prasad v. The Union of India [1952] S.C.R. 89, and one of the questions which fell for decision was whether, in view of Clause 2 of Article 13, Parliament had power to amend the Fundamental Rights in such a way as to take away or abridge them. And the argument was that the word \"State\" in Clause 2 of Article 13 includes Parliament and the word ’law’ would take in an amendment of the Constitution and, therefore, Parliament had no power to pass a law amending the Constitution in such a way as to take away or abridge the Fundamental Rights. Patanjali Sastri, J. who delivered the judgment of the Court said that although the word ’law’ would ordinarily include Constitutional law, there is a distinction between ordinary law made in the exercise of legislative power and Constitutional law made in the exercise of constituent power and that in the context of Clause 2 of Article 13, the word ’law’ would not include an amendment of the Constitution. 1609. This decision was followed in Sajjan Singh v. State of Rajasthan [1965] 1 S.C.R. 933. There, Gajendragadkar, C.J., speaking for himself and two of his colleagues, substantially agreed with the reasoning of Patanjali Sastri, J. in Sankari Prasad v. The Union of India [1952] S.C.R. 89. Hidayatullah and Mudholkar, JJ. expressed certain doubts as to whether Fundamental Rights could be abridged or taken away by amendment of the Constitution under Article 368. 1610. The question again came up before this Court in Golaknath v. State of Punjab [1967] 2 S.C.R. 762, hereinafter called ’Golaknath Case’ where the validity of the 17th Amendment was challenged on much the same grounds. The majority constituting the Bench decided that Parliament has no power to amend the Fundamental Rights in such a way as to take away or abridge them, but that the 1st, 4th and 17th Amendments were valid for all time on the basis of the doctrine of prospective overruling and that the"
+        },
+        {
+          "page_number": 298,
+          "chunk_id": "chunk_00783",
+          "score": 0.7076,
+          "matched_queries": [
+            "Twenty-fourth Amendment",
+            "Constitution (Twenty-fourth Amendment) Act",
+            "Constitution Twenty-fourth Amendment Act",
+            "Twenty Fourth Amendment",
+            "25th Amendment",
+            "Twenty-fifth Amendment",
+            "Constitution (Twenty-fifth Amendment) Act",
+            "Constitution Twenty-fifth Amendment Act",
+            "25th Constitutional Amendment",
+            "Twenty Fifth Amendment",
+            "29th Amendment",
+            "Twenty-ninth Amendment",
+            "Constitution (Twenty-ninth Amendment) Act",
+            "Constitution Twenty-ninth Amendment Act",
+            "Twenty Ninth Amendment"
+          ],
+          "text": "of Article 19(1)(f) to a law referred to in Clause (2) of Article 31 is merely a re-statement of the law laid down by this Court after the constiution came into force. The mutual exclusiveness of Article 19(1)(f) and Article 31(2) had been recognized by this Court in a scries of cases. See : Sitabati Debi and Anr. v. State of West Bengal and Anr. [1967] (2) S.C.R. 949. That principle is now embodied in the new amendment. 1372. The only substantial objection to the twenty-fifth amendment is based on the new Article 31C inserted in the Constitution by Section 3 of the twenty-fifth amendment act. 1373. The new article is as follows: 31C. Notwithstanding anything contained in Article 13, no law giving effect to the policy of the state towards securing the principles specified in Clause (b) or Clause (c) of Article 39 shall be deemed to be void on the ground that it is inconsistent with, or takes away or abridges any of the rights conferred by Article 14, Article 19 or Article 31; and no law containing a declaration chat it is for giving effect to such policy shall be called in question in any court on the ground that it does not give effect to such policy. Provided that where such law is made by the Legislature of a State, the provisions of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 1374. Ignoring the proviso for the moment, one finds that the main clause of the article falls into two parts. The first part provides that a law of a particular description shall n ot be deemed to be void on the ground that it affects injuriously somebody’s fundamental rights under Articles 14, 19 and 31. The second part provides that if such a law contains a particular declaration, courts shall not entertain a particular kind of objection. 1375. In the first place, it should be noted that what is saved by Article 31C is a law i.e. a law made by a competent legislature. Secondly since Article 31C comes under the specific heading ’Right to property’ in Part III dealing with fundamental rights it is evident that the law must involve right to property. That it must of necessity do so is apparent from the description of the law given in the article. The description is that the law gives effect to the policy of the State towards securing the principles specified in Clauses (b) & (c) of Article 39. That article is one of the several articles in Part IV of t he Constitution dealing with Directive Principles of State"
+        },
+        {
+          "page_number": 425,
+          "chunk_id": "chunk_01119",
+          "score": 0.706,
+          "matched_queries": [
+            "24th Amendment",
+            "24th Constitutional Amendment"
+          ],
+          "text": "or abridge them was wrong, that the power to amend under Article 368 as it stood before the 24th Amendment was plenary in character and extended to all the provisions of the Constitution, that the 24th Amendment did not add anything to the content of Article 368 as it stood before the amendment, that it is declaratory in character except as regards the compulsory nature of the assent of the President to a bill for amendment and that the article as amended makes it clear that all the provisions of the Constitution can be amended by way of addition, variation or repeal. The only limitation is that the Constitution cannot be repealed or abrogated in the exercise of the power of amendment without substituting a mechanism"
+        }
+      ]
+    },
+    {
+      "id": "semantic_02",
+      "category": "semantic",
+      "question": "What was Parliament's power to amend the Constitution under Article 368?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What was Parliament's power to amend the Constitution under Article 368?",
+        "Parliament power to amend Constitution",
+        "Article 368 Parliament amendment power",
+        "power of Parliament to amend Fundamental Rights",
+        "constitutional amendment power",
+        "amending power of Parliament",
+        "constituent power of Parliament",
+        "Parliament constituent power",
+        "Article 368",
+        "power to amend Constitution",
+        "procedure under Article 368",
+        "limitations on Article 368"
+      ],
+      "retrieved_pages": [
+        262,
+        156,
+        114,
+        170,
+        126,
+        263,
+        401,
+        154,
+        444,
+        305
+      ],
+      "top_1_page": 262,
+      "top_3_pages": [
+        262,
+        156,
+        114
+      ],
+      "top_5_pages": [
+        262,
+        156,
+        114,
+        170,
+        126
+      ],
+      "top_10_pages": [
+        262,
+        156,
+        114,
+        170,
+        126,
+        263,
+        401,
+        154,
+        444,
+        305
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "article 368",
+        "parliament",
+        "amend",
+        "constitution"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 262,
+          "chunk_id": "chunk_00680",
+          "score": 0.7751,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Article 368 Parliament amendment power",
+            "procedure under Article 368"
+          ],
+          "text": "our Constitution gives specific powers of ordinary legislation to the Parliament and the State legislatures in respect of well demarcated subjects. But when it comes to the amendment of the Constitution, a special procedure has been prescribed in Article 368. Since the result of following the special procedure under the Article is the amendment of the Constitution the process which brings about the result is known as the exercise of constituent power by the bodies associated in the task of amending the Constitution. It is, therefore, obvious, that when the Parliament and the State Legislatures function in accordance with Article 368 with a view to amend the Constitution, they exercise constituent power as distinct from their ordinary legislative power under Articles 245 to 248. Article 368 is not entirely procedural. Undoubtedly part of it is procedural."
+        },
+        {
+          "page_number": 156,
+          "chunk_id": "chunk_00380",
+          "score": 0.767,
+          "matched_queries": [
+            "Parliament power to amend Constitution",
+            "power to amend Constitution"
+          ],
+          "text": "A Constitution can be amended only in accordance with the process laid down in the Constitution. No other method is Constitutionally possible than that indicated in the provision for amendment of the Constitution. Once the Constitution has vested the power to amend in the bodies mentioned therein that is the only body for amending the Constitution. The people who gave the Constitution have expressed how it is to be changed. 840. The distinction between constituent and legislative power is brought out by the feature in a rigid Constitution that the amendment is by a different procedure than that by"
+        },
+        {
+          "page_number": 114,
+          "chunk_id": "chunk_00266",
+          "score": 0.7657,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Parliament power to amend Constitution",
+            "Article 368 Parliament amendment power",
+            "power of Parliament to amend Fundamental Rights",
+            "amending power of Parliament"
+          ],
+          "text": "be the power to amend the provision sought to be amended; and secondly, the \"form and the manner\" prescribed in Article 368 must be satisfied. If the power to amend the Article is wanting, the fact that Parliament has adhered to the form and manner prescribed in Article 368 becomes immaterial. Hence the primary question is whether Parliament has power to abridge or take away any of the Fundamental Rights prescribed in Part III of the Constitution ? 657. In order to find out whether Parliament has the power to take away or abridge any of the Fundamental Rights in exercise of its power under Article 368, we must first ascertain the true scope of that Article. As seen earlier in Sankari Prasad’s case, this Court ruled that the power to amend the Constitution is to be found in Article 368. The same view was taken by the majority of judges in Sajjan Singh’s case as well as in Golak Nath’s case. We respectively hold that view to be the correct view. As mentioned earlier, Part XX of the Constitution which purports to deal with amendment of the Constitution contains only one Article, i.e. Article 368. The title of that Part is \"Amendment of the"
+        },
+        {
+          "page_number": 170,
+          "chunk_id": "chunk_00419",
+          "score": 0.7616,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Article 368 Parliament amendment power"
+          ],
+          "text": "makes a Constitutional amendment under Article 368 it acts in exercise of constituent power. Third, it had provided by amendment in Articles 13 and 368 that the power in Article 13(2) against abridging or taking away of the fundamental rights shall not apply to any amendment under Article 368. The Constitution 24th Amendment Act is, therefore, to be construed as empowering Parliament to exercise full constituent power of the people and to vest in Parliament the ultimate legal sovereignty of the people as authorising Parliament to alter or destroy all o r any of the essential features, basic elements and fundamental principles of the Constitution. Likewise, Parliament is construed by the Constitution 24th Amendment Act"
+        },
+        {
+          "page_number": 126,
+          "chunk_id": "chunk_00299",
+          "score": 0.7594,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Article 368 Parliament amendment power",
+            "power of Parliament to amend Fundamental Rights",
+            "amending power of Parliament",
+            "limitations on Article 368"
+          ],
+          "text": "It was strenuously urged on behalf of the Union and the States that if we come to the conclusion that there are implied or inherent limitations on the amending power of Parliament under Article 368, it would be well nigh impossible for Parliament to decide before hand as to what amendments it could make and what amendments it is forbidden to make. According to the Counsel for the Union and the States, the conceptions of basic elements and fundamental features are illusive conceptions and their determination may differ from judge to judge and therefore we would be making the task of Parliament impossible if we uphold the contention that there are implied or inherent limitations on the amending power under Article 368. We are unable to accept this contention. The"
+        },
+        {
+          "page_number": 263,
+          "chunk_id": "chunk_00683",
+          "score": 0.7575,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Article 368 Parliament amendment power",
+            "Article 368",
+            "procedure under Article 368"
+          ],
+          "text": "it laid down for the Parliament in Part V, Chapter II and for the State Legislature in Part VI, Chapter III of the Constitution and, no other. To say that the power to make law lies in Article 245 and the procedure to make it in Article 368 is to ignore not only this compulsion, but also the fundamental Constitutional practice followed in our Constitution, as in most modern controlled Constitutions, prescribing special procedure for the amendment of the Constitution which is different from the procedure laid down for making ordinary laws. The conclusion, therefore, is that the power of amendment cannot be discovered in Article 248 read with the residuary entry. The argument that Article 368 does not speak of the power to amend but only of the procedure to amend in pursuance of the power found elsewhere is clearly untenable. The true position is that the alchemy of the special procedure prescribed in"
+        },
+        {
+          "page_number": 401,
+          "chunk_id": "chunk_01054",
+          "score": 0.7506,
+          "matched_queries": [
+            "Parliament power to amend Constitution",
+            "power of Parliament to amend Fundamental Rights",
+            "constitutional amendment power",
+            "amending power of Parliament",
+            "power to amend Constitution"
+          ],
+          "text": "power to amend will be abused? The remedy of the people, if these powers are abused, is in the polling booth and the ballot box. 1728. The contention that if the power to amend Fundamental Rights in such a way as to take away or abridge them were to vest in Parliament, it would bring about the catastrophic consequences apprehended by counsel has an air of unreality when tested in the light of our experience of what has happened between 1951 when Sankari Prasad’s case [1952] S.C.R. 89 recognised the power of the Parliament to amend the Fundamental Rights and 1967 when the Golaknath Case [1967] 2 S.C.R. 762 was decided. It should be remembered in this connection that the Parliament when it exercises its power to amend Fundamental Rights is as much the guardian of the liberties of the people as the Courts. 1729. If one of the tests to judge the essential features of the Constitution is the difficu lty with which those features can be amended, then it is clear that the features which are"
+        },
+        {
+          "page_number": 154,
+          "chunk_id": "chunk_00373",
+          "score": 0.7506,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Parliament power to amend Constitution",
+            "power to amend Constitution"
+          ],
+          "text": "it the power to amend or repeal them. But these powers of legislatures do not include any power to amend the Constitution, because it is the Constituent Assembly which enacted the Constitution and the status given by Article 368 to Parliament and the State legislatures, is the status of a Constituent Assembly. The distinction between the power to amend the Constitution and the ordinary power to enact laws is fundamental to all federal Constitution. When Parliament is engaged in the amending process it is not legislating. It is exercising a particular power which is sui generis bestowed upon it by the amending clause in the Constitution. Thus an amendment of the Constitution under Article 368 is constituent law and not law within the meaning of Article 13(2) and law as defined in Article 13(3)(a). 826. The procedure that Bill for amendment of the Constitution has to be introduced in either House of Parliament and passed by both Houses does not alter the status of Parliament to amend the Constitution as a Constituent Assembly and does not assimilate it to that of the Union legislature. At this stage it may be stated that in Shankari Prasad case it was said that law in general sense may include the Constitution and the procedure of amendment is assimilated to ordinary legislative procedure. Assimilation of procedure does not make both the procedure same. Nor are the two separate powers to be lost sight of. The Constituent Assembly which has summoned on 19 December, 1946 to frame a Constitution was also invested after independence with legislative power. It framed the Constitution as the Constituent Assembly. It enacted ordinary laws as legislature. Under Article V of the American Constitution the Congress functions not as a legislature but as a Constituent Assembly. In Australia when a Bill for amendment has to be passed by Commonwealth Parliament and then has to be submitted to the verdict of the electorate the process is not ordinary legislative process of the Commonwealth Parliament. In our Constitution when the amendment falls within the proviso to Article 368 it requires that the amendment must be ratified by at least one half of the State legislatures and the process is radically different from ordinary legislative procedure. The Union legislature acting under Chapter II of Part V has no connection with the State legislatures. Therefore, when amendment is affected under the proviso to Article 368 Parliament does not act as a Union legislature. The feature that in the passage of the bill for amendment of the Constitution the House of Parliament has to adopt the procedure for ordinary legislation has little bearing. If the intention of the framers of the Constitution was to leave to"
+        },
+        {
+          "page_number": 444,
+          "chunk_id": "chunk_01169",
+          "score": 0.7471,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?",
+            "Parliament power to amend Constitution",
+            "amending power of Parliament",
+            "power to amend Constitution"
+          ],
+          "text": "the amending power is lodged therein. 1938. Power to amend the Constitution cannot reasonably be located in Entry 97 of List I of Schedule VII read with Article 248 of the Constitution. The idea of a provision for amending the Constitution was indisputably present in the minds of the Constitution- makers. If they had considered that the power to amend the Constitution was in its nature legislative, they would have surely included in express words this power in a specific entry in List I. Article 248 and Entry 97 of List I confer residuary power on Parliament."
+        },
+        {
+          "page_number": 305,
+          "chunk_id": "chunk_00801",
+          "score": 0.747,
+          "matched_queries": [
+            "What was Parliament's power to amend the Constitution under Article 368?"
+          ],
+          "text": "the decision in Sankari Prasad’s case. This Court further held unanimously that the Seventeenth Amendment did not require ratification under the proviso to Article 368. The Parliament, it was held, in enacting the amendment was not legislating with respect to land and that it was open to Parliament to validate legislation which had been declared invalid by courts. By a majority of 3 to 2 the Court held that the power conferred by Article 368 included the power to take away fundamental rights guaranteed by Part III and that the power to amend was a very wide power which could not be controlled by the literal dictionary meaning of the word \"amend\". The word \"law\" in Article 13(2), it was held, did not include an amendment of the Constitution made in pursuance of Article 368. The minority, however, doubted the correctness of the view taken in Sankari Prasad’s case to the effect that the word \"law\" in Article 13(2) did not include amendment to the Constitution made under Article 368."
+        }
+      ]
+    },
+    {
+      "id": "semantic_03",
+      "category": "semantic",
+      "question": "What was the role of Article 13 in the case?",
+      "retrieval_status": "success",
+      "expanded_queries": [
+        "What was the role of Article 13 in the case?",
+        "Article 13(2)",
+        "law under Article 13",
+        "Fundamental Rights constitutional amendment",
+        "Article 13 constitutional amendments",
+        "Article 13 law made by State",
+        "constitutional amendment Article 13"
+      ],
+      "retrieved_pages": [
+        208,
+        450,
+        498,
+        202,
+        278,
+        7,
+        217,
+        278,
+        307,
+        204
+      ],
+      "top_1_page": 208,
+      "top_3_pages": [
+        208,
+        450,
+        498
+      ],
+      "top_5_pages": [
+        208,
+        450,
+        498,
+        202,
+        278
+      ],
+      "top_10_pages": [
+        208,
+        450,
+        498,
+        202,
+        278,
+        7,
+        217,
+        278,
+        307,
+        204
+      ],
+      "concept_coverage": 1.0,
+      "matched_concepts": [
+        "article 13",
+        "law",
+        "fundamental rights"
+      ],
+      "missing_concepts": [],
+      "full_concept_coverage": true,
+      "retrieved_evidence": [
+        {
+          "page_number": 208,
+          "chunk_id": "chunk_00528",
+          "score": 0.7305,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13(2)",
+            "law under Article 13",
+            "Article 13 constitutional amendments",
+            "Article 13 law made by State",
+            "constitutional amendment Article 13"
+          ],
+          "text": "Article 13(2) applicable to it by mere implication, when in respect of minor instruments they were careful enough to include them in the definition of ’law’. 1126. While this is so, a consideration of the conspectus of various rights in Part III when read with Article 13(2) would, in my view, prohibit the taking away or abridging of those rights by a law made by the Legislature namely the Parliament, Legislature of a State, or by executive action. This conclusion of mine will be substantiated if Article 13(2) is read along with each of the Articles in Part III, in so far as any of them contain the word ’law’ which indeed it can be so read. The object of incorporating Article 13(2) was to avoid its repetition in each of the Articles conferring fundamental rights. Only one instance of this may be given in support of my conclusion. Clauses (2) to (6) of Article 19 which are"
+        },
+        {
+          "page_number": 450,
+          "chunk_id": "chunk_01187",
+          "score": 0.7095,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13(2)",
+            "law under Article 13",
+            "Article 13 constitutional amendments",
+            "Article 13 law made by State",
+            "constitutional amendment Article 13"
+          ],
+          "text": "’law’ in Article 13(2) does not show that it includes an amendment of the Constitution made under Article 368. The word ’law’ in Article 13(1) obviously does not include a Constitution. No Constitution existing at the time of the commencement of our Constitution and taking away or abridging the fundamental rights of the people conferred by Part III of the Constitution has been brought to our notice in spite of the assiduous research of Sri Palkhiwala. Article 13(3)(a) provides for an extensive definition of the word ’law’ by including things which are not ordinarily"
+        },
+        {
+          "page_number": 498,
+          "chunk_id": "chunk_01321",
+          "score": 0.7027,
+          "matched_queries": [
+            "Article 13(2)",
+            "law under Article 13",
+            "Article 13 law made by State"
+          ],
+          "text": "of this article shall not apply thereto unless such law, having been reserved for the consideration of the President, has received his assent. 2226. A misconception regarding the ambit of this article may first be removed. The article protects only \"law\" and not an executive action. The term ’law’ is used in Article 13(3) in a wider sense, so as to include an Ordinance, order, bye-law, etc., but that definition is limited to the purposes of Article 13. Article 31C cannot therefore be said to"
+        },
+        {
+          "page_number": 202,
+          "chunk_id": "chunk_00510",
+          "score": 0.6901,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13(2)",
+            "law under Article 13",
+            "Article 13 constitutional amendments",
+            "Article 13 law made by State"
+          ],
+          "text": "laws and certain specified laws already passed from the combined operation of Article 13 read with other relevant Articles of Part III. The new Articles being thus essentially amendments of the Constitution have the power of enacting them. It was said that Parliament could not validate the law which it has no power to enact. The proposition holds good whether the validity of the impugned provision turns on whether the subject matter, falls within or without the jurisdiction of the legislature which passed it. But to make law, which"
+        },
+        {
+          "page_number": 278,
+          "chunk_id": "chunk_00726",
+          "score": 0.6831,
+          "matched_queries": [
+            "Article 13(2)",
+            "Article 13 constitutional amendments",
+            "constitutional amendment Article 13"
+          ],
+          "text": "to avoid one provision of the law with reference to another provision of the same law. It becomes merely a matter of construction. It follows, therefore, that an amendment of the Constitution not being liable to be avoided with reference to a superior law is not a law about which you can predicate avoidability and, hence, stands outside the operation of Article 13(2). 1324. If the fundamental rights in Part III were unamendable, nothing would have been easier than to make a specific provision about it in Part XX which dealt specifically with the subject of the amendment of the Constitution. That was the proper place. Article V of the American Constitution clearly indicated the two subjects which were unamend able."
+        },
+        {
+          "page_number": 7,
+          "chunk_id": "chunk_00014",
+          "score": 0.6797,
+          "matched_queries": [
+            "Fundamental Rights constitutional amendment"
+          ],
+          "text": "has not derogated from the sovereignty, the republican form of government and the federal structure, and the question whether they can be touched by amendment does not arise for decision. For the purposes of these cases, it is sufficient to say that the fundamental rights are within the reach of the amending power. 51. Ramaswami, J., held: (1) The amending power under Article 368 is sui generis; (2) \"Law\" in Article 13(2) cannot be construed so as to include \"Law\" made by Parliament under Articles 4, 169, 392, 5th Schedule Part D and 6th Schedule Para 21. (3) The expression \"fundamental rights\" does not lift the fundamental rights above the Constitution itself; (4) Both the power to amend and the procedure to amend are enacted in Article 368. (5) There were no implied limitations on the amending power and all articles of the Constitution were amendable either under the proviso of Article 368 or under the main part of the article. (6) The Federal structure is not an essential part of our Constitution. (7) The power of amendment is in point of quality an adjunct of sovereignty. If so, it does not admit of any limitations. 52. In brief 6 Judges held that in view of Article 13(2) Fundamental Rights could not be abridged or taken away. Five Judges held that Article 13(2) was inapplicable to Acts amending the Constitution. PART III-Interpretation of Article 368 53. Let me now proceed to interpret Article 368. Article 368, as originally enacted, read as follows: An amendment of this Constitution may be initiated only by the introduction of a Bill for the purpose in either House of Parliament, and when the Bill is passed in each House by a majority of the total membership of that House and by a majority of not less than two-thirds of"
+        },
+        {
+          "page_number": 217,
+          "chunk_id": "chunk_00551",
+          "score": 0.6775,
+          "matched_queries": [
+            "Article 13 constitutional amendments",
+            "constitutional amendment Article 13"
+          ],
+          "text": "and other enactments, specified in Article 13(3)(a) is or is not an essential feature . If it is not, it can be amended under Article 368. Recognising this position the petitioner submits that if the effect of amending Article 368 and Article 13 is to permit the removal of the fetter of Article 13 on the ordinary legislative laws which can thereafter be empowered and left free to abrogate or take away fundamental rights, it would be an essential feature. 1142. The question whether there are any implied limitations on the power to amend under Article 368 or whether an amendment under that Article can damage or destroy the basic features of the Constitution would depend, as I said earlier, on the meaning of the word \"amendment\" before the Twenty-Fourth Amendment. If that word has a limited meaning, which is the case of the petitioner, it is contended that that power of amendment could not be enlarged by the use of the words \"amend by way of addition, variation and repeal\". 1143. It may be mentioned that arguments similar to those which were addressed before us were advanced in Golaknath’s case, namely, (i) that the expression ’amendment’ in Article 368 has a positive and negative content and that in exercise of that power Parliament cannot destroy the structure of the Constitution, but it can only modify the provisions thereof within the framework of the original instrument for its better effectuation; (ii) that if the fundamentals would be amendable to the ordinary process of amendment with a special majority the institution of the President can be abolished, the Parliamentary executive can be abrogated, the concept of federation can be obliterated and in short, the sovereign democratic republic can be converted into a totalitarian system of Government The leading majority judgment, though it found that there was considerable force in the argument, said that they were relieved of the necessity to express an opinion on this all important question, but so far as the fundamental rights are concerned, the question raised can be answered on a narrow basis. Subba Rao, C.J., observed at p. 805: \"This question may arise for consideration only if Parliament seeks to destroy the structure of the Constitution embodied in the provisions other than in Part III of the Constitution. We do not, therefore, propose to express our opinion in that regard\". 1144. Hidayatullah, J., on the other hand, dealing with implied limitations by reference to Article V of the United States Constitution, and the decisions rendered thereunder pointed out that although there is no clear pronouncement of the United States Supreme Court a great controversy exists as to whether questions of substance can ever come before the"
+        },
+        {
+          "page_number": 278,
+          "chunk_id": "chunk_00725",
+          "score": 0.6716,
+          "matched_queries": [
+            "What was the role of Article 13 in the case?",
+            "Article 13(2)",
+            "law under Article 13",
+            "Article 13 constitutional amendments",
+            "Article 13 law made by State",
+            "constitutional amendment Article 13"
+          ],
+          "text": "as standing for a Nation or a Conglomeration of all the governmental Agencies. The Nation is an amorphous conception. The bar under Article 13(2) is against concrete instrumentalities of the State, instrumentalities which are capable of making a law in accordance with the Constitution. 1321. By its very definition as discussed earlier, a body or set of bodies exercising, as indicated in the Constitution, sovereign constituent power whether in a ’flexible’ or a ’rigid’ Constitution is not a governmental organ owing supreme obligation to the Constitution. The body or bodies operate not under the Constitution but over the Constitution. They do not, therefore, while amending the Constitution, function as governmental organs and, therefore, cannot be regarded as the State for the purposes of Part III of the Constitution. 1322. We thus reach the conclusion that an amendment of the Constitution is not a law made by the State and hence Article 13(2) would not control an amendment of the Constitution. 1323. The same conclusion is arrived at by a slightly different approach. Article 13(2) speaks of a law which becomes void to the extent it takes away or abridges a fundamental right as conferred by certain articles or provisions in Part III of the Constitution. Thus i t embodies the doctrine of ultra vires well-known in English law. In other words, it is a law about which one can predicate voidability with reference to the provisions of the Constitution. This is possible only when it is a law made by the organs of the State. When an amendment is made, we have already shown, it becomes part of the Constitution, taking an equal status with the rest of the provisions of the Constitution. Voidability is predicated only with reference to a superior law and not an equal law. There is no superior law with reference to which its voidability can be determined. Indeed, if the amendment cannot entirely fit in with some other provisions of the Constitution the courts might have to reconcile the provisions, as was done in Sri Venktaramana v. The State of Mysore [1958] S.C.R. 895 in which the fundamental right under Article 26(b) was read subject to Article 25(2)(b) of the Constitution. The point, however, is that courts have no jurisdiction to avoid one provision of the law with reference to another provision of the same law. It becomes merely a matter of construction. It follows, therefore, that an amendment of the Constitution not being liable to be avoided with reference to a superior law is not a law about which you can predicate avoidability and, hence, stands outside the operation of Article 13(2). 1324. If the fundamental rights in Part III were unamendable, nothing would"
+        },
+        {
+          "page_number": 307,
+          "chunk_id": "chunk_00805",
+          "score": 0.6649,
+          "matched_queries": [
+            "Article 13(2)",
+            "Article 13 constitutional amendments",
+            "constitutional amendment Article 13"
+          ],
+          "text": "is no conflict between Articles 13(2) and 368. The two articles operate in different fields, the former in the field of law, the latter in that of Constitutional amendment. (v) If the First, Fourth, Sixteenth & Seventeenth Amendment Acts are void they do not legally exist from their inception. They cannot be valid from 1951 to 1957 and invalid thereafter. To say that they were valid in the past and will be invalid in the future is to amend the Constitution. Such a naked power of amendment is not given to the Judges and therefore the doctrine of prospective overruling cannot be adopted. We may now set out some of the conclusions of Ramswami J. as under: (i) In a written Constitution the amendment of the Constitution is a substantive constituent act which is made in the exercise of the sovereign power through a predesigned procedure unconnected with ordinary legislation. The amending power in Article 368 is hence sui generis and cannot be compared to the lawmaking power of Parliament pursuant to Article 246 read with Lists I and III. It follows that the expression ’law’ in Article 13(2) cannot be construed as including an amendment of the Constitution which is achieved by Parliament in exercise of its sovereign constituent power, but must mean law made by Parliament in its legislative capacity under Article 246 read with List I and List III of the 7th Schedule. (ii) The language of Article 368 is perfectly general and empowers Parliament to amend the Constitution without any exception whatsoever. The use of the word ’fundamental’ to describe the rights in Part III and the word ’gurantecd’ in Article 32 cannot lift the fundamental lights above the Constitution itself. (iii) There is no room for an implication in the construction of Article 368. If the Constitution makers wanted certain basic features to be unamendable they would have said so. (iv) It cannot be assumed that the Constitution makers intended to forge a political strait-jacket for generations to come. Today at a time when"
+        },
+        {
+          "page_number": 204,
+          "chunk_id": "chunk_00515",
+          "score": 0.6623,
+          "matched_queries": [
+            "Article 13 constitutional amendments",
+            "constitutional amendment Article 13"
+          ],
+          "text": "of the Constitution. Law in Article 13(2) does not mean the Constitution. The Constitution is the supreme law. Third, an amendment of the Constitution is an exercise of the constituent power. The majority view in Golak Nath case is with respect wrong. Fourth, there are no express limitations to the power of amendment. Fifth, there are no implied and inherent limitations on the power of amendment. Neither the Preamble nor Article 13(2) is at all a limitation on the power of amendment. Sixth, the power to amend is wide and unlimited. The power to amend means the power to add, alter or repeal any provision of the Constitution. There can be or is no distinction between essential and in-essential features of the Constitution to raise any impediment to amendment of alleged essential features. Parliament in exercise of constituent power can amend any provision of this Constitution. Under Article 368 the power to amend can also be increased. The 24th Amendment is valid. The contention of Mr. Palkhivala that unlimited power of amendment would confer power to abrogate the Constitution is rightly answered by the Attorney General and Mr. Seervai that amendment does not mean mere abrogation or wholesale repeal of the Constitution. The Attorney General and Mr. Seervai emphasised that an amendment would leave an organic mechanism providing the Constitution organisation and system for the State. If the Constitution cannot have a vital growth it needs must wither. That is why it was stressed on behalf of the respondents that orderly and peaceful changes in a Constitutional manner would absorb all amendments to all provisions of the Constitution which in the end would be \"an amendment of this Constitution\". 1108. The 25th Amendment is valid. The adequacy of amount fixed or the principles specified cannot be the subject matter of judicial review. The amendment of Article 31(2B) is valid. Article 31(2) is self contained and Articles 31(2) and 19(1)(f) are mutually exclusive. Amendment of fundamental right prior to the amendment was and is now after the 24th Amendment valid. Article 31C does not delegate or confer any power on the State legislature to amend the Constitution. Article 31C merely removes the restrictions of Part III from any legislation giving effect to Directive Principles under Article 39(b) and (c). The power of Parliament and of State legislatures to legislate on the class of legislation covered by Article 31C is rendered immune from Articles 14, 19 and 31. 1109. The inclusion of the Kerala Act 35 of 1969 and the Kerala Act 25 of 1971 by the 29th Amendment in the Ninth Schedule is valid. Article 31B is independent of Article 31A. 1110. In the result the contentions of Mr. Palkhivala fail."
+        }
+      ]
+    },
+    {
+      "id": "metadata_01",
+      "category": "metadata",
+      "question": "Who were the parties in the case?",
+      "metadata_status": "success",
+      "petitioner_found": true,
+      "respondent_found": true,
+      "metadata_answer_coverage": 1.0
+    }
+  ]
+}

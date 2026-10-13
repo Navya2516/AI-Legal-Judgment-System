@@ -1,0 +1,54 @@
+{
+  "document_id": "5ed5a90bbdc548b298abfb50c9e7188a",
+  "provision": "Article 8",
+  "explanation": {
+    "provision": "Article 8",
+    "what_the_provision_is_discussed_as": "Article 8 is directly discussed in the supplied judgment evidence. [Page 429]",
+    "why_it_appears_in_the_judgment": "The supplied evidence shows that Article 8 forms part of the legal discussion in the judgment. [Page 429]",
+    "court_discussion": "The supplied judgment evidence directly discusses Article 8: \"n of taking account of conflicting public interest considerations and evaluating them according to increasingly well recognized criteria. 131. When the courts identify an infringement of a person’s Article 8 rights, and in particular in the context of his freedom to conduct his sex life and personal relationships as he wishes, it is right to afford a remedy and to vindicate that right. The only permitte\" [Page 429]",
+    "evidence": [
+      {
+        "page": 429,
+        "text": "n of taking account of conflicting public interest considerations and evaluating them according to increasingly well recognized criteria. 131. When the courts identify an infringement of a person’s Article 8 rights, and in particular in the context of his freedom to conduct his sex life and personal relationships as he wishes, it is right to afford a remedy and to vindicate that right. The only permitte",
+        "type": "court_discussion"
+      },
+      {
+        "page": 223,
+        "text": "between detainees and “appropriate adults”, were accompanied by “adequate safeguards against abuse”, notably as concerned the authorisation, review and record keeping. Hence, there is no violation of Article 8.” In Roman Zakharov v Russia298(2015),ECtHR examined an application claiming violation of Article 8 of the Convention alleging that the mobile operators had permitted unrestricted interception of all",
+        "type": "court_discussion"
+      },
+      {
+        "page": 223,
+        "text": "notably as concerned the authorisation, review and record keeping. Hence, there is no violation of Article 8.” In Roman Zakharov v Russia298(2015),ECtHR examined an application claiming violation of Article 8 of the Convention alleging that the mobile operators had permitted unrestricted interception of all telephone communications by the security services without prior judicial authorisation, under the p",
+        "type": "court_discussion"
+      },
+      {
+        "page": 223,
+        "text": "id not meet the “quality of law” requirement and was incapable of keeping the interception of communications to what was “necessary in a democratic society”. There had accordingly been a violation of Article 8 of the Convention.” Both the ECtHR and the CJEU, while dealing with the application and interpretation of Article 8 of ECHR and Article 7 of the Charter, have kept a balanced approached between indiv",
+        "type": "final_decision"
+      },
+      {
+        "page": 223,
+        "text": "was “necessary in a democratic society”. There had accordingly been a violation of Article 8 of the Convention.” Both the ECtHR and the CJEU, while dealing with the application and interpretation of Article 8 of ECHR and Article 7 of the Charter, have kept a balanced approached between individual interests and societal interests. The two-step test in examining an individual claim related to a Convention r",
+        "type": "final_decision"
+      },
+      {
+        "page": 222,
+        "text": "s 7, 8 and 52(1) of the Charter.” In RE v The United Kingdom296(2015),the applicant was arrested and detained on three occasions in relation to the murder of a police officer. He claimed violation of Article 8 under the regime of covert surveillance of consultations between detainees and their lawyers, medical advisors and appropriate adults297 sanctioned by the existing law. The ECtHR held that: “The Cou",
+        "type": "court_discussion"
+      },
+      {
+        "page": 222,
+        "text": "o respect for his or her private life and correspondence... Consequently, in such cases it will expect the same safeguards to be in place to protect individuals from arbitrary interference with their Article 8 rights... Surveillance of “appropriate adult”-detainee consultations were not subject to legal privilege and therefore a detainee would not have the same expectation of privacy.…The relevant domestic",
+        "type": "court_discussion"
+      },
+      {
+        "page": 221,
+        "text": "proportionate.” The decision of the CJEU in the case Asociación Nacional de Establecimientos Financieros de Crédito (ASNEF) v Spain294 relied upon the Article 7 right to respect for private life and Article 8(1) of the Charter to find that the implementation in Spain of the Data Protection Directive was defective in that it applied only to information kept in a specified public data bank rather than more",
+        "type": "court_discussion"
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The explanation is limited to the provision-specific evidence retrieved from the judgment."
+  }
+}

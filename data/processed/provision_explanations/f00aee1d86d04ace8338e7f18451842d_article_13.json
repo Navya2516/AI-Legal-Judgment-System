@@ -1,0 +1,54 @@
+{
+  "document_id": "f00aee1d86d04ace8338e7f18451842d",
+  "provision": "Article 13",
+  "explanation": {
+    "provision": "Article 13",
+    "what_the_provision_is_discussed_as": "Article 13 is directly discussed in the supplied judgment evidence. [Page 501]",
+    "why_it_appears_in_the_judgment": "The supplied evidence shows that Article 13 forms part of the legal discussion in the judgment. [Page 501]",
+    "court_discussion": "The supplied judgment evidence directly discusses Article 13: \"5, 246 and 248 is not correct. 2243. The decision of the leading majority and of Hidayatullah J. that there is no distinction between an ordinary law and a law amending the Constitution is incorrect. Article 13(2) took in only ordinary laws, not amendments to the Constitution effected under Article 368. 2244. The decision of the leading majority and of Hidayatullah J. that Parliament had no power to amend t\" [Page 501]",
+    "evidence": [
+      {
+        "page": 501,
+        "text": "5, 246 and 248 is not correct. 2243. The decision of the leading majority and of Hidayatullah J. that there is no distinction between an ordinary law and a law amending the Constitution is incorrect. Article 13(2) took in only ordinary laws, not amendments to the Constitution effected under Article 368. 2244. The decision of the leading majority and of Hidayatullah J. that Parliament had no power to amend t",
+        "type": "court_discussion"
+      },
+      {
+        "page": 499,
+        "text": "nd Articles 15(4), 31(4), 31(5)(b)(ii), and 31(6) on the other. I may also call attention to Article 31A introduced by the First Amendment Act, 1951 under which \"Notwithstanding anything contained in Article 13\", no law providing for matters mentioned in Clauses (a) to (e) \"shall be deemed to be void on the ground that it is inconsistent or takes away or abridges any of the rights conferred by Articles 14,",
+        "type": "court_discussion"
+      },
+      {
+        "page": 498,
+        "text": "iling to untie the knot, cut it with his sword. Such a quick and summary solutions of knotty problems is, alas, not open to a Judge. The article reads thus: 31C. Notwithstanding anything contained in Article 13, no law giving effect to the policy of the State towards securing the principles specified in Clause (b) or Clause (c) of Article 39 shall be deemed to be void on the ground that it is inconsistent w",
+        "type": "court_discussion"
+      },
+      {
+        "page": 498,
+        "text": "sident, has received his assent. 2226. A misconception regarding the ambit of this article may first be removed. The article protects only \"law\" and not an executive action. The term ’law’ is used in Article 13(3) in a wider sense, so as to include an Ordinance, order, bye-law, etc., but that definition is limited to the purposes of Article 13. Article 31C cannot therefore be said to",
+        "type": "court_discussion"
+      },
+      {
+        "page": 498,
+        "text": "nly \"law\" and not an executive action. The term ’law’ is used in Article 13(3) in a wider sense, so as to include an Ordinance, order, bye-law, etc., but that definition is limited to the purposes of Article 13. Article 31C cannot therefore be said to",
+        "type": "court_discussion"
+      },
+      {
+        "page": 494,
+        "text": "t follow from what precedes that The Constitution (Twenty-fourth Amendment) Act, 1971 is valid. I have taken the view that Constitutional amendments made under Article 368 fell outside the purview of Article 13(2). Section 2 of the 24th Amendment Act reiterates this position by adding a new Clause (4) in Article 13 : \"(4) Nothing in this article shall apply to any amendment of this Constitution made under A",
+        "type": "court_discussion"
+      },
+      {
+        "page": 494,
+        "text": "en the view that Constitutional amendments made under Article 368 fell outside the purview of Article 13(2). Section 2 of the 24th Amendment Act reiterates this position by adding a new Clause (4) in Article 13 : \"(4) Nothing in this article shall apply to any amendment of this Constitution made under Article 368.\" I have also taken the view that the old Article 368 not only prescribed the procedure for ame",
+        "type": "court_discussion"
+      },
+      {
+        "page": 494,
+        "text": "his assent to the bill for a Constitutional amendment. Rightly no arguments have been addressed on this innovation. Finally, Clause (d) of Section 3 of the 24th Amendment excludes the application of Article 13 to an amendment made under Article 368. As indicated in this judgment that was the correct interpretation of Articles 13 and 368.",
+        "type": "court_discussion"
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The explanation is limited to the provision-specific evidence retrieved from the judgment."
+  }
+}

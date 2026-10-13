@@ -1,0 +1,611 @@
+{
+  "evaluation_name": "IndicLegalQA Baseline Evaluation",
+  "dataset": "IndicLegalQA Dataset_10K_Revised.json",
+  "total_dataset_questions": null,
+  "evaluation_questions": 100,
+  "random_seed": 42,
+  "created_at": "2026-10-03T18:47:16.245222",
+  "status": "evaluation_set_created",
+  "questions": [
+    {
+      "case_name": "Ravindra Kumar vs. State of U.P. & Ors.",
+      "judgement_date": "22nd February 2024",
+      "question": "What relief did the Supreme Court grant to Ravindra Kumar?",
+      "answer": "The Supreme Court directed that Ravindra Kumar be appointed as a Constable without entitlement to arrears of salary for the period he was out of service but with all notional benefits, including pay, seniority, and other consequential benefits."
+    },
+    {
+      "case_name": "Vishram Varu & Co. vs. Union of India",
+      "judgement_date": "21st April 2022",
+      "question": "What was the main issue in the case Vishram Varu & Co. vs. Union of India?",
+      "answer": "The main issue was the dismissal of an arbitration petition by the Calcutta High Court on the grounds of being barred by limitation."
+    },
+    {
+      "case_name": "Satvinder Singh @ Satvinder Singh Saluja & Ors. vs. The State of Bihar",
+      "judgement_date": "1st July 2019",
+      "question": "What was the prosecution's claim regarding the state of the appellants when they were stopped by the authorities?",
+      "answer": "The prosecution claimed that the appellants were found with a certain quantity of alcohol in their breath when subjected to a breath analyser test at a check post in Rajauli, District Nawada, Bihar."
+    },
+    {
+      "case_name": "Dhirendra Singh @ Pappu vs. State of Jharkhand",
+      "judgement_date": "1st March 2021",
+      "question": "What was the Supreme Court's final decision regarding Dhirendra Singh's conviction?",
+      "answer": "The Supreme Court dismissed the appeal and upheld the conviction and life imprisonment sentence under Section 302 read with Section 34 IPC and Section 27 of the Arms Act, confirming the decisions of the Trial Court and the High Court."
+    },
+    {
+      "case_name": "Sri Lakshmana Gowda B.N. vs. The Oriental Insurance Co. Ltd.",
+      "judgement_date": "7th July 2023",
+      "question": "What was the primary issue in the appeal filed by Sri Lakshmana Gowda B.N. against The Oriental Insurance Co. Ltd.?",
+      "answer": "The primary issue in the appeal was whether the compensation awarded by the Motor Vehicles Claims Tribunal, as affirmed by the High Court, deserved to be affirmed or modified."
+    },
+    {
+      "case_name": "Munshiram vs State of Rajasthan and Anr.",
+      "judgement_date": "9th April 2018",
+      "question": "How did the Supreme Court view the High Court's decision to quash the FIR?",
+      "answer": "The Supreme Court found that the High Court prematurely quashed the FIR without allowing proper investigation and noted that the investigation was necessary to ascertain the factual assertions made in the FIR."
+    },
+    {
+      "case_name": "Damodar Valley Corporation vs Central Electricity Regulatory Commission & Others",
+      "judgement_date": "3rd December 2018",
+      "question": "What was the Supreme Court's final decision in the Damodar Valley Corporation case?",
+      "answer": "The Supreme Court dismissed the appeal, holding that the appellant (Damodar Valley Corporation) had not made out a case for interference and that the orders of the Commission and the Appellate Tribunal were upheld."
+    },
+    {
+      "case_name": "The Silppi Constructions Contractors vs. Union of India and Anr.",
+      "judgement_date": "21st June 2019",
+      "question": "What did the Supreme Court say about the necessity of making all tenderers parties in a writ petition?",
+      "answer": "The Supreme Court stated that making all tenderers parties in a writ petition is not always necessary, especially if the writ petition challenges the rejection of a technical bid at an early stage before any successful tenderer is determined."
+    },
+    {
+      "case_name": "Laxmi Pat Surana v. Union Bank of India & Anr.",
+      "judgement_date": "26th March 2021",
+      "question": "What are the two central issues addressed in the case of Laxmi Pat Surana v. Union Bank of India & Anr.?",
+      "answer": "The two central issues are: (i) Whether an action under Section 7 of the Insolvency and Bankruptcy Code, 2016 can be initiated by the financial creditor against a corporate person concerning a guarantee offered for a loan account of the principal borrower, who is not a 'corporate person' within the meaning of the Code, and (ii) Whether an application under Section 7 of the Code filed after three years from the date of declaration of the loan account as Non-performing Asset (NPA) is barred by limitation."
+    },
+    {
+      "case_name": "The Chairman V.O. Chidambaranar Port Trust & Ors. vs Capt. Paul Nadar Bennet Singh",
+      "judgement_date": "6th December 2018",
+      "question": "What was the Supreme Court's view on the equivalency of the Certificate of Competency issued by the Maritime and Port Authority of Singapore?",
+      "answer": "The Supreme Court held that the Certificate of Competency as Master (Foreign Going) issued by the Maritime and Port Authority of Singapore was equivalent to the certificate issued by the Government of India. The Court noted that the Port Trust had not raised any objections to this certificate at the time of appointment and had previously sought clarification from the Ministry of Shipping, which did not find any issue with the certification."
+    },
+    {
+      "case_name": "Parveen @ Sonu vs. The State of Haryana",
+      "judgement_date": "7th December 2021",
+      "question": "How did the Supreme Court view the evidence presented against Parveen @ Sonu?",
+      "answer": "The Supreme Court found that the evidence against Parveen @ Sonu was insufficient, relying mainly on confessional statements of co-accused and lacking corroborative evidence. They concluded that the prosecution failed to prove the appellant's involvement in the conspiracy."
+    },
+    {
+      "case_name": "State of Karnataka vs. T. Naseer @ Nasir @ Thandiantavida Naseer @ UMmarhazi @ Hazi & ORS.",
+      "judgement_date": "6th November 2023",
+      "question": "What did the Supreme Court decide regarding the appeal by the State of Karnataka?",
+      "answer": "The Supreme Court allowed the appeal by the State of Karnataka, setting aside the lower courts' orders and permitting the prosecution to recall the witness and produce the certificate under Section 65B of the Evidence Act."
+    },
+    {
+      "case_name": "Union of India vs. Association of Unified Telecom Service Providers of India and Ors.",
+      "judgement_date": "23rd July 2021",
+      "question": "What was the main issue addressed in the miscellaneous applications filed by the Union of India?",
+      "answer": "The miscellaneous applications were filed for the modification of paragraph 38(i) of the judgment dated 01.09.2020, seeking clarification that the judgment does not bar the Union of India from considering and rectifying clerical or arithmetical errors in the computation of AGR dues."
+    },
+    {
+      "case_name": "State of Madhya Pradesh vs. Sabal Singh (Dead) by LRS. & Ors.",
+      "judgement_date": "14th October 2019",
+      "question": "What was the main legal issue in the case of State of Madhya Pradesh vs. Sabal Singh (Dead) by LRS. & Ors.?",
+      "answer": "The main issue was whether the land recorded as 'Grass' land in the revenue papers before the date of vesting could be treated as Khud-Kasht land of the Ex-Zamindar, thus entitling the plaintiffs to Bhumiswami rights under the Madhya Pradesh Land Revenue Code."
+    },
+    {
+      "case_name": "Sivakami & Ors. vs. State of Tamil Nadu & Ors.",
+      "judgement_date": "12th March 2018",
+      "question": "What was the outcome of the intra-court appeal filed by the State of Tamil Nadu against the Single Judge's decision?",
+      "answer": "The Division Bench allowed the State's appeal, set aside the Single Judge's order, and upheld the land acquisition proceedings as legal and proper."
+    },
+    {
+      "case_name": "Dhruva Enterprises vs. C. Srinivasulu and Others",
+      "judgement_date": "15th September 2021",
+      "question": "What was the NGT's decision regarding the mining lease of Dhruva Enterprises?",
+      "answer": "The NGT directed the Ministry of Environment, Forest and Climate Change to conduct an EIA and public hearing for the mining lease of Dhruva Enterprises, and suspended the mining operations until the completion of these requirements."
+    },
+    {
+      "case_name": "I.C. Sharma vs. The Oriental Insurance Co. Ltd.",
+      "judgement_date": "10th January 2018",
+      "question": "What did the Supreme Court conclude regarding the principle of under-insurance in this case?",
+      "answer": "The Supreme Court concluded that the principle of under-insurance should be applied when not all items under a particular category are stolen. However, if all items under a specific category are stolen, the insured should be compensated up to the insured value of those items."
+    },
+    {
+      "case_name": "Ramesh Sanka vs Union of India & Ors.",
+      "judgement_date": "25th January 2019",
+      "question": "What legal remedy did the Supreme Court suggest for Ramesh Sanka's personal grievances against Respondent No.12?",
+      "answer": "The Supreme Court suggested that Ramesh Sanka pursue his personal grievances through civil suits or other civil law remedies, as Article 32 was not the appropriate remedy for such issues."
+    },
+    {
+      "case_name": "Manno Lal Jaiswal vs. State of Uttar Pradesh & Anr.",
+      "judgement_date": "25th January 2022",
+      "question": "What was the main argument presented by Manno Lal Jaiswal against the High Court's decision to grant bail?",
+      "answer": "Manno Lal Jaiswal argued that the High Court had applied the wrong facts, stating that the accused were not named in the FIR and that the witness statements under Section 161 Cr.PC were recorded belatedly, both of which were factually incorrect."
+    },
+    {
+      "case_name": "P. Ramadas vs. State of Kerala and Another",
+      "judgement_date": "19th February 2018",
+      "question": "What was the Kerala High Court's decision on the criminal revision petition filed by P. Ramadas?",
+      "answer": "The Kerala High Court dismissed the criminal revision petition on 10th February 2012, confirming the order of conviction and sentence passed by the trial court and upheld by the lower appellate court."
+    },
+    {
+      "case_name": "Kale (Dead) Rep. Thr. LRs. vs. Union of India",
+      "judgement_date": "11th July 2017",
+      "question": "What was the main grievance of the appellants in this case?",
+      "answer": "The appellants' main grievance was that they were entitled to compensation for 45 Bigha 3 Biswas of land, but they were paid compensation for only 36 Bigha 12 Biswas, and they sought compensation for the remaining 9 Bigha of land."
+    },
+    {
+      "case_name": "Sumitha Pradeep vs. Arun Kumar C.K & Anr.",
+      "judgement_date": "21st October 2022",
+      "question": "What was the Supreme Court's stance on the need for custodial interrogation in this case?",
+      "answer": "The Supreme Court emphasized that the need for custodial interrogation should be considered alongside other factors, and even if not required, it should not automatically justify granting anticipatory bail."
+    },
+    {
+      "case_name": "Dineshbhai Chandubhai Patel vs. State of Gujarat & Ors.",
+      "judgement_date": "5th January 2018",
+      "question": "What principle did the Supreme Court emphasize regarding the investigation of FIRs?",
+      "answer": "The Supreme Court emphasized that if an FIR discloses a prima facie commission of a cognizable offence, the investigation must proceed without interference, and the courts should not quash the FIR at the preliminary stage."
+    },
+    {
+      "case_name": "Munikrishna @ Krishna etc. vs State by Ulsoor PS",
+      "judgement_date": "30th September 2022",
+      "question": "What did the inquest report state about the condition of S. Ramakrishnan's body?",
+      "answer": "The inquest report stated that S. Ramakrishnan's body was found in a pool of blood in the kitchen, with a bleeding injury on the neck caused by a sharp weapon, and the cupboards in the living room were open with Rs. 3000 missing."
+    },
+    {
+      "case_name": "B. S. Hari Commandant vs Union of India & Ors.",
+      "judgement_date": "13th April 2023",
+      "question": "What was the outcome of the General Security Force Court trial against B. S. Hari?",
+      "answer": "The General Security Force Court found B. S. Hari guilty of the second and third charges, sentencing him to 10 years of rigorous imprisonment, a fine of Rs. 1,00,000/-, and dismissal from service."
+    },
+    {
+      "case_name": "Vinod Kumar & Ors. vs. Union of India & Ors.",
+      "judgement_date": "30th January 2024",
+      "question": "How did the High Court of Judicature at Allahabad rule on the appellants' writ petitions?",
+      "answer": "The High Court dismissed the writ petitions, upholding the Central Administrative Tribunal's judgment and stating that the appellants' temporary employment did not confer rights similar to those of permanent employees."
+    },
+    {
+      "case_name": "Union of India & Anr. vs Tarsem Singh & Ors.",
+      "judgement_date": "19th September 2019",
+      "question": "What compensation was initially awarded by the competent authority under the National Highways Act?",
+      "answer": "The compensation initially awarded by the competent authority was Rs. 4,219/- per marla or Rs. 6.75 lakhs per acre."
+    },
+    {
+      "case_name": "Raja Gounder and Others Vs. M. Sengodan and Others",
+      "judgement_date": "19th January 2024",
+      "question": "What was the Supreme Court's decision regarding the shares in the plaint schedule properties?",
+      "answer": "The Supreme Court set aside the judgments of the lower courts and passed a preliminary decree of partition, allotting shares to Appellant Nos. 1 and 3, Respondent No. 1, and Respondent No. 3 in Muthusamy Gounder's properties."
+    },
+    {
+      "case_name": "U.P. Awas Evam Vikas Parishad vs Ram Singh & Ors.",
+      "judgement_date": "20th April 2022",
+      "question": "What reasoning did the Supreme Court provide regarding the validity of possession claims by the Parishad?",
+      "answer": "The Supreme Court stated that symbolic possession was insufficient to prevent withdrawal under Section 48, as actual possession must be demonstrated."
+    },
+    {
+      "case_name": "The State of Tamil Nadu & Ors. vs G. Hemalathaa & Anr.",
+      "judgement_date": "28th August 2019",
+      "question": "What was the final decision of the Supreme Court in this case?",
+      "answer": "The Supreme Court allowed the appeal, set aside the High Court's judgment, and upheld the invalidation of the respondent's answer sheet for violating the mandatory instructions."
+    },
+    {
+      "case_name": "Sudhir Kumar Jain vs. Neeraj Kumar Jain & Ors.",
+      "judgement_date": "9th August 2018",
+      "question": "What was the High Court's initial stance on the appellant's challenge?",
+      "answer": "The High Court was not inclined to interfere with the award on the ground that the appellant was not an aggrieved party."
+    },
+    {
+      "case_name": "Sarabjeet Singh Mokha vs. The District Magistrate, Jabalpur & Ors.",
+      "judgement_date": "29th October 2021",
+      "question": "What was the primary allegation against the appellant, Sarabjeet Singh Mokha?",
+      "answer": "The primary allegation against the appellant was that he procured fake Remdesivir injections and administered them to patients during the Covid-19 pandemic to make illegal profits, endangering the lives of the general public."
+    },
+    {
+      "case_name": "Patni Hushenbhai Sidibhai Kotvala vs National Highways Authority of India",
+      "judgement_date": "14th May 2018",
+      "question": "How was the compensation adjusted if the appellants had already received compensation based on land value?",
+      "answer": "If the appellants had already received compensation based on land value, the amount was to be adjusted from the date of receipt along with 15% interest thereon. However, if the compensation awarded was deposited in Court, there would be no adjustment of interest."
+    },
+    {
+      "case_name": "Council of Architecture vs. Mr. Mukesh Goyal & Ors",
+      "judgement_date": "17th March 2020",
+      "question": "Who is the appellant in the case of Council of Architecture vs. Mr. Mukesh Goyal & Ors?",
+      "answer": "The appellant is the Council of Architecture."
+    },
+    {
+      "case_name": "State of Rajasthan vs Banwari Lal and another",
+      "judgement_date": "8th April 2022",
+      "question": "What were the injuries sustained by Phool Chand in the case of State of Rajasthan vs Banwari Lal?",
+      "answer": "Phool Chand sustained a lacerated wound of size 10 x 1 cms bone deep extending up to the brain membrane in the center of the skull, with the bone protruding."
+    },
+    {
+      "case_name": "Sudhamayee Pattnaik and Others vs. Bibhu Prasad Sahoo and Others",
+      "judgement_date": "16th September 2022",
+      "question": "What was the plaintiffs' claim in the original suit filed in the case Sudhamayee Pattnaik and Others vs. Bibhu Prasad Sahoo and Others?",
+      "answer": "The plaintiffs filed a suit for declaration, permanent injunction, and recovery of possession of the disputed land."
+    },
+    {
+      "case_name": "Vinodchandra Sakarlal Kapadia vs. State of Gujarat and Ors.",
+      "judgement_date": "15th June 2020",
+      "question": "What was the Division Bench's conclusion regarding testamentary disposition under the Bombay Tenancy and Agricultural Lands Act?",
+      "answer": "The Division Bench concluded that transfer of property through testamentary disposition would not violate Section 43 or 63 of the Bombay Tenancy and Agricultural Lands Act."
+    },
+    {
+      "case_name": "S.P. Velumani vs Arappor Iyakkam & Ors.",
+      "judgement_date": "20th May 2022",
+      "question": "What impact does this judgment have on future cases involving non-disclosure of investigation reports?",
+      "answer": "This judgment emphasizes the importance of transparency and natural justice, mandating that accused individuals must be provided with relevant investigation reports to ensure a fair trial."
+    },
+    {
+      "case_name": "The State of Orissa vs. Mahimananda Mishra",
+      "judgement_date": "18th September 2018",
+      "question": "What were the conditions of Mahimananda Mishra's bail as noted in The State of Orissa vs. Mahimananda Mishra?",
+      "answer": "Mahimananda Mishra was released on bail in May 2018, after being in custody for other cases. There were concerns that he might influence witnesses and obstruct the investigation."
+    },
+    {
+      "case_name": "Sachin Garg vs. State of U.P. & Anr.",
+      "judgement_date": "30th January 2024",
+      "question": "What was the nature of the dispute between Sachin Garg and the respondent, Ambika Gases?",
+      "answer": "The dispute was over a purchase order for Dissolved Acetylene Gas (DA Gas) and the subsequent amendments to the order, which led to a disagreement over payment."
+    },
+    {
+      "case_name": "Ilavarasan vs. The Superintendent of Police & Ors.",
+      "judgement_date": "28th August 2023",
+      "question": "What was the Supreme Court's decision on the observations made by the High Court regarding the role of advocates?",
+      "answer": "The Supreme Court noted that the concerns voiced by the High Court were not entirely unfounded, but emphasized that advocates should not undertake to solemnize marriages while acting as counsel. However, their role as witnesses in personal capacities cannot be ruled out."
+    },
+    {
+      "case_name": "Monthi Menezes (D) by LR vs. Devaki Amma (D) by LR & Anr.",
+      "judgement_date": "23rd April 2019",
+      "question": "What was the Supreme Court's view on the High Court's decision in the case Monthi Menezes (D) by LR vs. Devaki Amma (D) by LR & Anr.?",
+      "answer": "The Supreme Court found that the High Court proceeded on irrelevant considerations and ignored relevant aspects of the matter, such as the findings of the Land Tribunal regarding the agricultural use of the land in question."
+    },
+    {
+      "case_name": "Dilawar vs. The State of Haryana",
+      "judgement_date": "1st May 2018",
+      "question": "What was the initial cause of the FIR against Dilawar in the case of Dilawar vs. The State of Haryana?",
+      "answer": "The FIR was registered alleging mob violence during the 'Jat agitation' on 27th February 2016, where Dilawar was accused of leading the mob involved in arson, loot, and burning of the house of a Cabinet Minister."
+    },
+    {
+      "case_name": "R. Muthukumar & Ors. vs. The Chairman and Managing Director TANGEDCO & Ors.",
+      "judgement_date": "7th February 2022",
+      "question": "What was the High Court's ruling regarding the viva voce test?",
+      "answer": "The High Court upheld TANGEDCO's decision to introduce the viva voce test, stating that it was not arbitrary and was in line with the job requirements. The High Court dismissed the appellants' petitions challenging the recruitment process."
+    },
+    {
+      "case_name": "Kathi David Raju vs. The State of Andhra Pradesh & Anr.",
+      "judgement_date": "5th August 2019",
+      "question": "What legal provisions did Kathi David Raju's counsel cite to argue against the DNA test?",
+      "answer": "Kathi David Raju's counsel cited the Andhra Pradesh (SC, ST, and BCs) Regulation of Issue of Community Certificates Act, 1993, which provides specific procedures for the cancellation of false community certificates and argued that the FIR was malicious."
+    },
+    {
+      "case_name": "Bhawna Bai vs Ghanshyam and Others",
+      "judgement_date": "3rd December 2019",
+      "question": "What were the charges framed against the respondents in this case?",
+      "answer": "The charges framed against the respondents were under Section 302 IPC read with Section 34 IPC for the murder of Gopal Saran."
+    },
+    {
+      "case_name": "Avtar Singh & Anr. vs. State of Punjab",
+      "judgement_date": "23rd March 2023",
+      "question": "What was the final decision of the Supreme Court regarding the appellants' conviction and sentence?",
+      "answer": "The Supreme Court set aside the judgements of the High Court and the trial court, and consequently, the conviction and sentence of the appellants under Section 7 of the Essential Commodities Act were set aside, discharging their bail bonds."
+    },
+    {
+      "case_name": "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha",
+      "judgement_date": "18th July 2022",
+      "question": "What were the other proceedings filed by the appellant in the Family Court at Chennai?",
+      "answer": "The appellant had filed a petition for restitution of conjugal rights and another petition for maintenance under Section 125 of the Cr.P.C. in the Family Court at Chennai."
+    },
+    {
+      "case_name": "H.S. Goutham vs. Rama Murthy and Anr. Etc.",
+      "judgement_date": "12th February 2021",
+      "question": "How did the High Court of Karnataka rule on the appeal filed by the judgment debtors?",
+      "answer": "The High Court allowed the appeal, set aside the consent decree, and remitted the suit to the Trial Court for fresh disposal, directing an inquiry into whether the decree was obtained by fraud."
+    },
+    {
+      "case_name": "Ashok Kumar Singh Chandel vs State of U.P.",
+      "judgement_date": "4th November 2022",
+      "question": "What were the main arguments presented by the defense in this case?",
+      "answer": "The defense argued that the witness testimonies were inconsistent, the FIR was ante-dated, the evidence was manipulated, and the accused were falsely implicated due to political rivalry."
+    },
+    {
+      "case_name": "Chowgule and Company Private Limited vs. Goa Foundation & Ors.",
+      "judgement_date": "30th January 2020",
+      "question": "What was the contention of the mining leaseholders regarding the transportation of minerals mined before 15th March 2018?",
+      "answer": "The mining leaseholders contended that the Supreme Court's order did not restrict the transportation of minerals already mined before 15th March 2018. They argued that the prohibition was only on mining operations after that date, not on the transportation of previously mined ore."
+    },
+    {
+      "case_name": "Kolkata West International City Pvt Ltd vs. Devasis Rudra",
+      "judgement_date": "25th March 2019",
+      "question": "What was the Supreme Court's view on the reasonableness of the delay in handing over possession?",
+      "answer": "The Supreme Court held that it was unreasonable to expect the respondent to wait indefinitely for possession. By 2016, nearly seven years had elapsed since the agreed date, which was beyond a reasonable period."
+    },
+    {
+      "case_name": "Mathew Alexander vs. Mohammed Shafi and Anr.",
+      "judgement_date": "13th July 2023",
+      "question": "What was the outcome of the FIR registered in Crime No. 1/2015 related to Mathew Alexander vs. Mohammed Shafi and Anr.?",
+      "answer": "The FIR charged the Appellant's son under Sections 279 and 304A of the IPC for a fatal accident involving a gas tanker lorry. The charges against the Appellant's son abated after his death in the accident."
+    },
+    {
+      "case_name": "The Joint Labour Commissioner and Registering Officer and Anr vs. Kesar Lal",
+      "judgement_date": "17th March 2020",
+      "question": "What did the State Consumer Disputes Redressal Commission decide regarding Kesar Lal's complaint?",
+      "answer": "The State Consumer Disputes Redressal Commission set aside the order of the District Forum and directed the appellants to pay Rs 51,000 to Kesar Lal along with compensation and interest."
+    },
+    {
+      "case_name": "The Commissioner, Commercial Tax, U.P., Lucknow vs S/s Rujhan Studio",
+      "judgement_date": "2nd March 2021",
+      "question": "What procedural step did the Supreme Court highlight regarding the classification of goods under different entries in the UP VAT Act 2008?",
+      "answer": "The Supreme Court highlighted that the classification of goods must be based on their description and nature as understood in common parlance, ensuring that specific entries are applied correctly and the residuary entry is used only when no specific entry is applicable."
+    },
+    {
+      "case_name": "Revanasiddayya vs. Gangamma @ Shashikala & Anr.",
+      "judgement_date": "5th December 2017",
+      "question": "What was the main issue in the appeal filed by Revanasiddayya against Gangamma @ Shashikala & Anr.?",
+      "answer": "The main issue in the appeal was the possession of the suit land, which the High Court had ordered to be handed over to the respondents (Gangamma @ Shashikala & Anr.) after dismissing the appellant's claim for specific performance of an agreement to sell the land."
+    },
+    {
+      "case_name": "Dinganglung Gangmei vs. Mutum Churamani Meetei & Ors.",
+      "judgement_date": "7th August 2023",
+      "question": "What concerns did the petitioners express regarding the situation in Manipur?",
+      "answer": "The petitioners expressed concerns about threats to safety, the need for enhanced security in sensitive areas, and the overall law and order situation, seeking directions for relief and rehabilitation measures."
+    },
+    {
+      "case_name": "St. Mary's Education Society & Anr. vs. Rajendra Prasad Bhargava & Ors.",
+      "judgement_date": "24th August 2022",
+      "question": "What was the Supreme Court's decision in this case?",
+      "answer": "The Supreme Court allowed the appeal, setting aside the High Court's judgment, and held that a writ petition under Article 226 is not maintainable against a private unaided minority educational institution for purely contractual disputes."
+    },
+    {
+      "case_name": "Iqram vs. The State of Uttar Pradesh & Ors.",
+      "judgement_date": "16th December 2022",
+      "question": "What legal principle did the Supreme Court emphasize regarding concurrent and consecutive sentences?",
+      "answer": "The Supreme Court emphasized that under Section 427(1) of the CrPC, the court has the discretion to order subsequent sentences to run concurrently with the previous sentences, and this discretion must be exercised judiciously."
+    },
+    {
+      "case_name": "M/s Neeharika Infrastructure Pvt. Ltd. vs. State of Maharashtra and others",
+      "judgement_date": "13th April 2021",
+      "question": "What was the primary concern of M/s Neeharika Infrastructure Pvt. Ltd. regarding the High Court's order?",
+      "answer": "M/s Neeharika Infrastructure Pvt. Ltd. was concerned that the High Court's order would prevent the proper investigation of serious charges of forgery and fraud against the accused."
+    },
+    {
+      "case_name": "The Municipal Corporation, Faridabad vs Modern School, Faridabad & Ors.",
+      "judgement_date": "8th February 2019",
+      "question": "Why did the Municipal Corporation issue an office order on 14th June 1999?",
+      "answer": "The office order was issued to regularize tubewells and prevent unauthorized discharges of waste water into the municipal sewer system, and to impose charges based on the diameter of the tubewells."
+    },
+    {
+      "case_name": "National High Speed Rail Corporation Limited vs. Montecarlo Limited & Anr.",
+      "judgement_date": "31st January 2022",
+      "question": "What was the main issue in the case?",
+      "answer": "The main issue was whether the rejection of Montecarlo Limited's technical bid by NHSRCL was justified and whether the High Court's decision to allow Montecarlo's writ petition and quash the rejection was correct."
+    },
+    {
+      "case_name": "Murugan vs. State of Tamil Nadu",
+      "judgement_date": "2nd May 2018",
+      "question": "What was the defense argument presented by Murugan?",
+      "answer": "Murugan's defense argued that the evidence was circumstantial and did not conclusively prove his involvement in the crime."
+    },
+    {
+      "case_name": "Ajai alias Ajju etc. vs The State of Uttar Pradesh",
+      "judgement_date": "15th February 2023",
+      "question": "What was the Supreme Court's view on the reliability of Smt Pinky's testimony in Ajai alias Ajju etc. vs The State of Uttar Pradesh?",
+      "answer": "The Supreme Court found Smt Pinky's testimony to be reliable, noting that her injuries were not challenged, and she had no reason to falsely implicate the accused."
+    },
+    {
+      "case_name": "The State of Jammu & Kashmir vs. Dr. Saleem Ur Rehman",
+      "judgement_date": "29th October 2021",
+      "question": "What were the key discrepancies in the purchase prices of drug kits that led to the allegations against Dr. Saleem Ur Rehman?",
+      "answer": "The key discrepancies were that the drug kits were purchased at significantly higher prices than the approved rates from the previous year and from private companies, without proper market surveys or quality checks."
+    },
+    {
+      "case_name": "The State of Tamil Nadu vs. Dr. Vasanthi Veerasekaran",
+      "judgement_date": "1st July 2019",
+      "question": "What was the primary legal issue in the case of The State of Tamil Nadu vs. Dr. Vasanthi Veerasekaran?",
+      "answer": "The primary legal issue was the acquisition of private land by the State for the implementation of the Mass Rapid Transport System (MRTS) Railway Project and whether the private respondents were entitled to alternative housing sites as displaced persons."
+    },
+    {
+      "case_name": "STATE OF KERALA & ANR. vs. M/S RDS PROJECT LIMITED & ORS.",
+      "judgement_date": "22nd September 2020",
+      "question": "What were the conflicting expert opinions regarding the Palarivattom Flyover?",
+      "answer": "The IIT Madras recommended repair using carbon fibre fabric composite treatment, while Dr. E. Sreedharan recommended demolishing the existing structure and reconstructing it with a 100-year guarantee for durability."
+    },
+    {
+      "case_name": "Union of India & Ors. vs. Gautam Khaitan",
+      "judgement_date": "15th October 2019",
+      "question": "What was the primary legal issue in the case 'Union of India & Ors. vs. Gautam Khaitan'?",
+      "answer": "The primary legal issue was whether the Delhi High Court was correct in restraining the Union of India from taking or continuing any action against Gautam Khaitan pursuant to the Order dated 22nd January 2019 under Section 55 of the Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015."
+    },
+    {
+      "case_name": "Murugan & Ors. vs. Kesava Gounder (Dead) Thr. LRs & Ors.",
+      "judgement_date": "25th February 2019",
+      "question": "Why did the Supreme Court reject the plaintiffs' argument that the release deed constituted repudiation of the sale deeds?",
+      "answer": "The Court held that the release deed executed by Lakshmi Ammal did not specifically refer to the alienations made by Balaraman, thus failing to repudiate the sale deeds."
+    },
+    {
+      "case_name": "Singh Ram vs. Nirmala and Ors.",
+      "judgement_date": "6th March 2018",
+      "question": "How did the High Court rule on the insurance company's obligation to pay compensation?",
+      "answer": "The High Court upheld the Tribunal's decision, directing the insurance company to pay the compensation to the claimant and recover it from Singh Ram, the owner-cum-driver of the offending vehicle."
+    },
+    {
+      "case_name": "Vikrant Singh Malik and Others vs. Supertech Limited and Others",
+      "judgement_date": "24th August 2020",
+      "question": "What was the Supreme Court's view on the dismissal of the complaint by the NCDRC?",
+      "answer": "The Supreme Court found that the NCDRC had erred in its interpretation by not considering the subsequent Full Bench decision in Ambrish Kumar Shukla v. Ferrous Infrastructure Pvt. Ltd., which clarified that commonality of interest among consumers does not require identical circumstances."
+    },
+    {
+      "case_name": "N. Vijayakumar vs. State of Tamil Nadu",
+      "judgement_date": "3rd February 2021",
+      "question": "What was the sentence imposed by the Madras High Court on N. Vijayakumar?",
+      "answer": "N. Vijayakumar was sentenced to rigorous imprisonment for one year and a penalty of Rs.5000/-."
+    },
+    {
+      "case_name": "The State of Arunachal Pradesh vs. Ramchandra Rabidas @ Ratan Rabidas & Anr.",
+      "judgement_date": "4th October 2019",
+      "question": "What was the main legal issue addressed in the case 'The State of Arunachal Pradesh vs. Ramchandra Rabidas @ Ratan Rabidas & Anr.'?",
+      "answer": "The main legal issue addressed was whether the Gauhati High Court was justified in directing that road traffic offences should be dealt with exclusively under the Motor Vehicles Act, 1988, and not under the Indian Penal Code, 1860."
+    },
+    {
+      "case_name": "Suryavir vs. State of Haryana",
+      "judgement_date": "3rd February 2022",
+      "question": "What evidence did the prosecution present to support the accusation in Suryavir vs. State of Haryana?",
+      "answer": "The prosecution relied on the testimony of Om Prakash (PW-12) and Janki Devi (PW-15), parents of the deceased, who identified Suryavir and others as the assailants."
+    },
+    {
+      "case_name": "Hazari Lal (Dead) Thr. LRs. vs. Ramesh Kumar & Others",
+      "judgement_date": "4th October 2023",
+      "question": "What was the Supreme Court's ruling on the appeal filed by Hazari Lal?",
+      "answer": "The Supreme Court set aside the judgments and decrees of the lower courts, dismissing the suit for specific performance filed by the respondents. The Court held that there was significant delay in filing the suit and that no permission from the Ceiling Department was required."
+    },
+    {
+      "case_name": "Afjal Ali Sha @ Abjal Shaukat Sha vs. State of West Bengal & Ors.",
+      "judgement_date": "17th March 2023",
+      "question": "What was the outcome of the initial investigation and trial?",
+      "answer": "The investigation concluded that Respondent Nos. 3 to 11 were also involved in the offence along with Respondent No. 2. A chargesheet was filed against them, and charges were framed under Sections 302 read with 120B IPC and Sections 25 and 27 of the Arms Act. The trial commenced in September 2020."
+    },
+    {
+      "case_name": "Sudhir Kumar Jain vs. State of Rajasthan",
+      "judgement_date": "31st July 2019",
+      "question": "What were the key reasons for the Supreme Court to set aside the conviction in 'Sudhir Kumar Jain vs. State of Rajasthan'?",
+      "answer": "The Supreme Court found serious doubts due to all eyewitnesses turning hostile, inconsistencies in the testimony of the constable, delay in recording his statement, and the recovery of a non-functional country-made pistol."
+    },
+    {
+      "case_name": "Serious Fraud Investigation Office vs. Rahul Modi & Ors.",
+      "judgement_date": "7th February 2022",
+      "question": "What previous Supreme Court judgements were referenced in the case of Serious Fraud Investigation Office vs. Rahul Modi & Ors.?",
+      "answer": "The Supreme Court referenced judgements in Bhikamchand Jain v. State of Maharashtra, Sanjay Dutt v. State, and M. Ravindran v. Intelligence Officer, Directorate of Revenue Intelligence, to support its interpretation of Section 167(2) of the CrPC."
+    },
+    {
+      "case_name": "Adani Ports and Special Economic Zone Limited vs. The Board of Trustees of Jawaharlal Nehru Port Authority & Ors.",
+      "judgement_date": "5th September 2022",
+      "question": "What relief did Adani Ports seek from the Supreme Court regarding their disqualification?",
+      "answer": "Adani Ports sought a declaration that the termination of the Concession Agreement should not be treated as a disqualification for participating in any future tenders issued by public authorities."
+    },
+    {
+      "case_name": "Ayurved Vikas Mandal vs. State of Gujarat & Ors.",
+      "judgement_date": "12th September 2017",
+      "question": "What was the Supreme Court's final decision in this case?",
+      "answer": "The Supreme Court disposed of the appeal in terms of the affidavit filed by the State, directing that the judgment should not be treated as a precedent and emphasizing that the arrears should be cleared within three months without any further extension."
+    },
+    {
+      "case_name": "Ratnagiri Nagar Parishad vs. Gangaram Narayan Ambekar & Ors.",
+      "judgement_date": "6th May 2020",
+      "question": "How did the Supreme Court of India rule in this appeal?",
+      "answer": "The Supreme Court of India upheld the first appellate court's decision, agreeing that the potential environmental and health risks justified prohibiting the project at the proposed location."
+    },
+    {
+      "case_name": "The State of Jammu and Kashmir vs. Farid Ahmad Tak",
+      "judgement_date": "2nd May 2019",
+      "question": "What was the Supreme Court's view on the High Court's handling of the case?",
+      "answer": "The Supreme Court found that the High Court had incorrectly considered the matter from the premise that Farid Ahmad Tak was caught red-handed while demanding and accepting bribe, which was not the case. The Supreme Court also noted that the High Court did not consider the matter from the perspective of Clause (iv) of Article 226(2) of the Regulations."
+    },
+    {
+      "case_name": "Dashrath Singh Chauhan vs. Central Bureau of Investigation",
+      "judgement_date": "9th October 2018",
+      "question": "What was the role of Rajinder Kumar in the case against Dashrath Singh Chauhan?",
+      "answer": "Rajinder Kumar, a co-accused and fellow employee of DESU, was alleged to have accepted the bribe money on behalf of Dashrath Singh Chauhan. However, he was acquitted of all charges."
+    },
+    {
+      "case_name": "Electrosteel Castings Limited vs. UV Asset Reconstruction Company Limited & Ors.",
+      "judgement_date": "26th November 2021",
+      "question": "What were the arguments presented by Electrosteel Castings Limited regarding the assignment agreement?",
+      "answer": "Electrosteel Castings Limited argued that the assignment agreement dated 30.06.2018 was fraudulent and that the assignee, UV Asset Reconstruction Company Limited, could not be considered a secured creditor since the debt was allegedly discharged under the approved resolution plan of the Insolvency and Bankruptcy Code (IBC)."
+    },
+    {
+      "case_name": "Chattar Singh & Ors. vs. Madho Singh (D) & Ors.",
+      "judgement_date": "6th February 2019",
+      "question": "What was the Supreme Court's conclusion regarding the claim of the appellants that the land was a grove?",
+      "answer": "The Supreme Court rejected the appellants' claim that the land was a grove, stating that the land was primarily used for grazing cattle and therefore classified as Charnoi. The Court emphasized that common land for public purposes vested in the State and could not be retained by the ex-zamindar or his legal representatives."
+    },
+    {
+      "case_name": "Rajasthan State Road Transport Corporation, Jaipur vs. Shri Phool Chand (Dead) Through L.Rs.",
+      "judgement_date": "20th September 2018",
+      "question": "On what grounds did the Supreme Court modify the award of back wages in this case?",
+      "answer": "The Supreme Court noted that the Courts below failed to consider the necessary legal principles and evidence regarding the award of back wages, and therefore awarded 50% of the total back wages based on the facts and circumstances of the case."
+    },
+    {
+      "case_name": "Mallikarjun Kodagali (Dead) represented through Legal Representatives vs. State of Karnataka & Ors.",
+      "judgement_date": "12th October 2018",
+      "question": "What was the decision of the District and Sessions Judge in the Mallikarjun Kodagali case?",
+      "answer": "The District and Sessions Judge acquitted the accused by a judgment dated 28th October 2013."
+    },
+    {
+      "case_name": "Girraj vs Kiranpal and Others",
+      "judgement_date": "8th March 2021",
+      "question": "What was the impact of the Supreme Court's decision on the bail of other accused in the case of Girraj vs Kiranpal and Others?",
+      "answer": "The cancellation of bail for the co-accused Narendra by the Supreme Court led to the cancellation of bail for the other accused, as their bail was granted on the basis of parity with Narendra."
+    },
+    {
+      "case_name": "Ram Sharan Chaturvedi vs The State of Madhya Pradesh",
+      "judgement_date": "25th August 2022",
+      "question": "What was the role of the appellant, Ram Sharan Chaturvedi, in the bank?",
+      "answer": "Ram Sharan Chaturvedi was the Head Cashier at the Guna Branch of Central Bank of India and was in custody of one of the keys to the dual locker system."
+    },
+    {
+      "case_name": "Vijendra vs. State of Uttar Pradesh",
+      "judgement_date": "31st July 2019",
+      "question": "What was the final decision of the Supreme Court regarding Vijendra's conviction?",
+      "answer": "The Supreme Court set aside the judgements of the lower courts, acquitted Vijendra of the charges, and allowed the appeal, citing the failure to prove compliance with mandatory provisions of the Act."
+    },
+    {
+      "case_name": "Sandeep alias Kala vs. State of Haryana",
+      "judgement_date": "16th August 2022",
+      "question": "What broader legal principle did the Supreme Court emphasize in its judgement?",
+      "answer": "The Supreme Court emphasized that the right of appeal in criminal cases is protected under Article 21 of the Constitution, and any procedure that makes this right illusory or its outcome uncertain is unconstitutional."
+    },
+    {
+      "case_name": "Union of India vs. Board of Control for Cricket in India & Ors.",
+      "judgement_date": "22nd August 2017",
+      "question": "What did the Supreme Court of India decide regarding the live broadcast signals shared by BCCI with Prasar Bharati in the case Union of India vs. Board of Control for Cricket in India & Ors.?",
+      "answer": "The Supreme Court of India upheld the High Court's decision and ruled that the live broadcast signals shared by BCCI with Prasar Bharati should not be retransmitted by cable operators. The court emphasized that the signals were meant for Prasar Bharati's terrestrial and DTH networks only."
+    },
+    {
+      "case_name": "Harita Sunil Parab vs State of NCT of Delhi and Others",
+      "judgement_date": "28th March 2018",
+      "question": "What did the Supreme Court say about the availability of remedies for Harita Sunil Parab's grievances?",
+      "answer": "The Supreme Court noted that if Harita Sunil Parab had any grievances regarding the investigation or apprehensions about her safety, she could file appropriate applications under the Code of Criminal Procedure before the concerned court or police, which would be dealt with on their merits."
+    },
+    {
+      "case_name": "Vasudha Sethi & Ors. vs Kiran V. Bhaskar & Anr.",
+      "judgement_date": "12th January 2022",
+      "question": "What was the main issue in the case of Vasudha Sethi & Ors. vs Kiran V. Bhaskar & Anr.?",
+      "answer": "The main issue was the custody dispute over the minor child Aaditya Kiran, between the appellant Vasudha Sethi (the mother) and the respondent Kiran V. Bhaskar (the father)."
+    },
+    {
+      "case_name": "Smt. Kavita vs The State of Uttar Pradesh",
+      "judgement_date": "5th September 2018",
+      "question": "On what basis did the Supreme Court uphold the High Court's rejection of the appellant's claim regarding the notice period?",
+      "answer": "The Supreme Court upheld the High Court's rejection by noting that the appellant had failed to produce any material showing that the notice was dispatched late, and that the appellant's own admission indicated she objected to the notice on the 16th day."
+    },
+    {
+      "case_name": "SVG Fashions Pvt. Ltd. vs. Ritu Murli Manohar Goyal & Anr.",
+      "judgement_date": "29th March 2022",
+      "question": "What were the objections raised by the corporate-debtor before the National Company Law Tribunal (NCLT)?",
+      "answer": "The corporate-debtor raised four major objections, including that the claim was barred by limitation. They argued that six cheques issued towards the part payment of liability were lost in March 2017, and 'stop payment instructions' were issued to the bank. They also claimed that the letter dated 28.09.2015 relied upon by the operational creditor was issued by Shree Adeshwar Textiles."
+    },
+    {
+      "case_name": "State of Gujarat vs. Reliance Industries Limited",
+      "judgement_date": "22nd September 2017",
+      "question": "How did the High Court of Gujarat rule on the appeal against the Tribunal's decision?",
+      "answer": "The High Court of Gujarat upheld the Tribunal's decision, stating that the tax credit should be reduced by 4% only once, not twice."
+    },
+    {
+      "case_name": "M. Vijayakumar vs. State of Tamil Nadu",
+      "judgement_date": "21st February 2024",
+      "question": "How did the Supreme Court view the High Court's application of Section 106 of the Evidence Act?",
+      "answer": "The Supreme Court found that the High Court erred in applying Section 106 of the Evidence Act, as the burden of proof should not have been shifted to the appellant without sufficient evidence from the prosecution."
+    },
+    {
+      "case_name": "Parakh Vanijya Private Limited vs. Baroma Agro Product and Others",
+      "judgement_date": "12th July 2018",
+      "question": "What was the decision of the High Court of Calcutta in this case?",
+      "answer": "The High Court of Calcutta affirmed the order of the Single Judge, allowing the respondent-defendant to use the word 'MALABAR' in conjunction with 'BAROMA' for selling its product, Biryani Rice."
+    },
+    {
+      "case_name": "Rashidul Jafar @ Chota vs. State of Uttar Pradesh & Anr",
+      "judgement_date": "6th September 2022",
+      "question": "What role did the Supreme Court assign to District Legal Services Authorities (DLSAs)?",
+      "answer": "DLSAs were tasked with coordinating with jail authorities to monitor and ensure eligible convicts' cases are considered for premature release."
+    }
+  ]
+}

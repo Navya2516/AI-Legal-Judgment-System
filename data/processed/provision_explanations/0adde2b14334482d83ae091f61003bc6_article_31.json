@@ -1,0 +1,34 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "provision": "Article 31",
+  "explanation": {
+    "provision": "Article 31",
+    "what_the_provision_is_discussed_as": "Article 31 is discussed as the constitutional provision governing the fundamental right to property, compulsory acquisition of property for public purposes, and the constitutional protection and limitations surrounding property laws and compensation [Page 18, 31, 59]. It includes specific sub-clauses such as Article 31(2), Article 31(4), Article 31(5)(a), and Article 31(6), alongside related protective provisions like Article 31-A [Page 7, 18, 31, 59].",
+    "why_it_appears_in_the_judgment": "It appears in the judgment to examine the history, original intent, and evolution of property rights under the Constitution, specifically analyzing how amendments (such as the Fourth and 25th Amendments) altered Article 31(2), how clauses like Article 31(4), 31(5)(a), and 31(6) protect certain state laws, and whether amendments to Article 31 fall within Parliament's amending power under Article 368 [Page 7, 18, 31, 45, 59].",
+    "court_discussion": "The judgment evidence shows the following key discussions regarding Article 31:\n- Article 31 originally dealt with property rights, preventing deprivation except by authority of law and providing for compulsory acquisition for public purposes on payment of compensation [Page 18].\n- Article 31 contained protective clauses: Article 31(4) protected agrarian reform legislation; Article 31(5)(a) protected existing compulsory acquisition legislation (even those not providing full compensation); and Article 31(6) protected laws enacted up to eighteen months prior to the Constitution's commencement [Page 18]. Article 31-A protected specific land reform acts [Page 7].\n- Before its amendment in 1955, Article 31(2) was interpreted as having an implied limitation that acquisition must be for a public purpose, which was later explicitly enacted by the Fourth Amendment [Page 31]. The Fourth Amendment's changes to Article 31(2) were considered within Parliament's amending power under Article 368 [Page 45].\n- The court evaluated changes made to Article 31(2) by the 25th Amendment regarding compensation requirements and noted prior case law (e.g., R.C. Cooper) where legislation was held to violate the guarantee of compensation under Article 31(2) [Page 59].",
+    "evidence": [
+      {
+        "page": 7,
+        "support": "The judgment notes that Land Reforms Act amendments are valid under the Constitution because they are protected by Article 31-A and the President's assent [Page 7]."
+      },
+      {
+        "page": 18,
+        "support": "The judgment states that the right to property is dealt with in Article 31, preventing deprivation save by authority of law and providing for compulsory acquisition on payment of compensation. It outlines Article 31(4) for agrarian reforms, Article 31(5)(a) for existing acquisition laws, and Article 31(6) as a protective umbrella for laws enacted up to 18 months prior [Page 18]."
+      },
+      {
+        "page": 31,
+        "support": "Before its 1955 amendment, Article 31(2) was read as containing an implied limitation that the State could acquire only for a public purpose [Page 31]."
+      },
+      {
+        "page": 45,
+        "support": "The judgment notes that the amendment made by the Constitution (Fourth Amendment) Act in Article 31(2) would be within the amending power of Parliament under Article 368 [Page 45]."
+      },
+      {
+        "page": 59,
+        "support": "The court refers to R.C. Cooper v. Union of India, where an Act was held to violate the guarantee of compensation under Article 31(2), and compares the provisions of Article 31(2) before and after the 25th Amendment regarding compulsory acquisition and compensation requirements [Page 59]."
+      }
+    ],
+    "confidence": "high",
+    "limitation": "The provided evidence consists of excerpted pages from a larger judgment. Consequently, it does not contain the complete context of all judicial opinions, arguments, or the final outcome regarding Article 31 in the full case."
+  }
+}

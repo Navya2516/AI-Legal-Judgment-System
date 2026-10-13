@@ -1,0 +1,92 @@
+{
+  "document_id": "0adde2b14334482d83ae091f61003bc6",
+  "language": "Tamil",
+  "evaluation_type": "llm_assisted_legal_claim_preservation",
+  "evaluator_model": "gemini-3.6-flash",
+  "english_claim_count": 3,
+  "tamil_claim_count": 3,
+  "compared_claim_count": 3,
+  "meaning_preserved_claims": 3,
+  "meaning_preservation_rate": 1.0,
+  "minor_issues": 0,
+  "major_issues": 0,
+  "dimension_scores": {
+    "subject_preserved": 1.0,
+    "legal_provision_preserved": 1.0,
+    "action_or_power_preserved": 1.0,
+    "limitation_or_condition_preserved": 1.0,
+    "conclusion_preserved": 1.0
+  },
+  "tamil_claims_with_citations": 3,
+  "citation_coverage": 1.0,
+  "claim_results": [
+    {
+      "claim_number": 1,
+      "subject_preserved": true,
+      "legal_provision_preserved": true,
+      "action_or_power_preserved": true,
+      "limitation_or_condition_preserved": true,
+      "conclusion_preserved": true,
+      "meaning_preserved": true,
+      "severity": "none",
+      "reason": "The Tamil sentence accurately and faithfully translates all legal elements of the source claim, including the subject, action, context, and legal doctrine.",
+      "english_claim": "In this historic judgment, the Supreme Court established the 'Basic Structure Doctrine' of the Indian Constitution [Page 128] [Page 236] [Page 331].",
+      "tamil_claim": "இந்த வரலாற்றுச் சிறப்புமிக்க தீர்ப்பில், உச்ச நீதிமன்றம் இந்திய அரசியலமைப்பின் 'அடிப்படை கட்டமைப்புக் கோட்பாட்டை' (Basic Structure Doctrine) உருவாக்கியது [Page 128] [Page 236] [Page 331].",
+      "english_citations": [
+        128,
+        236,
+        331
+      ],
+      "tamil_citations": [
+        128,
+        236,
+        331
+      ]
+    },
+    {
+      "claim_number": 2,
+      "subject_preserved": true,
+      "legal_provision_preserved": true,
+      "action_or_power_preserved": true,
+      "limitation_or_condition_preserved": true,
+      "conclusion_preserved": true,
+      "meaning_preserved": true,
+      "severity": "none",
+      "reason": "The Tamil translation accurately and faithfully preserves all subjects, legal provisions, actions, powers, limitations, and the judicial conclusion of the original English claim.",
+      "english_claim": "The Court decided that while Parliament has wide power under Article 368 to amend any provision of the Constitution, including fundamental rights, it cannot use this power to alter, destroy, or remove the basic framework or core features of the Constitution, such as democracy, secularism, and judicial review [Page 128] [Page 331] [Page 369].",
+      "tamil_claim": "அடிப்படை உரிமைகள் உட்பட அரசியலமைப்பின் எந்தவொரு விதியையும் திருத்த பிரிவு 368-ன் கீழ் நாடாளுமன்றத்திற்கு பரந்த அதிகாரம் இருந்தாலும், ஜனநாயகம், மதச்சார்பின்மை மற்றும் நீதிமன்ற ஆய்வு போன்ற அரசியலமைப்பின் அடிப்படை வடிவமைப்பு அல்லது முக்கிய அம்சங்களை மாற்றவோ, அழிக்கவோ அல்லது நீக்கவோ இந்த அதிகாரத்தைப் பயன்படுத்த முடியாது என்று நீதிமன்றம் முடிவு செய்தது [Page 128] [Page 331] [Page 369].",
+      "english_citations": [
+        128,
+        331,
+        369
+      ],
+      "tamil_citations": [
+        128,
+        331,
+        369
+      ]
+    },
+    {
+      "claim_number": 3,
+      "subject_preserved": true,
+      "legal_provision_preserved": true,
+      "action_or_power_preserved": true,
+      "limitation_or_condition_preserved": true,
+      "conclusion_preserved": true,
+      "meaning_preserved": true,
+      "severity": "none",
+      "reason": "The Tamil translation accurately conveys all legal concepts, subjects, limitations, actions, and conclusions of the source English sentence without any loss of meaning.",
+      "english_claim": "Parliament can pass amendments to give effect to directive principles, but it cannot completely cut off the courts' power of judicial review to verify if a law actually serves those public purposes [Page 369] [Page 502].",
+      "tamil_claim": "வழிகாட்டு நெறிமுறைகளை அமல்படுத்துவதற்கு நாடாளுமன்றம் திருத்தங்களை நிறைவேற்றலாம், ஆனால் ஒரு சட்டம் உண்மையில் அந்த பொது நோக்கங்களுக்குப் பயன்படுகிறதா என்பதைச் சரிபார்க்கும் நீதிமன்றங்களின் நீதித்துறை ஆய்வு அதிகாரத்தை முழுமையாகப் பறிக்க முடியாது [Page 369] [Page 502].",
+      "english_citations": [
+        369,
+        502
+      ],
+      "tamil_citations": [
+        369,
+        502
+      ]
+    }
+  ],
+  "evaluation_note": "This is an LLM-assisted claim-preservation evaluation. It should be treated as an auxiliary evaluation metric and should ideally be validated with manually reviewed legal examples or expert evaluation."
+}

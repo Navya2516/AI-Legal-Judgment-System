@@ -1,0 +1,187 @@
+{
+  "document": {
+    "filename": "kesavananda_bharati_1973.pdf",
+    "total_pages": 502
+  },
+  "analysis": {
+    "top_k": 5,
+    "provisions_processed": 5
+  },
+  "provisions": [
+    {
+      "rank": 1,
+      "provision": "Article 368",
+      "category": "Article",
+      "relevance_score": 84.89,
+      "ranking_confidence": "high",
+      "page_count": 313,
+      "evidence_count": 1283,
+      "explanation": {
+        "provision": "Article 368",
+        "what_the_provision_is_discussed_as": "Article 368 is discussed as the constitutional provision that confers and regulates the power and procedure for amending the Constitution of India.",
+        "why_it_appears_in_the_judgment": "It appears because the court is tasked with determining the extent of the amending power conferred by Article 368 on Parliament, interpreting its original text prior to amendment, evaluating procedural requirements, and examining its relation to Article 13(2) and fundamental rights.",
+        "court_discussion": "The court outlined that Part III of the judgment deals with the interpretation of original Article 368 prior to its amendment [Page 1]. Chief Justice Sikri noted that the core issue is the extent of the amending power conferred by Article 368 on Parliament apart from Article 13(2) [Page 2]. The court highlighted opposing claims, where respondents argued Parliament could set up any form of government short of repeal under Article 368, while petitioners argued the power is significantly limited [Page 2]. The court stated that Article 368 must be interpreted in the setting of the Constitution, history, and national aspirations [Page 2]. Additionally, the judgment references prior arguments and holdings on whether Article 368 is a complete code, whether the procedure was followed, whether the provisional Parliament was competent to exercise amending power under Article 368, and whether the body amending the Constitution under Article 368 is Parliament [Page 3].",
+        "evidence": [
+          {
+            "page": 1,
+            "support": "Part III of Chief Justice Sikri's judgment is designated to deal with the interpretation of original Article 368 as it existed prior to its amendment [Page 1]."
+          },
+          {
+            "page": 2,
+            "support": "The real issue identified by the court is the extent of the amending power conferred by Article 368 of the Constitution, apart from Article 13(2), on Parliament, requiring interpretation in the setting of the Constitution [Page 2]."
+          },
+          {
+            "page": 3,
+            "support": "The court summarized arguments and prior holdings concerning whether Article 368 is a complete code, procedural compliance under Article 368, and the provisional Parliament's competence to amend the Constitution under Article 368 [Page 3]."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The supplied excerpts represent only a small fragment (pages 1 to 3) of a 313-page judgment. Therefore, this explanation is limited to the initial framing and historical arguments provided in the excerpt and does not cover the final conclusions or complete legal holdings of the court regarding Article 368."
+      }
+    },
+    {
+      "rank": 2,
+      "provision": "Article 13",
+      "category": "Article",
+      "relevance_score": 79.96,
+      "ranking_confidence": "high",
+      "page_count": 154,
+      "evidence_count": 541,
+      "explanation": {
+        "provision": "Article 13",
+        "what_the_provision_is_discussed_as": "Article 13 (specifically Article 13(2)) is discussed as a potential prohibition or limitation on Parliament's constitutional amending power under Article 368, depending on whether the term 'law' within Article 13 includes constitutional amendments or is restricted to ordinary legislative rules and regulations [Page 2, Page 3, Page 4].",
+        "why_it_appears_in_the_judgment": "It appears in the judgment because the court is examining the scope of Parliament's power under Article 368 to amend Part III fundamental rights, and whether such constitutional amendments fall within the prohibition of Article 13(2) against abridging or taking away fundamental rights [Page 2, Page 3, Page 4].",
+        "court_discussion": "The judgment considers the fundamental issue of the extent of amending power conferred by Article 368 apart from Article 13(2) [Page 2]. The court highlights arguments that an Amendment Act taking away or abridging Part III rights falls under the prohibition of Article 13(2) [Page 3]. It explores the distinction between ordinary law (made under legislative power) and constitutional law (made under constituent power), noting the argument that 'law' in Article 13 refers only to ordinary legislation, meaning Article 13(2) would not affect amendments under Article 368 [Page 3, Page 4]. The discussion also notes judicial observations that if future amendments were intended to be subject to Article 13(2), clear provision would have been made [Page 4], that inclusion of Article 13(1) and (2) was a matter of abundant caution [Page 4], and that if constitutional amendments fall within the definition of 'law' in Article 13(2), fundamental rights would become 'eternal and inviolate' [Page 4].",
+        "evidence": [
+          {
+            "page": 2,
+            "support": "The judgment states that the real issue is the extent of the amending power conferred by Article 368 of the Constitution, apart from Article 13(2), on Parliament, and whether Parliament can abrogate fundamental rights."
+          },
+          {
+            "page": 3,
+            "support": "The evidence outlines arguments that amendments abridging Part III rights fall within Article 13(2), alongside discussions on whether 'law' in Article 13 refers to ordinary legislative power rather than constituent amendments under Article 368."
+          },
+          {
+            "page": 4,
+            "support": "The court notes judicial views regarding whether Article 13(2) applies to Constitution Amendment Acts under Article 368, observations on whether fundamental rights become 'eternal and inviolate' if amendments fall under 'law', and references to Article 13(1) and (2) as being included out of abundant caution."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The supplied evidence consists of short excerpts from pages 2, 3, and 4 of the judgment. It does not provide the complete text, context, or final binding determination of the court regarding the ultimate relationship between Article 13 and Article 368."
+      }
+    },
+    {
+      "rank": 3,
+      "provision": "Article 31",
+      "category": "Article",
+      "relevance_score": 78.49,
+      "ranking_confidence": "high",
+      "page_count": 106,
+      "evidence_count": 451,
+      "explanation": {
+        "provision": "Article 31",
+        "what_the_provision_is_discussed_as": "Article 31 is discussed as the constitutional provision dealing with the right to property, compulsory acquisition of property for public purposes, requirement of compensation, and specific protective clauses (such as Article 31(4), 31(5)(a), 31(6), and 31-A) as well as constitutional amendments affecting Article 31(2).",
+        "why_it_appears_in_the_judgment": "It appears in the judgment to analyze the intent of the Constitution-makers regarding property rights, the validity of land reform and compulsory acquisition legislation, and the impact of constitutional amendments (such as the 4th and 25th Amendments) on Article 31(2) and compensation standards.",
+        "court_discussion": "The court notes that Article 31 deals with property rights, requiring authority of law for deprivation of property and providing for compulsory acquisition for public purposes on payment of compensation [Page 18]. The Constitution-makers included protective provisions in Article 31(4) for agrarian reforms, Article 31(5)(a) for existing compulsory acquisition laws, and Article 31(6) for laws enacted within 18 months before the Constitution [Page 18]. Additionally, certain land reform legislation was found valid due to protection under Article 31-A and President's assent [Page 7]. The court discussed how, prior to the 1955 Fourth Amendment, Article 31(2) contained an implied requirement of acquisition for a public purpose [Page 31], and analyzed amendments to Article 31(2) within the context of Parliament's amending power under Article 368 [Page 45]. Finally, the court compared Article 31(2) before and after the 25th Amendment regarding the requirement to fix compensation or state principles for its determination, referencing decisions such as R.C. Cooper [Page 59].",
+        "evidence": [
+          {
+            "page": 7,
+            "support": "States that the Mysore Land Reforms Act, 1961 as amended is valid under the Constitution because it is protected by Article 31-A and the President's assent."
+          },
+          {
+            "page": 18,
+            "support": "Explains that Article 31 deals with the right to property, compulsory acquisition for public purposes on payment of compensation, and details Article 31(4), Article 31(5)(a), and Article 31(6) as provisions reflecting the Constitution-makers' intention."
+          },
+          {
+            "page": 31,
+            "support": "Refers to Article 31(2) before its 1955 amendment as having an implied limitation that the State could acquire only for a public purpose, which was expressly enacted in 1955."
+          },
+          {
+            "page": 45,
+            "support": "Refers to the amendment made by the Constitution (Fourth Amendment) Act in Article 31(2) in relation to Parliament's amending power under Article 368."
+          },
+          {
+            "page": 59,
+            "support": "Discusses Article 31(2) in the context of the Banking Companies Act case (R.C. Cooper) regarding compensation, and compares Article 31(2) before and after the 25th Amendment."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The supplied evidence consists only of short excerpts from specific pages of the judgment. It is insufficient to establish the full legal meaning, broader context, or complete outcome of the judgment regarding Article 31."
+      }
+    },
+    {
+      "rank": 4,
+      "provision": "Article 19",
+      "category": "Article",
+      "relevance_score": 72.8,
+      "ranking_confidence": "high",
+      "page_count": 85,
+      "evidence_count": 231,
+      "explanation": {
+        "provision": "Article 19",
+        "what_the_provision_is_discussed_as": "A Part III fundamental right enumerating basic freedoms guaranteed to citizens—such as residing and settling in India, acquiring/holding/disposing of property, and practicing a profession, trade, or business—which are subject to reasonable restrictions and can be suspended during an Emergency under Article 358.",
+        "why_it_appears_in_the_judgment": "Article 19 appears in the judgment in discussions regarding whether fundamental rights can be modified or taken away, how reasonable restrictions are applied based on facts, why certain rights are conferred only on citizens rather than non-citizens, and how emergency provisions operate to suspend these rights.",
+        "court_discussion": "The judgment considers whether fundamental rights under Articles 14 to 19, 21, 25, 31, and 32 can be taken away or modified [Page 5]. It outlines that Article 19 enumerates basic rights inherent to citizens, including residing and settling anywhere in India, acquiring/holding/disposing of property, and carrying on any occupation, trade, or business, subject to reasonable restrictions [Page 17]. The court notes that 'reasonable restrictions' under Article 19 do not bear an exact definition and depend on the specific facts of each case [Page 43]. It also discusses that Article 19 rights apply specifically to citizens rather than non-citizens, as the framers did not deem it expedient to confer these fundamental rights on non-citizens [Page 43, Page 44], quoting past precedent describing Article 19 rights as great and basic natural rights inherent in citizen status [Page 44]. Lastly, the judgment highlights that under Article 358, Article 19 is suspended during a Proclamation of Emergency so that fundamental rights do not impede the State [Page 22].",
+        "evidence": [
+          {
+            "page": 5,
+            "support": "Discusses whether rights enumerated in Articles 14 to 19, 21, 25, 31 and 32 could be taken away or modified."
+          },
+          {
+            "page": 17,
+            "support": "States that Article 19 covers rights to reside/settle in India, acquire/hold/dispose of property, and practice profession/trade/business, subject to reasonable restrictions."
+          },
+          {
+            "page": 22,
+            "support": "Explains Article 358 provides for the suspension of Article 19 during an Emergency so fundamental rights do not impede the State."
+          },
+          {
+            "page": 43,
+            "support": "Notes that 'reasonable restrictions' under Article 19 depend on facts of each case, and that Article 19 speaks only of citizens."
+          },
+          {
+            "page": 44,
+            "support": "Explains that Article 19 fundamental rights were conferred on citizens and not non-citizens, referencing Gopalan v. State of Madras regarding basic rights inherent in citizen status."
+          }
+        ],
+        "confidence": "medium",
+        "limitation": "The provided evidence consists of excerpts from a limited number of pages out of a 502-page judgment, which is insufficient to provide the full context, background, or ultimate legal holding of the case regarding Article 19."
+      }
+    },
+    {
+      "rank": 5,
+      "provision": "Article 39",
+      "category": "Article",
+      "relevance_score": 72.47,
+      "ranking_confidence": "high",
+      "page_count": 78,
+      "evidence_count": 203,
+      "explanation": {
+        "provision": "Article 39",
+        "what_the_provision_is_discussed_as": "Article 39 is discussed as a Directive Principle directing State policy towards securing social, economic, and political justice, including equal rights for men and women [Page 19]. Clauses (b) and (c) of Article 39 are particularly discussed as wide principles governing economic policy, which are referenced in Article 31C to protect State laws giving effect to them from constitutional challenges under Articles 14, 19, or 31 [Page 61, 63].",
+        "why_it_appears_in_the_judgment": "Article 39 appears in the judgment because the court is examining the relationship between Directive Principles and Fundamental Rights, specifically analyzing Article 31C which seeks to shield laws enacted to implement the policy principles of Article 39(b) and Article 39(c) from judicial invalidation [Page 61, 62, 63].",
+        "court_discussion": "The court observed that Article 39 gives directions to the State to secure equal rights for citizens [Page 19]. The court examined Article 31C, noting that it saves laws giving effect to State policy under Article 39(b) or 39(c) from being challenged or invalidated under Articles 14, 19, or 31 [Page 61]. The court remarked that the wording of Articles 39(b) and 39(c) is very wide, noting that 'economic system' under Article 39(c) may include professional and other services [Page 63]. Furthermore, the court considered arguments regarding whether courts can review incidental provisions that are not essential parts of the policy implementing Article 39(b) and 39(c), as well as whether courts can examine if a nexus exists between an impugned law and Article 39(b) or 39(c) [Page 62, 63].",
+        "evidence": [
+          {
+            "page": 19,
+            "support": "Article 39 gives particular directions to the State to direct its policy towards securing that citizens, men and women equally, have rights."
+          },
+          {
+            "page": 61,
+            "support": "Article 31C states that no law giving effect to the policy of the State towards securing principles in Clause (b) or Clause (c) of Article 39 shall be deemed void on the ground of inconsistency with Articles 14, 19, or 31."
+          },
+          {
+            "page": 62,
+            "support": "The court considers whether it is unable to test the validity of incidental provisions that do not constitute an essential and integral part of policy directed to give effect to Article 39(b) and 39(c)."
+          },
+          {
+            "page": 63,
+            "support": "The court notes that the wording of Articles 39(b) and 39(c) is very wide, 'economic system' in 39(c) may include professional and other services, and considers whether there must be a nexus between an impugned law and Article 39(b)/39(c)."
+          }
+        ],
+        "confidence": "high",
+        "limitation": "The provided text contains only 10 extracted snippets from pages 19, 61, 62, and 63 of the judgment, whereas Article 39 appears on 78 pages in the full judgment. Therefore, this explanation is limited to the provided excerpts and does not represent the full scope of the court's discussion on Article 39."
+      }
+    }
+  ]
+}
